@@ -17,9 +17,6 @@ public class D_Microgame : ScriptableObject
     [SerializeField, Multiline]
     private string gameControls;
 
-    [SerializeField]
-    private Sprite background;
-
     [Header("Microgame Data")]
     [SerializeField, Tooltip("Must match name of the Microgame scene")]
     private string gameSceneName;
@@ -40,7 +37,6 @@ public class D_Microgame : ScriptableObject
     public string GameName => gameName;
     public string GameGoal => gameGoal;
     public string GameControls => gameControls;
-    public Sprite Background => background;
     public float TimerDuration => timerDuration;
     public Outcome OutcomeOnTimeUp => outcomeOnTimeUp;
 

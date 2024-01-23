@@ -5,6 +5,7 @@ using UnityEngine;
 
  public class MicrogameHandler : MonoBehaviour
 {
+    [Header("Create a D_Microgame using SriptableObjects/MicroGame")]
     [SerializeField] D_Microgame microgameData;
 
     [SerializeField] Timer timer;
