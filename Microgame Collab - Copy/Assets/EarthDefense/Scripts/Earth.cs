@@ -5,8 +5,11 @@ using UnityEngine;
 public class Earth : MonoBehaviour
 {
     public SpriteRenderer sprite;
+    public GameObject EarthExplosionGameObject;
     public Timer timer;
     public MicrogameHandler microgameHandler;
+    public SpawnMeteor spawnMeteor;
+    public GameObject WorldSheild;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,7 +33,15 @@ public class Earth : MonoBehaviour
 
     private void Death()
     {
-        sprite.color = Color.red;
+        sprite.color = Color.clear;
+
+        EarthExplosionGameObject.SetActive(true);
+
+        spawnMeteor.DestroyAllMeteors();
+
+        spawnMeteor.ShouldSpawn = false;
+
+        WorldSheild.SetActive(false);
 
         timer.CancelTimer();
 
