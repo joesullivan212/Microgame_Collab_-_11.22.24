@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Germ Microgame/KillTheGerms.unity
     guid: 87be3a222a907624e9b3f0da0d44e4ef
+  - enabled: 1
+    path: Assets/Triangulate/TriangulateTheCall.unity
+    guid: 10f9e8e4f5b81024d85198bc503caf90
   m_configObjects: {}
