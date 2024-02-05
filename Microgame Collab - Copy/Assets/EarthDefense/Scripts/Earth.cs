@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MoreMountains.Feedbacks;
 
 public class Earth : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Earth : MonoBehaviour
     public MicrogameHandler microgameHandler;
     public SpawnMeteor spawnMeteor;
     public GameObject WorldSheild;
+    public MMF_Player ExplosionFeedback;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -33,6 +35,10 @@ public class Earth : MonoBehaviour
 
     private void Death()
     {
+        timer.CancelTimer();
+
+        Invoke(nameof(LoseGame), 2.0f);
+
         sprite.color = Color.clear;
 
         EarthExplosionGameObject.SetActive(true);
@@ -43,9 +49,7 @@ public class Earth : MonoBehaviour
 
         WorldSheild.SetActive(false);
 
-        timer.CancelTimer();
-
-        Invoke(nameof(LoseGame), 2.0f);
+        ExplosionFeedback.PlayFeedbacks();
     }
 
     public void LoseGame()
