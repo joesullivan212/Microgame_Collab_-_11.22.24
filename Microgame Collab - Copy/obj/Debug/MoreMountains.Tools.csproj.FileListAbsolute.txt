@@ -1,0 +1,6 @@
+C:\Users\Joe\Documents\GitHub\Microgame_Collab_-_11.22.24\Microgame Collab - Copy\Temp\bin\Debug\MoreMountains.Tools.dll
+C:\Users\Joe\Documents\GitHub\Microgame_Collab_-_11.22.24\Microgame Collab - Copy\Temp\bin\Debug\MoreMountains.Tools.pdb
+C:\Users\Joe\Documents\GitHub\Microgame_Collab_-_11.22.24\Microgame Collab - Copy\obj\Debug\MoreMountains.Tools.csprojAssemblyReference.cache
+C:\Users\Joe\Documents\GitHub\Microgame_Collab_-_11.22.24\Microgame Collab - Copy\obj\Debug\MoreMountains.Tools.csproj.CoreCompileInputs.cache
+C:\Users\Joe\Documents\GitHub\Microgame_Collab_-_11.22.24\Microgame Collab - Copy\obj\Debug\MoreMountains.Tools.dll
+C:\Users\Joe\Documents\GitHub\Microgame_Collab_-_11.22.24\Microgame Collab - Copy\obj\Debug\MoreMountains.Tools.pdb

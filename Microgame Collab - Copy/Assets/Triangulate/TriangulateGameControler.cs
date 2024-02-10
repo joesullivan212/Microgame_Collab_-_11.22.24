@@ -25,6 +25,7 @@ public class TriangulateGameControler : MonoBehaviour
     public MicrogameHandler microgameHandler;
     public Timer Timer;
     public GameObject WinObject;
+    public GameObject TargetFoundFeedback;
 
     [Header("Debug")]
     [SerializeField]
@@ -55,6 +56,8 @@ public class TriangulateGameControler : MonoBehaviour
                 Invoke("WinAfterDelay", 1.0f);
 
                 WinObject.SetActive(true);
+
+                Instantiate(TargetFoundFeedback, SelectedTargetLocation.LocationInGame, Quaternion.Euler(0.0f, 0.0f, 0.0f));
 
                 WinObject.GetComponent<TextMeshProUGUI>().text = "TARGET LOCATED" + "\n" + SelectedTargetLocation.LocationName;
             }
