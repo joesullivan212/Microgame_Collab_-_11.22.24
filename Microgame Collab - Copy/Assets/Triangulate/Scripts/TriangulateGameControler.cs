@@ -26,6 +26,7 @@ public class TriangulateGameControler : MonoBehaviour
     public Timer Timer;
     public GameObject WinObject;
     public GameObject TargetFoundFeedback;
+    public Transform PingHolder;
 
     [Header("Debug")]
     [SerializeField]
@@ -47,6 +48,8 @@ public class TriangulateGameControler : MonoBehaviour
 
             GameObject NewPingFeedback = Instantiate(PingFeedbackObj, EditedPosition, Quaternion.Euler(0.0f, 0.0f, 0.0f));
 
+            NewPingFeedback.transform.parent = PingHolder;
+
             float DistanceToTarget = Vector2.Distance(NewPingFeedback.transform.position, SelectedTargetLocation.LocationInGame);
 
             if(DistanceToTarget < TargetDistanceAccepted)
@@ -57,7 +60,9 @@ public class TriangulateGameControler : MonoBehaviour
 
                 WinObject.SetActive(true);
 
-                Instantiate(TargetFoundFeedback, SelectedTargetLocation.LocationInGame, Quaternion.Euler(0.0f, 0.0f, 0.0f));
+                GameObject ThisTargetFoundFeedback =  Instantiate(TargetFoundFeedback, SelectedTargetLocation.LocationInGame, Quaternion.Euler(0.0f, 0.0f, 0.0f));
+
+                ThisTargetFoundFeedback.transform.parent = PingHolder;
 
                 WinObject.GetComponent<TextMeshProUGUI>().text = "TARGET LOCATED" + "\n" + SelectedTargetLocation.LocationName;
             }

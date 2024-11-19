@@ -14,6 +14,7 @@ public class AreaManager : MonoBehaviour
     public int currentWins = 0;
 
     [Header("Variables")]
+    public float DisplayResultsDuration = 3.0f;
     public float gameNameDisplayDuration = 1.0f;
     public float gameGoalDisplayDuration = 1.0f;
     public float gameControlsDisplayDuration = 1.0f;
@@ -22,6 +23,12 @@ public class AreaManager : MonoBehaviour
 
 
     [Header("Scene Refrences")]
+    [SerializeField]
+    private GameObject WinFeedbackObject;
+    [SerializeField]
+    private GameObject LoseFeedbackObject;
+    [SerializeField]
+    private LivesDisplay livesDisplay;
     [SerializeField]
     private TextMeshProUGUI gameNameText;
     [SerializeField]
@@ -81,7 +88,7 @@ public class AreaManager : MonoBehaviour
 
         GenerateQueue();
 
-        StartCoroutine(instance.LoadMicrogame());
+        StartCoroutine(instance.LoadMicrogame(false, true));
     }
 
     private void GenerateQueue()
@@ -110,13 +117,31 @@ public class AreaManager : MonoBehaviour
             return GetUniqueInt(IntMax, CurrentQueue);
     }
 
-    IEnumerator LoadMicrogame()
+    IEnumerator LoadMicrogame(bool DidPlayerWinGame, bool Initializing)
     {
         MicrogameLoader.instance.UnloadCurrentMicrogame();
 
         var NextGame = microgameQueue.Dequeue();
 
         ClearTexts();
+
+        if (!Initializing) 
+        { 
+           if(DidPlayerWinGame == true) 
+           {
+                WinFeedbackObject.SetActive(true);
+                yield return new WaitForSeconds(DisplayResultsDuration);
+                WinFeedbackObject.SetActive(false);
+            }
+           if(DidPlayerWinGame == false)
+            {
+                LoseFeedbackObject.SetActive(true);
+                livesDisplay.SubtractLife();
+                yield return new WaitForSeconds(DisplayResultsDuration);
+                LoseFeedbackObject.SetActive(false);
+            }
+        }
+
         gameNameText.text = NextGame.GameName;
         yield return new WaitForSeconds(gameNameDisplayDuration);
         gameGoalText.text = NextGame.GameGoal;
@@ -152,7 +177,7 @@ public class AreaManager : MonoBehaviour
         if (microgameQueue.Count <= 0)
             GenerateQueue();
 
-        StartCoroutine(LoadMicrogame());
+        StartCoroutine(LoadMicrogame(true, false));
     }
 
     private void Lose()
@@ -175,7 +200,7 @@ public class AreaManager : MonoBehaviour
             instance.GenerateQueue();
         }
 
-        instance.StartCoroutine(instance.LoadMicrogame());
+        instance.StartCoroutine(instance.LoadMicrogame(false, false));
     }
 
     private void AreaWin()

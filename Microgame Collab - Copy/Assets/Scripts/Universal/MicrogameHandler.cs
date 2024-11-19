@@ -10,8 +10,6 @@ using UnityEngine;
 
     [SerializeField] Timer timer;
 
- 
-
     public static event Action OnWin;
     public static event Action OnLose;
 
@@ -29,12 +27,14 @@ using UnityEngine;
         else 
             Lose();
     }
+
     public void Win()
     {
         Debug.Log("Microgame WON!");
         timer.CancelTimer();
         OnWin?.Invoke();
     }
+
     public void Lose()
     {
         Debug.Log("Microgame LOST!");
@@ -46,6 +46,4 @@ using UnityEngine;
     {
         timer.OnTimeUp -= TimeUp;
     }
-
-    
 }
