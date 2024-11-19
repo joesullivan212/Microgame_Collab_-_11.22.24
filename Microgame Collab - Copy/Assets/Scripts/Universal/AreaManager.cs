@@ -24,11 +24,17 @@ public class AreaManager : MonoBehaviour
 
     [Header("Scene Refrences")]
     [SerializeField]
+    private GameObject AreaWinScreen;
+    [SerializeField]
+    private GameObject AreaLoseScreen;
+    [SerializeField]
     private GameObject WinFeedbackObject;
     [SerializeField]
     private GameObject LoseFeedbackObject;
     [SerializeField]
     private LivesDisplay livesDisplay;
+    [SerializeField]
+    private WinsDisplay WinsDisplay;
     [SerializeField]
     private TextMeshProUGUI gameNameText;
     [SerializeField]
@@ -88,7 +94,7 @@ public class AreaManager : MonoBehaviour
 
         GenerateQueue();
 
-        StartCoroutine(instance.LoadMicrogame(false, true));
+        StartCoroutine(instance.NextMicrogame(false, true));
     }
 
     private void GenerateQueue()
@@ -117,7 +123,7 @@ public class AreaManager : MonoBehaviour
             return GetUniqueInt(IntMax, CurrentQueue);
     }
 
-    IEnumerator LoadMicrogame(bool DidPlayerWinGame, bool Initializing)
+    IEnumerator NextMicrogame(bool DidPlayerWinGame, bool Initializing)
     {
         MicrogameLoader.instance.UnloadCurrentMicrogame();
 
@@ -125,15 +131,32 @@ public class AreaManager : MonoBehaviour
 
         ClearTexts();
 
-        if (!Initializing) 
-        { 
-           if(DidPlayerWinGame == true) 
-           {
+        yield return StartCoroutine(DisplayResults(DidPlayerWinGame, Initializing));
+
+        if (DidPlayerWinOrLoseArea() == false)
+        {
+            yield return StartCoroutine(DisplayNextGame(NextGame));
+
+            MicrogameLoader.instance.LoadScene(NextGame.GameSceneName);
+        }
+        else 
+        {
+            WinOrLoseArea();
+        }
+    }
+
+    IEnumerator DisplayResults(bool DidWinLastGame, bool IsInitializing) 
+    {
+        if (IsInitializing == false)
+        {
+            if (DidWinLastGame == true)
+            {
                 WinFeedbackObject.SetActive(true);
+                WinsDisplay.AddWinIcon();
                 yield return new WaitForSeconds(DisplayResultsDuration);
                 WinFeedbackObject.SetActive(false);
             }
-           if(DidPlayerWinGame == false)
+            if (DidWinLastGame == false)
             {
                 LoseFeedbackObject.SetActive(true);
                 livesDisplay.SubtractLife();
@@ -141,15 +164,31 @@ public class AreaManager : MonoBehaviour
                 LoseFeedbackObject.SetActive(false);
             }
         }
+    }
 
+    IEnumerator DisplayNextGame(D_Microgame NextGame) 
+    {
         gameNameText.text = NextGame.GameName;
         yield return new WaitForSeconds(gameNameDisplayDuration);
         gameGoalText.text = NextGame.GameGoal;
         yield return new WaitForSeconds(gameGoalDisplayDuration);
         gameControlsText.text = NextGame.GameControls;
         yield return new WaitForSeconds(gameControlsDisplayDuration);
+    }
 
-        MicrogameLoader.instance.LoadScene(NextGame.GameSceneName);
+    public bool DidPlayerWinOrLoseArea() 
+    {
+        if (currentWins >= winsNeeded)
+        {
+            return true;
+        }
+
+        if(Lives <= 0) 
+        {
+            return true;
+        }
+
+        return false;
     }
 
     private void ClearTexts()
@@ -164,47 +203,50 @@ public class AreaManager : MonoBehaviour
     {
         currentWins++;
 
-        if (currentWins >= winsNeeded)
-        {
-            AreaWin();
-            MicrogameLoader.instance.UnloadCurrentMicrogame();
-            AreaSceneObjs.SetActive(true);
-            return;
-        }
-
         AreaSceneObjs.SetActive(true);
 
         if (microgameQueue.Count <= 0)
             GenerateQueue();
 
-        StartCoroutine(LoadMicrogame(true, false));
+        StartCoroutine(NextMicrogame(true, false));
     }
 
     private void Lose()
     {
         instance.Lives--;
 
-        if (instance.Lives <= 0)
-        {
-            Debug.Log("LOSE, You are garbage trash from a toilet");
-            MicrogameLoader.instance.UnloadCurrentMicrogame();
-            instance.AreaSceneObjs.SetActive(true);
-            return;
-        }
-
         instance.AreaSceneObjs.SetActive(true);
-
 
         if (instance.microgameQueue.Count <= 0)
         {
             instance.GenerateQueue();
         }
 
-        instance.StartCoroutine(instance.LoadMicrogame(false, false));
+        instance.StartCoroutine(instance.NextMicrogame(false, false));
+    }
+
+    private void WinOrLoseArea() 
+    {
+        if (currentWins >= winsNeeded)
+        {
+            AreaWin();
+        }
+
+        if (Lives <= 0)
+        {
+            AreaLose();
+        }
     }
 
     private void AreaWin()
     {
         Debug.Log("You Won The Area!");
+        AreaWinScreen.SetActive(true);
+    }
+
+    private void AreaLose() 
+    {
+        Debug.Log("You Lost The Area!");
+        AreaLoseScreen.SetActive(true);
     }
 }

@@ -7,12 +7,8 @@ namespace KillTheGerms
 {
     public class Sponge : MonoBehaviour
     {
-        Camera cam;
+        [SerializeField] Camera cam;
 
-        private void Awake()
-        {
-            cam = Camera.main;
-        }
         private void Update()
         {
             var pos = cam.ScreenToWorldPoint(Input.mousePosition);

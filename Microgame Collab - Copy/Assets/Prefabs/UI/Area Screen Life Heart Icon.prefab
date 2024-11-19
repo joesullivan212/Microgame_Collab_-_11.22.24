@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5049150251537748978}
   - component: {fileID: 342927353935717958}
   m_Layer: 0
-  m_Name: Heart
+  m_Name: Area Screen Life Heart Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
