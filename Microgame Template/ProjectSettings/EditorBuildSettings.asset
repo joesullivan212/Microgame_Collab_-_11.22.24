@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MiocrogameSDK/Assets/Microgames/Triangulate/TriangulateTheCall.unity
     guid: 10f9e8e4f5b81024d85198bc503caf90
+  - enabled: 1
+    path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Flying.unity
+    guid: 7944451d566d9734f925105c0ea70740
   m_configObjects: {}

@@ -2411,7 +2411,7 @@ MonoBehaviour:
   gameNameText: {fileID: 322524231}
   gameGoalText: {fileID: 1627289391}
   gameControlsText: {fileID: 1847846953}
-  microgameLibrary: {fileID: 11400000, guid: a86dbd0d4288b4d43b2ff4a542fd7926, type: 2}
+  microgameLibrary: {fileID: 11400000, guid: 6fe2950d2229f19458578b59d49f88b4, type: 2}
   AreaSceneObjs: {fileID: 22313027}
 --- !u!1 &2040874110
 GameObject:

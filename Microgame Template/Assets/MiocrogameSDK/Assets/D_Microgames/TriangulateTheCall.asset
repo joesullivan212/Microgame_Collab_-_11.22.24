@@ -18,5 +18,6 @@ MonoBehaviour:
   gameSceneName: TriangulateTheCall
   timerDuration: 10
   outcomeOnTimeUp: 1
-  requiresSound: 0
-  requiresColor: 0
+  credits: By Joe Sullivan
+  requiresHearing: 0
+  requiresSeeingColor: 0

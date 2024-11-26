@@ -15,9 +15,9 @@ MonoBehaviour:
   gameName: Kill The Germs
   gameGoal: Wipe away all the germs with your sponge!
   gameControls: Swipe your mouse!
-  background: {fileID: 0}
   gameSceneName: KillTheGerms
   timerDuration: 8
   outcomeOnTimeUp: 1
-  requiresSound: 0
-  requiresColor: 0
+  credits: By Dryden Thomas
+  requiresHearing: 0
+  requiresSeeingColor: 0

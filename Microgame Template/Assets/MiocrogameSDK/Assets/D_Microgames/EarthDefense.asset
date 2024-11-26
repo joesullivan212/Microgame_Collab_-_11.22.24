@@ -15,8 +15,9 @@ MonoBehaviour:
   gameName: Earth Defense
   gameGoal: Protect earth from meteors!
   gameControls: Aim barrier with your mouse
-  background: {fileID: 0}
   gameSceneName: EarthDefense
   timerDuration: 8
-  requiresSound: 0
-  requiresColor: 0
+  outcomeOnTimeUp: 0
+  credits: By Joe Sullivan
+  requiresHearing: 0
+  requiresSeeingColor: 0

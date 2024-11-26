@@ -25,11 +25,15 @@ public class D_Microgame : ScriptableObject
     [SerializeField, Tooltip("Defines whether or not the player wins or loses when time runs out")]
     Outcome outcomeOnTimeUp;
 
+    [SerializeField, Multiline]
+    private string credits;
+
+
     [Header("Tags")]
     [SerializeField]
-    private bool requiresSound;
+    private bool requiresHearing;
     [SerializeField]
-    private bool requiresColor;
+    private bool requiresSeeingColor;
 
 
     //getters
@@ -41,8 +45,9 @@ public class D_Microgame : ScriptableObject
     public Outcome OutcomeOnTimeUp => outcomeOnTimeUp;
 
     public string GameSceneName => gameSceneName;
-    public bool RequiresSound => requiresSound;
-    public bool RequiresColor => requiresColor;
+    public bool RequiresHearing => requiresHearing;
+    public bool RequiresSeeingColor => requiresSeeingColor;
+    public string Credits => credits;
 
 }
 

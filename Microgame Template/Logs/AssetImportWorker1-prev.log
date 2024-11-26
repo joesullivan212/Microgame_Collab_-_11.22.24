@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Collab - Copy
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49553
-Successfully changed project path to: C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Collab - Copy
-C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Collab - Copy
+60892
+Successfully changed project path to: C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame C
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20428] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3904189523 [EditorId] 3904189523 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [33312] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 4240288164 [EditorId] 4240288164 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20428] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3904189523 [EditorId] 3904189523 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [33312] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 4240288164 [EditorId] 4240288164 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 12.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Collab - Copy/Assets
+[Subsystems] Discovering subsystems at path C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -71,44 +71,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009915 seconds.
-- Loaded All Assemblies, in  0.304 seconds
+Registered in 0.009626 seconds.
+- Loaded All Assemblies, in  0.320 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.213 seconds
-Domain Reload Profiling: 515ms
-	BeginReloadAssembly (91ms)
+- Finished resetting the current domain, in  0.225 seconds
+Domain Reload Profiling: 543ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (117ms)
-		LoadAssemblies (88ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (90ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (115ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (102ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (115ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (214ms)
+	FinalizeReload (225ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (164ms)
+		SetupLoadedEditorAssemblies (174ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,56 +116,56 @@ Domain Reload Profiling: 515ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.612 seconds
-Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.615 seconds
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.684 seconds
-Domain Reload Profiling: 1291ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.708 seconds
+Domain Reload Profiling: 1317ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (41ms)
 	LoadAllAssembliesAndSetupDomain (400ms)
-		LoadAssemblies (285ms)
+		LoadAssemblies (288ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (137ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (136ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
 			ResolveRequiredComponents (15ms)
-	FinalizeReload (685ms)
+	FinalizeReload (708ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (541ms)
+		SetupLoadedEditorAssemblies (560ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (401ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5750 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (351.6 KB). Loaded Objects now: 6211.
-Memory consumption went from 311.2 MB to 310.8 MB.
-Total: 4.600500 ms (FindLiveObjects: 0.444800 ms CreateObjectMapping: 0.863200 ms MarkObjects: 3.016500 ms  DeleteObjects: 0.275300 ms)
+Unloading 5755 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (350.7 KB). Loaded Objects now: 6216.
+Memory consumption went from 311.4 MB to 311.1 MB.
+Total: 3.311300 ms (FindLiveObjects: 0.392400 ms CreateObjectMapping: 0.427700 ms MarkObjects: 2.336100 ms  DeleteObjects: 0.154300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,14 +179,22 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 110793.327235 seconds.
+  path: Assets/MiocrogameSDK/Assets/Scripts/MicrogameHandler.cs
+  artifactKey: Guid(1839f276c04dac74f814fae4cb7f44d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Scripts/MicrogameHandler.cs using Guid(1839f276c04dac74f814fae4cb7f44d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dab5e4a81b88c33954b7bfbc52d5557') in 0.002211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 5.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 23.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (290.7 KB). Loaded Objects now: 6211.
-Memory consumption went from 192.5 MB to 192.2 MB.
-Total: 3.686400 ms (FindLiveObjects: 0.423600 ms CreateObjectMapping: 0.478700 ms MarkObjects: 2.714200 ms  DeleteObjects: 0.068800 ms)
+Unloading 2 unused Assets / (290.7 KB). Loaded Objects now: 6216.
+Memory consumption went from 191.6 MB to 191.3 MB.
+Total: 16.089100 ms (FindLiveObjects: 1.092400 ms CreateObjectMapping: 1.715400 ms MarkObjects: 12.867600 ms  DeleteObjects: 0.412800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -203,138 +211,190 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1315314.183407 seconds.
-  path: Assets/MicrogameTemplate/Your Micro Game Data.asset
-  artifactKey: Guid(f5d4c57fca4c02643a9b09a5a145df4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MicrogameTemplate/Your Micro Game Data.asset using Guid(f5d4c57fca4c02643a9b09a5a145df4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daea8fd981599292ae809c1d2e6846d') in 0.013410 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
 Received Prepare
-Assembly with name 'MoreMountains.Tools' already exists (Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MoreMountains.Tools.asmdef)
-Assembly with name 'MoreMountains.Tools' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMTools/Tools/MoreMountains.Tools.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.PostProcessing' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/MoreMountains.Feedbacks.PostProcessing.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.PostProcessing' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/MoreMountains.Feedbacks.PostProcessing.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.TextMeshPro' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/MoreMountains.Feedbacks.TextMeshPro.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.TextMeshPro' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/MoreMountains.Feedbacks.TextMeshPro.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Authorizations' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/Authorizations/MoreMountains.Feedbacks.Authorizations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Authorizations' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/Authorizations/MoreMountains.Feedbacks.Authorizations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.MMTools' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/MoreMountains.Feedbacks.MMTools.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.MMTools' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/MoreMountains.Feedbacks.MMTools.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.HDRP' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/MoreMountains.Feedbacks.HDRP.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.HDRP' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/MoreMountains.Feedbacks.HDRP.asmdef)
-Assembly with name 'MoreMountains.Tools.Editor' already exists (Assets/MiocrogameSDK/Assets/Feel/MMTools/Editor/MoreMountains.Tools.Editor.asmdef)
-Assembly with name 'MoreMountains.Tools.Editor' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMTools/Editor/MoreMountains.Tools.Editor.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.NiceVibrations' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/NiceVibrations/MoreMountains.Feedbacks.NiceVibrations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.NiceVibrations' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/NiceVibrations/MoreMountains.Feedbacks.NiceVibrations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacks/MoreMountains.Feedbacks.asmdef)
-Assembly with name 'MoreMountains.Feedbacks' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacks/MoreMountains.Feedbacks.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Cinemachine' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/Cinemachine/MoreMountains.Feedbacks.Cinemachine.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Cinemachine' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/Cinemachine/MoreMountains.Feedbacks.Cinemachine.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Editor' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/Editor/MoreMountains.Feedbacks.Editor.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Editor' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/Editor/MoreMountains.Feedbacks.Editor.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.URP' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/URP/MoreMountains.Feedbacks.URP.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.URP' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/URP/MoreMountains.Feedbacks.URP.asmdef)
-Assembly with name 'MoreMountains.Tools' already exists (Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MoreMountains.Tools.asmdef)
-Assembly with name 'MoreMountains.Tools' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMTools/Tools/MoreMountains.Tools.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.PostProcessing' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/MoreMountains.Feedbacks.PostProcessing.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.PostProcessing' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/MoreMountains.Feedbacks.PostProcessing.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.TextMeshPro' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/MoreMountains.Feedbacks.TextMeshPro.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.TextMeshPro' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/MoreMountains.Feedbacks.TextMeshPro.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Authorizations' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/Authorizations/MoreMountains.Feedbacks.Authorizations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Authorizations' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/Authorizations/MoreMountains.Feedbacks.Authorizations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.MMTools' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/MoreMountains.Feedbacks.MMTools.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.MMTools' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/MoreMountains.Feedbacks.MMTools.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.HDRP' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/MoreMountains.Feedbacks.HDRP.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.HDRP' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/MoreMountains.Feedbacks.HDRP.asmdef)
-Assembly with name 'MoreMountains.Tools.Editor' already exists (Assets/MiocrogameSDK/Assets/Feel/MMTools/Editor/MoreMountains.Tools.Editor.asmdef)
-Assembly with name 'MoreMountains.Tools.Editor' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMTools/Editor/MoreMountains.Tools.Editor.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.NiceVibrations' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/NiceVibrations/MoreMountains.Feedbacks.NiceVibrations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.NiceVibrations' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/NiceVibrations/MoreMountains.Feedbacks.NiceVibrations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacks/MoreMountains.Feedbacks.asmdef)
-Assembly with name 'MoreMountains.Feedbacks' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacks/MoreMountains.Feedbacks.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Cinemachine' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/Cinemachine/MoreMountains.Feedbacks.Cinemachine.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Cinemachine' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/Cinemachine/MoreMountains.Feedbacks.Cinemachine.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Editor' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/Editor/MoreMountains.Feedbacks.Editor.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Editor' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/Editor/MoreMountains.Feedbacks.Editor.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.URP' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/URP/MoreMountains.Feedbacks.URP.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.URP' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/URP/MoreMountains.Feedbacks.URP.asmdef)
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.473 seconds
-Refreshing native plugins compatible for Editor in 4.99 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.449 seconds
+Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Assembly with name 'MoreMountains.Tools' already exists (Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MoreMountains.Tools.asmdef)
-Assembly with name 'MoreMountains.Tools' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMTools/Tools/MoreMountains.Tools.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.PostProcessing' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/MoreMountains.Feedbacks.PostProcessing.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.PostProcessing' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/PostProcessing/MoreMountains.Feedbacks.PostProcessing.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.TextMeshPro' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/MoreMountains.Feedbacks.TextMeshPro.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.TextMeshPro' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/TextMeshPro/MoreMountains.Feedbacks.TextMeshPro.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Authorizations' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/Authorizations/MoreMountains.Feedbacks.Authorizations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Authorizations' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/Authorizations/MoreMountains.Feedbacks.Authorizations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.MMTools' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/MoreMountains.Feedbacks.MMTools.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.MMTools' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/MMTools/MoreMountains.Feedbacks.MMTools.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.HDRP' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/MoreMountains.Feedbacks.HDRP.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.HDRP' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/HDRP/MoreMountains.Feedbacks.HDRP.asmdef)
-Assembly with name 'MoreMountains.Tools.Editor' already exists (Assets/MiocrogameSDK/Assets/Feel/MMTools/Editor/MoreMountains.Tools.Editor.asmdef)
-Assembly with name 'MoreMountains.Tools.Editor' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMTools/Editor/MoreMountains.Tools.Editor.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.NiceVibrations' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/NiceVibrations/MoreMountains.Feedbacks.NiceVibrations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.NiceVibrations' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/NiceVibrations/MoreMountains.Feedbacks.NiceVibrations.asmdef)
-Assembly with name 'MoreMountains.Feedbacks' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacks/MoreMountains.Feedbacks.asmdef)
-Assembly with name 'MoreMountains.Feedbacks' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacks/MoreMountains.Feedbacks.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Cinemachine' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/Cinemachine/MoreMountains.Feedbacks.Cinemachine.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Cinemachine' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/Cinemachine/MoreMountains.Feedbacks.Cinemachine.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Editor' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/Editor/MoreMountains.Feedbacks.Editor.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.Editor' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/Editor/MoreMountains.Feedbacks.Editor.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.URP' already exists (Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/URP/MoreMountains.Feedbacks.URP.asmdef)
-Assembly with name 'MoreMountains.Feedbacks.URP' already exists (Assets/MiocrogameSDK/ExampleAssets/Feel/MMFeedbacks/MMFeedbacksForThirdParty/URP/MoreMountains.Feedbacks.URP.asmdef)
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.392 seconds
-Domain Reload Profiling: 1860ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  1.317 seconds
+Domain Reload Profiling: 1761ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
+		CreateAndSetChildDomain (30ms)
 	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (259ms)
-		LoadAssemblies (276ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (272ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (57ms)
-			TypeCache.Refresh (20ms)
-				TypeCache.ScanAssembly (11ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1393ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1318ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (525ms)
+		SetupLoadedEditorAssemblies (494ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (318.7 KB). Loaded Objects now: 6220.
+Memory consumption went from 280.4 MB to 280.1 MB.
+Total: 3.243400 ms (FindLiveObjects: 0.364300 ms CreateObjectMapping: 0.362200 ms MarkObjects: 2.423100 ms  DeleteObjects: 0.093200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.561 seconds
+Refreshing native plugins compatible for Editor in 4.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.224 seconds
+Domain Reload Profiling: 1780ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (344ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1224ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (533ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (359ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (318.8 KB). Loaded Objects now: 6224.
+Memory consumption went from 282.4 MB to 282.1 MB.
+Total: 4.065300 ms (FindLiveObjects: 0.452500 ms CreateObjectMapping: 0.506500 ms MarkObjects: 2.964000 ms  DeleteObjects: 0.141100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.463 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.239 seconds
+Domain Reload Profiling: 1698ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (44ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (504ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (365ms)
 			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (13ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 6.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5568 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (318.7 KB). Loaded Objects now: 6216.
-Memory consumption went from 281.3 MB to 281.0 MB.
-Total: 4.635900 ms (FindLiveObjects: 0.428300 ms CreateObjectMapping: 0.476200 ms MarkObjects: 3.607500 ms  DeleteObjects: 0.122800 ms)
+Unloading 5573 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (318.9 KB). Loaded Objects now: 6228.
+Memory consumption went from 284.4 MB to 284.1 MB.
+Total: 3.611800 ms (FindLiveObjects: 0.422100 ms CreateObjectMapping: 0.439800 ms MarkObjects: 2.657700 ms  DeleteObjects: 0.091600 ms)
 
-Prepare: number of updated asset objects reloaded= 9
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

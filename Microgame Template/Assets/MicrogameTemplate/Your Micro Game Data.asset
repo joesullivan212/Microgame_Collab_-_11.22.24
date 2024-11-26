@@ -18,5 +18,8 @@ MonoBehaviour:
   gameSceneName: Your Game Name (Must match scene name)
   timerDuration: 8
   outcomeOnTimeUp: 1
-  requiresSound: 0
-  requiresColor: 0
+  credits: 'By <Your Name>
+
+    Audio by<Others>'
+  requiresHearing: 0
+  requiresSeeingColor: 0
