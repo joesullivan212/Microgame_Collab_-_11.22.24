@@ -35,6 +35,16 @@ public class D_Microgame : ScriptableObject
     [SerializeField]
     private bool requiresSeeingColor;
 
+    [Header("Controls Used")]
+    [SerializeField]
+    private bool mouseMovement;
+    [SerializeField]
+    private bool click;
+    [SerializeField]
+    private bool rightClick;
+    [SerializeField]
+    private bool arrowKeys;
+
 
     //getters
 
@@ -48,6 +58,12 @@ public class D_Microgame : ScriptableObject
     public bool RequiresHearing => requiresHearing;
     public bool RequiresSeeingColor => requiresSeeingColor;
     public string Credits => credits;
+
+    public bool MouseMovement => mouseMovement;
+    public bool Click => click;
+    public bool RightClick => rightClick;
+    public bool ArrowKeys => arrowKeys;
+
 
 }
 

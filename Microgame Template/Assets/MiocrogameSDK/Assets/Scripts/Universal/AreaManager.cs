@@ -18,8 +18,10 @@ public class AreaManager : MonoBehaviour
     public float gameNameDisplayDuration = 1.0f;
     public float gameGoalDisplayDuration = 1.0f;
     public float gameControlsDisplayDuration = 1.0f;
+    public float SecondsBetweenCameraRisingAndDisplayingNextGameInformation = 0.75f;
     [SerializeField]
     private int AmountOfMicrogamesInArea = 4;
+    public Animator CameraAnimator;
 
 
     [Header("Scene Refrences")]
@@ -125,6 +127,8 @@ public class AreaManager : MonoBehaviour
 
     IEnumerator NextMicrogame(bool DidPlayerWinGame, bool Initializing)
     {
+        CameraAnimator.Play("Idle");
+
         MicrogameLoader.instance.UnloadCurrentMicrogame();
 
         var NextGame = microgameQueue.Dequeue();
@@ -147,6 +151,7 @@ public class AreaManager : MonoBehaviour
 
     IEnumerator DisplayResults(bool DidWinLastGame, bool IsInitializing) 
     {
+
         if (IsInitializing == false)
         {
             if (DidWinLastGame == true)
@@ -154,26 +159,30 @@ public class AreaManager : MonoBehaviour
                 WinFeedbackObject.SetActive(true);
                 WinsDisplay.AddWinIcon();
                 yield return new WaitForSeconds(DisplayResultsDuration);
-                WinFeedbackObject.SetActive(false);
+                CameraAnimator.Play("Rise");
             }
             if (DidWinLastGame == false)
             {
                 LoseFeedbackObject.SetActive(true);
                 livesDisplay.SubtractLife();
                 yield return new WaitForSeconds(DisplayResultsDuration);
-                LoseFeedbackObject.SetActive(false);
+                CameraAnimator.Play("Rise");
             }
         }
     }
 
     IEnumerator DisplayNextGame(D_Microgame NextGame) 
     {
+        yield return new WaitForSeconds(SecondsBetweenCameraRisingAndDisplayingNextGameInformation);
         gameNameText.text = NextGame.GameName;
         yield return new WaitForSeconds(gameNameDisplayDuration);
         gameGoalText.text = NextGame.GameGoal;
         yield return new WaitForSeconds(gameGoalDisplayDuration);
         gameControlsText.text = NextGame.GameControls;
         yield return new WaitForSeconds(gameControlsDisplayDuration);
+        WinFeedbackObject.SetActive(false);
+        LoseFeedbackObject.SetActive(false);
+
     }
 
     public bool DidPlayerWinOrLoseArea() 

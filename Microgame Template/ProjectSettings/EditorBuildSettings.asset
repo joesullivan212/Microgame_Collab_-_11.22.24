@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MiocrogameSDK/Assets/Scenes/Game Entrance.unity
+    path: Assets/MiocrogameSDK/Assets/Scenes/Game Entrance Test.unity
     guid: 93913a61d0c2ee942a69db130e9b1db4
   - enabled: 1
     path: Assets/MiocrogameSDK/ContextExample/AreaTest.unity
