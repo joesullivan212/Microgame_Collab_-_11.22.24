@@ -13,6 +13,8 @@ public class SpawnMeteor : MonoBehaviour
 
     public float Radius = 45.0f;
 
+    public float StopSpawningTime = 1.0f;
+
     public Timer timer;
 
     public List<GameObject> ActiveMeteors =  new List<GameObject> ();
@@ -24,7 +26,7 @@ public class SpawnMeteor : MonoBehaviour
 
     public void Update()
     {
-        if(timer.remainingTime <= 0.0f)
+        if(timer.remainingTime - StopSpawningTime <= 0.0f)
         {
             ShouldSpawn = false;
         }

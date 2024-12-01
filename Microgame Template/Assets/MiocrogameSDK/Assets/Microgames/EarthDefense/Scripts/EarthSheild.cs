@@ -8,6 +8,8 @@ public class EarthSheild : MonoBehaviour
 
     public float offset = 90.0f;
 
+    public GameObject AsteroidDeathParticles;
+
     private void Update()
     {
         gameObject.transform.rotation = Quaternion.Euler(0.0f, 0.0f, FindAngle(camera.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position) - offset);    
@@ -20,6 +22,7 @@ public class EarthSheild : MonoBehaviour
             return;
         }
 
+        Instantiate(AsteroidDeathParticles, collision.gameObject.transform.position, Quaternion.Euler(0.0f, 0.0f, 0.0f));
         Destroy(collision.gameObject);
     }
 
@@ -30,6 +33,7 @@ public class EarthSheild : MonoBehaviour
             return;
         }
 
+        Instantiate(AsteroidDeathParticles, collision.gameObject.transform.position, Quaternion.Euler(0.0f, 0.0f, 0.0f));
         Destroy(collision.gameObject);
     }
 

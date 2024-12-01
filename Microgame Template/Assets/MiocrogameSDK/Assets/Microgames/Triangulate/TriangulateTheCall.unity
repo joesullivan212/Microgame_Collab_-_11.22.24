@@ -168,8 +168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   potentialTargetLocations:
-  - LocationName: New Jersey
-    LocationInGame: {x: -6.12, y: 1.79, z: -1}
+  - LocationName: America
+    LocationInGame: {x: -7.78, y: 1.42, z: -1}
   - LocationName: Brazil
     LocationInGame: {x: -3.91, y: -2.63, z: -1}
   - LocationName: Australia
@@ -178,8 +178,14 @@ MonoBehaviour:
     LocationInGame: {x: 4.85, y: 0, z: -1}
   - LocationName: Madagascar
     LocationInGame: {x: 2.6, y: -3.47, z: -1}
+  - LocationName: Alaska
+    LocationInGame: {x: -11.75, y: 4.35, z: -1}
+  - LocationName: Greenland
+    LocationInGame: {x: -3.73, y: 5.48, z: -1}
+  - LocationName: Ireland
+    LocationInGame: {x: -1.21, y: 3.11, z: -1}
   ZPosition: -1
-  TargetDistanceAccepted: 2
+  TargetDistanceAccepted: 1
   camera: {fileID: 1432144277}
   PingFeedbackObj: {fileID: 2535236170277189096, guid: ee809634e664bc64f9ee0cb572967709,
     type: 3}
@@ -285,7 +291,7 @@ Transform:
   m_GameObject: {fileID: 540546168}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6, y: -3.47, z: -1}
+  m_LocalPosition: {x: -7.78, y: 1.42, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

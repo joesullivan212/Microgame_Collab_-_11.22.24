@@ -20,7 +20,7 @@ public class FlyingMicroGameScoreCounter : MonoBehaviour
 
             CheckpointFeedback.PlayFeedbacks();
 
-            Destroy(other);
+            Destroy(other.gameObject);
         }
     }
 }

@@ -16,8 +16,12 @@ MonoBehaviour:
   gameGoal: Click on the map to find how far from the target that spot is.
   gameControls: Click locations on the map
   gameSceneName: TriangulateTheCall
-  timerDuration: 10
+  timerDuration: 9
   outcomeOnTimeUp: 1
   credits: By Joe Sullivan
   requiresHearing: 0
   requiresSeeingColor: 0
+  mouseMovement: 0
+  click: 0
+  rightClick: 0
+  arrowKeys: 0

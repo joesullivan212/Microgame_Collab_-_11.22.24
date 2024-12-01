@@ -21,3 +21,7 @@ MonoBehaviour:
   credits: By Joe Sullivan
   requiresHearing: 0
   requiresSeeingColor: 0
+  mouseMovement: 0
+  click: 0
+  rightClick: 0
+  arrowKeys: 0

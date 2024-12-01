@@ -1,0 +1,1595 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19041) 64bit Core' Language: 'en' Physical Memory: 32601 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+59804
+Successfully changed project path to: C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18700] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 1795317391 [EditorId] 1795317391 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18700] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 1795317391 [EditorId] 1795317391 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 11.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3742
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010642 seconds.
+- Loaded All Assemblies, in  0.312 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.208 seconds
+Domain Reload Profiling: 517ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (91ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (208ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (160ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.634 seconds
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1366ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (426ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (148ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (737ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (591ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (353.3 KB). Loaded Objects now: 6597.
+Memory consumption went from 318.4 MB to 318.0 MB.
+Total: 3.779300 ms (FindLiveObjects: 0.404500 ms CreateObjectMapping: 0.484600 ms MarkObjects: 2.724400 ms  DeleteObjects: 0.165100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.489 seconds
+Refreshing native plugins compatible for Editor in 6.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.340 seconds
+Domain Reload Profiling: 1823ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (438ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.2 KB). Loaded Objects now: 6601.
+Memory consumption went from 287.5 MB to 287.1 MB.
+Total: 5.310500 ms (FindLiveObjects: 0.509200 ms CreateObjectMapping: 0.689500 ms MarkObjects: 3.998100 ms  DeleteObjects: 0.112600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 255499.181321 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Meshes/Hoop.fbx
+  artifactKey: Guid(ac3b16a64dbc1044480cb8aa187d5f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Meshes/Hoop.fbx using Guid(ac3b16a64dbc1044480cb8aa187d5f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3d347d03e8f3e4e8374c53355a9aac') in 0.270116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.828081 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Flying/LightingData.asset
+  artifactKey: Guid(9fedd0bdaff94df4f8933cb33593f503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Flying/LightingData.asset using Guid(9fedd0bdaff94df4f8933cb33593f503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373e589e6777727e205bf75a8fb3db73') in 0.001276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 241.587043 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/Cloud_2.fbx
+  artifactKey: Guid(8429718aeaf0feb44acf3906ce5db727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/Cloud_2.fbx using Guid(8429718aeaf0feb44acf3906ce5db727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e791744e0f9d2069f3dffb0da5ce8b6a') in 0.020306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 11.795129 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Meshes/Cloud_3.fbx
+  artifactKey: Guid(2f44fddb9de10004b872e7034aaeb128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Meshes/Cloud_3.fbx using Guid(2f44fddb9de10004b872e7034aaeb128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438c91f06614681acdd0bc402c087d77') in 0.023785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.907733 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Meshes/Cloud_4.fbx
+  artifactKey: Guid(791a15cbf0ff27a418ca93a6ffdce010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Meshes/Cloud_4.fbx using Guid(791a15cbf0ff27a418ca93a6ffdce010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4425ab9b262f21f307c8e06095f0904e') in 0.019436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.464 seconds
+Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.458 seconds
+Domain Reload Profiling: 1917ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (578ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.2 KB). Loaded Objects now: 6654.
+Memory consumption went from 294.3 MB to 294.0 MB.
+Total: 3.839800 ms (FindLiveObjects: 0.426600 ms CreateObjectMapping: 0.476100 ms MarkObjects: 2.838300 ms  DeleteObjects: 0.098000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.437 seconds
+Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.304 seconds
+Domain Reload Profiling: 1736ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (270ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1305ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (583ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.2 KB). Loaded Objects now: 6658.
+Memory consumption went from 296.2 MB to 295.9 MB.
+Total: 3.474100 ms (FindLiveObjects: 0.445800 ms CreateObjectMapping: 0.475600 ms MarkObjects: 2.458700 ms  DeleteObjects: 0.093200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.435 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.256 seconds
+Domain Reload Profiling: 1686ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1257ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (422ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.3 KB). Loaded Objects now: 6662.
+Memory consumption went from 298.1 MB to 297.8 MB.
+Total: 3.867600 ms (FindLiveObjects: 0.439800 ms CreateObjectMapping: 0.498600 ms MarkObjects: 2.829600 ms  DeleteObjects: 0.098900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.444 seconds
+Refreshing native plugins compatible for Editor in 4.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.293 seconds
+Domain Reload Profiling: 1731ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1293ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.3 KB). Loaded Objects now: 6666.
+Memory consumption went from 300.0 MB to 299.7 MB.
+Total: 3.992500 ms (FindLiveObjects: 0.422100 ms CreateObjectMapping: 0.509000 ms MarkObjects: 2.971800 ms  DeleteObjects: 0.088600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.440 seconds
+Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.293 seconds
+Domain Reload Profiling: 1728ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1293ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (582ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.3 KB). Loaded Objects now: 6670.
+Memory consumption went from 302.0 MB to 301.7 MB.
+Total: 3.747500 ms (FindLiveObjects: 0.449600 ms CreateObjectMapping: 0.544500 ms MarkObjects: 2.644600 ms  DeleteObjects: 0.108200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.455 seconds
+Refreshing native plugins compatible for Editor in 4.98 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.438 seconds
+Domain Reload Profiling: 1888ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (230ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1439ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (575ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.3 KB). Loaded Objects now: 6674.
+Memory consumption went from 303.9 MB to 303.6 MB.
+Total: 3.903300 ms (FindLiveObjects: 0.442200 ms CreateObjectMapping: 0.534800 ms MarkObjects: 2.813100 ms  DeleteObjects: 0.112300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1084.287220 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Meshes/Spruce(FBX).fbx
+  artifactKey: Guid(48380d8b911d3044a9ead994c950b8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Meshes/Spruce(FBX).fbx using Guid(48380d8b911d3044a9ead994c950b8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e715137622cd2cd58652d68aac0b6a52') in 0.253704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 23.826753 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Meshes/Pine(FBX).fbx
+  artifactKey: Guid(bc2afc8205ce1b14c8db6fa7423123c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Meshes/Pine(FBX).fbx using Guid(bc2afc8205ce1b14c8db6fa7423123c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c65f2cff3fe188ace14b4f6c4e65d3') in 0.027734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.458 seconds
+Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.338 seconds
+Domain Reload Profiling: 1792ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1339ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (582ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.3 KB). Loaded Objects now: 6747.
+Memory consumption went from 306.1 MB to 305.8 MB.
+Total: 3.632500 ms (FindLiveObjects: 0.471400 ms CreateObjectMapping: 0.478100 ms MarkObjects: 2.569300 ms  DeleteObjects: 0.112600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.432 seconds
+Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.285 seconds
+Domain Reload Profiling: 1712ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (267ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1286ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.4 KB). Loaded Objects now: 6751.
+Memory consumption went from 308.0 MB to 307.7 MB.
+Total: 4.476000 ms (FindLiveObjects: 0.556300 ms CreateObjectMapping: 0.707500 ms MarkObjects: 3.112300 ms  DeleteObjects: 0.099400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.445 seconds
+Refreshing native plugins compatible for Editor in 4.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.284 seconds
+Domain Reload Profiling: 1724ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1284ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (574ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.3 KB). Loaded Objects now: 6755.
+Memory consumption went from 309.9 MB to 309.6 MB.
+Total: 3.736600 ms (FindLiveObjects: 0.437400 ms CreateObjectMapping: 0.472500 ms MarkObjects: 2.717700 ms  DeleteObjects: 0.108300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 233.623934 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/InsideCheckpoint.mat
+  artifactKey: Guid(6360d2b44c65e594da3b451777d87597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/InsideCheckpoint.mat using Guid(6360d2b44c65e594da3b451777d87597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef389f285fc2491545af66e005a727fe') in 0.200282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 4.282722 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/Leaves 1.mat
+  artifactKey: Guid(7131b8bba3d10664480e8aef421d7ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/Leaves 1.mat using Guid(7131b8bba3d10664480e8aef421d7ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3769bb9fa8ca0f2667f1eb822e79ab17') in 0.013559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.879972 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/Trunk.mat
+  artifactKey: Guid(7131b8bba3d10664480e8aef421d7ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/Trunk.mat using Guid(7131b8bba3d10664480e8aef421d7ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d5c49af5502226ff1094c74529b8cf') in 0.012531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.425759 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMAchievements/Sprites/AchievementBackground.png
+  artifactKey: Guid(cecdbf60b0c9d47c9a26b99a41425de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMAchievements/Sprites/AchievementBackground.png using Guid(cecdbf60b0c9d47c9a26b99a41425de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d561aa4e0af864490d91686cbafadd') in 0.034789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/flash06.png
+  artifactKey: Guid(fba026525cc769d4b813ff25f8554029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/flash06.png using Guid(fba026525cc769d4b813ff25f8554029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f5772a9156d1a3c749ea8055676447') in 0.035683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Sprites/Germ_Game-6.png
+  artifactKey: Guid(61be319fd6e199e4984efac874096a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Sprites/Germ_Game-6.png using Guid(61be319fd6e199e4984efac874096a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0acfb3f5cf3f565f1ecfb9599dfdf2') in 0.029576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVision/ConeOfVisionAlpha.png
+  artifactKey: Guid(671b69569d53c4c47ba2a89fb544082f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVision/ConeOfVisionAlpha.png using Guid(671b69569d53c4c47ba2a89fb544082f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786129bce72df96703db07a6a98e0abd') in 0.023749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Emisissive.tga
+  artifactKey: Guid(1048779b1c55dab4faf96a2f90b272b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Emisissive.tga using Guid(1048779b1c55dab4faf96a2f90b272b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be076e6f3486b5545e1beb307994600') in 0.025934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Albedo.tga
+  artifactKey: Guid(11c863a84e74c0e4bb1481c7ecb01075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Albedo.tga using Guid(11c863a84e74c0e4bb1481c7ecb01075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b458a7924cfb7106a594766dc17e5d9c') in 0.034984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/explosion08.png
+  artifactKey: Guid(7282dc92bacea234081f356ab9b5c6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/explosion08.png using Guid(7282dc92bacea234081f356ab9b5c6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b185486c7b88f80a5c1c7664202ddff1') in 0.027932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Sprites/Germ_Game-5.png
+  artifactKey: Guid(ff175fe20f2c78a42a69dc59e7d05b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Sprites/Germ_Game-5.png using Guid(ff175fe20f2c78a42a69dc59e7d05b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cf203deb68d31024d088293a295cca') in 0.028449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Sprites/Germ.png
+  artifactKey: Guid(445f84e9b49db5a45ab12ee99c9520ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Sprites/Germ.png using Guid(445f84e9b49db5a45ab12ee99c9520ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a42796e95b046d413d037d802cb1dff') in 0.046758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMBloomDirt/MMBloomDirt3.png
+  artifactKey: Guid(0448ffbb2d259c74496e9252af0411b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMBloomDirt/MMBloomDirt3.png using Guid(0448ffbb2d259c74496e9252af0411b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f246311db20cee7688444474812bad') in 0.022630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMSceneLoading/Sprites/LoadingCompleteAnimation.png
+  artifactKey: Guid(109174f54ddf71a4fbe62bf30e9cf0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMSceneLoading/Sprites/LoadingCompleteAnimation.png using Guid(109174f54ddf71a4fbe62bf30e9cf0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a41c847569effbacb7e71b2d199bff') in 0.059344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/Editor/Resources/FeelArrowUp.png
+  artifactKey: Guid(87529e0fd28c3774fa086315a42b1860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMFeedbacks/Editor/Resources/FeelArrowUp.png using Guid(87529e0fd28c3774fa086315a42b1860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1adf2a96244a15f1ab4854dc52a8aa1') in 0.023446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/blackSmoke02.png
+  artifactKey: Guid(fbf6c5b9b6b89fe4ba84b2f30ea806e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/blackSmoke02.png using Guid(fbf6c5b9b6b89fe4ba84b2f30ea806e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590a7e0375315ec9be27c974a8d439a7') in 0.034280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Scripts/Germ_Game-5.png
+  artifactKey: Guid(e68b9613a3f9db9489abf1f11fb38b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Scripts/Germ_Game-5.png using Guid(e68b9613a3f9db9489abf1f11fb38b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6395a99a35c2b31d59a13482b7c0c359') in 0.033728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Sprites/Germ_Game-2.png
+  artifactKey: Guid(1d46856215a26d24a8abd07bbd87cd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Sprites/Germ_Game-2.png using Guid(1d46856215a26d24a8abd07bbd87cd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb8e08b7e3c6a388b29de83d2216b55') in 0.027704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMSceneLoading/Sprites/LoadingAnimation.png
+  artifactKey: Guid(9bd9265533309304db171aa9f916554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMSceneLoading/Sprites/LoadingAnimation.png using Guid(9bd9265533309304db171aa9f916554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39daa2b5a1b5f6c22bc5315abe8fa4a5') in 0.163245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 96
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Metallic.tga
+  artifactKey: Guid(2bea8d4ee0dbf9946b72cc358596d6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Metallic.tga using Guid(2bea8d4ee0dbf9946b72cc358596d6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbe38d48189941fc47557f1c71f5c19') in 0.027610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Scripts/Germ_Game-1.png
+  artifactKey: Guid(74b19f13c442ad04a8be166c31934e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Scripts/Germ_Game-1.png using Guid(74b19f13c442ad04a8be166c31934e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c35b96eec7378c3b31e4877430d6d1') in 0.023600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.325704 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMBrushes/MMBrush1.png
+  artifactKey: Guid(bee69e9222e12344bb5a210ca5e5b2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMBrushes/MMBrush1.png using Guid(bee69e9222e12344bb5a210ca5e5b2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ceebcba41f7fa5fe7581ecdc7d5a49') in 0.021813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMCheckers/MMCheckers.png
+  artifactKey: Guid(ff6ef20764af32745ad151687042db56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMCheckers/MMCheckers.png using Guid(ff6ef20764af32745ad151687042db56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a63b4aa5c6f02134160d67066d5688') in 0.021415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMCellNoise.png
+  artifactKey: Guid(6415e4b059f8ca249ad6c1c205f2330e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMCellNoise.png using Guid(6415e4b059f8ca249ad6c1c205f2330e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37052444359bbcd864f3602ba34122b8') in 0.023661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMBrushes/MMBrush4.png
+  artifactKey: Guid(58d4ed86ac16c7e4eb26fd09e09f3d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMBrushes/MMBrush4.png using Guid(58d4ed86ac16c7e4eb26fd09e09f3d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366dc03903f7d0f474826a76bb7710cf') in 0.021591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMDebugOnScreen/Sprites/MMLogo16x16.png
+  artifactKey: Guid(0a9d566b902c9a84087bf3ca3a178e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMDebugOnScreen/Sprites/MMLogo16x16.png using Guid(0a9d566b902c9a84087bf3ca3a178e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b252609eb3c383980d18fa84b5f0683e') in 0.022608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesBolt.png
+  artifactKey: Guid(4b2f59655d77fdd40bca0d6809adad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesBolt.png using Guid(4b2f59655d77fdd40bca0d6809adad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4106b7bb5945ff655a2ecced7975d2') in 0.022611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMFireDirectionalNoise.png
+  artifactKey: Guid(c61e12b00f19ecd448a748ee4f011b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMFireDirectionalNoise.png using Guid(c61e12b00f19ecd448a748ee4f011b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b9da4a4444c36657cb9dc98978a4ae') in 0.022027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMDebugMenu/Sprites/MMDebugMenuSpritesheet.png
+  artifactKey: Guid(72f7a32ac9c7676409eb438757bc6b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMDebugMenu/Sprites/MMDebugMenuSpritesheet.png using Guid(72f7a32ac9c7676409eb438757bc6b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ab778ee0b4f5a8090e801847552f6d') in 0.032865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesBlackSun.png
+  artifactKey: Guid(7eef1b66a64daee46b87f6f979353425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesBlackSun.png using Guid(7eef1b66a64daee46b87f6f979353425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da53fb1a5477963f66aa1031ad660c34') in 0.021222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMFireNoise.png
+  artifactKey: Guid(10f0f05cdfbe64f44b9e3b2655c32308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMFireNoise.png using Guid(10f0f05cdfbe64f44b9e3b2655c32308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59b52c48c9de88763292937997d3973') in 0.021270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesGamma.png
+  artifactKey: Guid(6f35f0fe92adb174e8a5fbf7b40eeea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesGamma.png using Guid(6f35f0fe92adb174e8a5fbf7b40eeea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3519fd3669e0385df12d89c196de425') in 0.019932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesExplosion.png
+  artifactKey: Guid(2457d6fbb1971a54ab6b08c4d4769b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesExplosion.png using Guid(2457d6fbb1971a54ab6b08c4d4769b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0e40e4b0048dc6f2ae030ef5957c49') in 0.020965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesJab.png
+  artifactKey: Guid(6756ce1110b2ba24e9f356c415a5a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesJab.png using Guid(6756ce1110b2ba24e9f356c415a5a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25538eeaf64ebf35379312de5f996eb7') in 0.021030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMFlowNoise.png
+  artifactKey: Guid(5c2ab7cb954a3974c8a19f8c9c6f6fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMFlowNoise.png using Guid(5c2ab7cb954a3974c8a19f8c9c6f6fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10f9f0969c4bc62faf74802e1b70a3b') in 0.019935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.039040 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesLight.png
+  artifactKey: Guid(d231e18e55f422349931d83925fdece0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesLight.png using Guid(d231e18e55f422349931d83925fdece0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc93e28449d552b394032ca3911f99e') in 0.021153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMPerlinNoise.png
+  artifactKey: Guid(ce8f07304188aca4aa8f7b1c422c92b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMPerlinNoise.png using Guid(ce8f07304188aca4aa8f7b1c422c92b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28c3ba88eae3aff39b06bc0a3b3de5c') in 0.020998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_BlueFrame.png
+  artifactKey: Guid(5da54437c52380745ab2d12656252b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_BlueFrame.png using Guid(5da54437c52380745ab2d12656252b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4905fa8a6104a284400358eb80bff55d') in 0.022059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMPlastic/MMPlasticMetal.png
+  artifactKey: Guid(7e415b31b4facd24eae9598bb7644813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMPlastic/MMPlasticMetal.png using Guid(7e415b31b4facd24eae9598bb7644813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e830eee742d75c17cf4803aee4c020f') in 0.017264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_LightGreyFrame.png
+  artifactKey: Guid(a6bacc483b5f80645a74c1382418b149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_LightGreyFrame.png using Guid(a6bacc483b5f80645a74c1382418b149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0e4412b2a1b65a8ad50c457ba346af') in 0.020602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_LightGreyCrosses.png
+  artifactKey: Guid(5d158a0f06b330445acc858c5a32a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_LightGreyCrosses.png using Guid(5d158a0f06b330445acc858c5a32a269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b10bb0e0bb397ac05303128ee1bd761') in 0.022101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMPlastic/MMPlasticAO.png
+  artifactKey: Guid(6380989b56d512c498442aa08d0dfe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMPlastic/MMPlasticAO.png using Guid(6380989b56d512c498442aa08d0dfe03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547a6b94313dec9ead18ba0c291e755d') in 0.022382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_BlueSquares.png
+  artifactKey: Guid(ed68763c04a44fa49a0aa2316c3d46ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_BlueSquares.png using Guid(ed68763c04a44fa49a0aa2316c3d46ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1254eec40afc4b920e3d43271e817429') in 0.022042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_BlueDots.png
+  artifactKey: Guid(bdc5330a25b04664fbea7584bb62d859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_BlueDots.png using Guid(bdc5330a25b04664fbea7584bb62d859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00679b5a0891e2c0f14e36914b25bab') in 0.022816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_GreenDots.png
+  artifactKey: Guid(72c581fb2cdf1344f9da353c3f78ccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_GreenDots.png using Guid(72c581fb2cdf1344f9da353c3f78ccd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9de74a6fa051d3e342587c702fb5b8') in 0.021872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_BlueCrosses.png
+  artifactKey: Guid(3940f67cfdf57d642894f21532af98e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_BlueCrosses.png using Guid(3940f67cfdf57d642894f21532af98e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa013c8430595b95b4b380b5f4e9d0c0') in 0.020936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesStorm.png
+  artifactKey: Guid(0c56439a20097e54b9fc9cbdca6968e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMParticles/MMParticlesStorm.png using Guid(0c56439a20097e54b9fc9cbdca6968e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ddca260e5315eb29ea71700a0959dd') in 0.021399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_GreenSquares.png
+  artifactKey: Guid(785d13d865eaebc419648f8390c840b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_GreenSquares.png using Guid(785d13d865eaebc419648f8390c840b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c236f75206c983bc22c3d0cabcc8d16a') in 0.022396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_LightGreySquares.png
+  artifactKey: Guid(9cf882a8a1f69ff43b2216f75cddd54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_LightGreySquares.png using Guid(9cf882a8a1f69ff43b2216f75cddd54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28c1cdd5dfde03a981248b36a349ce0') in 0.020355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.460 seconds
+Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.289 seconds
+Domain Reload Profiling: 1744ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1290ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (575ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.3 KB). Loaded Objects now: 6812.
+Memory consumption went from 312.0 MB to 311.7 MB.
+Total: 3.623900 ms (FindLiveObjects: 0.454000 ms CreateObjectMapping: 0.463800 ms MarkObjects: 2.592000 ms  DeleteObjects: 0.113400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.435 seconds
+Refreshing native plugins compatible for Editor in 4.96 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.292 seconds
+Domain Reload Profiling: 1721ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1292ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.4 KB). Loaded Objects now: 6816.
+Memory consumption went from 313.9 MB to 313.5 MB.
+Total: 5.450100 ms (FindLiveObjects: 0.585800 ms CreateObjectMapping: 0.580400 ms MarkObjects: 4.170100 ms  DeleteObjects: 0.112900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 139.269288 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/Leaves.mat
+  artifactKey: Guid(8db6bdeba8a08b54d9ff959efe6e3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/Leaves.mat using Guid(8db6bdeba8a08b54d9ff959efe6e3dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dfbf851bb2222121018ba55dfbe91d') in 0.200943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 55.296137 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_RedDots.png
+  artifactKey: Guid(caa99440fded2af41b1d0c99fea51b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_RedDots.png using Guid(caa99440fded2af41b1d0c99fea51b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9844db4c9496ba5d684accf0bc4fa3') in 0.028093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRamps/MMRamp0.png
+  artifactKey: Guid(2178326803c98c949a3bad7b06f340c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRamps/MMRamp0.png using Guid(2178326803c98c949a3bad7b06f340c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489f3ab6d30afde0ed906df3b078897c') in 0.022139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_YellowCrosses.png
+  artifactKey: Guid(e7bd931b85ae0b54a86af9439440b98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_YellowCrosses.png using Guid(e7bd931b85ae0b54a86af9439440b98b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87a0fd5dfd4da74398dae3f88a09743') in 0.023069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleCircle2NM.png
+  artifactKey: Guid(25b0ed6a11cf3824a8b13811a1420451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleCircle2NM.png using Guid(25b0ed6a11cf3824a8b13811a1420451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21433119102bf54553bc0c412ee0f209') in 0.035437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMSimplexNoise.png
+  artifactKey: Guid(4fbec3043b4bcc941b84734f579dc2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMNoise/MMSimplexNoise.png using Guid(4fbec3043b4bcc941b84734f579dc2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f328b1c064c058b61a7acafcf6adb973') in 0.021759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_RedSquares.png
+  artifactKey: Guid(0bdb020a90b5f5247ab5695053e84e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_RedSquares.png using Guid(0bdb020a90b5f5247ab5695053e84e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b91d26c8e41d6363f4b3caba971ca29') in 0.020985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_YellowSquares.png
+  artifactKey: Guid(9fb2f7aca634c294ab8ca0d06ee4d78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/Textures/MMProtoTextures/MMProtoTextures_YellowSquares.png using Guid(9fb2f7aca634c294ab8ca0d06ee4d78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0caef01117f49720bd961cc442266e5d') in 0.019532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMGUI/Sprites/MMTools_GUI_1x1.png
+  artifactKey: Guid(aff4855d499cb7646b344323f4129b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMGUI/Sprites/MMTools_GUI_1x1.png using Guid(aff4855d499cb7646b344323f4129b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2692b8f7525e560667edafec7da5e9') in 0.029411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMSceneLoading/Sprites/MoreMountainsLogo.png
+  artifactKey: Guid(a5240da7fff0bf34da21c7edff42b1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMSceneLoading/Sprites/MoreMountainsLogo.png using Guid(a5240da7fff0bf34da21c7edff42b1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd797a84a0f9ddddcffbdb8281f81be9c') in 0.021859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleWaves1NM.png
+  artifactKey: Guid(d821f2e3723c0e14f8ab72b4b064fe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleWaves1NM.png using Guid(d821f2e3723c0e14f8ab72b4b064fe65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f5d00afe7f9783acda9f8a1b6636c1') in 0.020677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleCircle3NM.png
+  artifactKey: Guid(9f32f9f1779317340b6f9788fb5f5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleCircle3NM.png using Guid(9f32f9f1779317340b6f9788fb5f5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3f91c821c76b0f4a88e58e3d40d0b5') in 0.020147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRamps/MMRamp4.png
+  artifactKey: Guid(fd68bdcc37e59784a83e37ec1c26d400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRamps/MMRamp4.png using Guid(fd68bdcc37e59784a83e37ec1c26d400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c50d09bcff65c874545894569a5d5b2') in 0.021482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRamps/MMRamp1.png
+  artifactKey: Guid(b3780deb9c64f4e45b529787d0f5d20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRamps/MMRamp1.png using Guid(b3780deb9c64f4e45b529787d0f5d20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c03709cfe9ca73071024a2ca683eb64') in 0.019475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleSpiral2NM.png
+  artifactKey: Guid(edcc1b3de33bacd4c81ff1a864d65f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleSpiral2NM.png using Guid(edcc1b3de33bacd4c81ff1a864d65f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a207af07d5e91fdb9a6aafb9d7707b') in 0.021587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Sprites/Sponge.png
+  artifactKey: Guid(6c4e4df5493a9a249b66803c28f5cbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/Germ Microgame/Sprites/Sponge.png using Guid(6c4e4df5493a9a249b66803c28f5cbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d42bd7981463d8afe2b6431bb02777') in 0.027730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/whitePuff13.png
+  artifactKey: Guid(33711ea76a060434bb041a0d0b6315da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/whitePuff13.png using Guid(33711ea76a060434bb041a0d0b6315da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6decf010cf9ee4deaacf8fad65eda23') in 0.025145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf34e98b2eaef9d256a56fbf4403243d') in 0.021564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleSaw2NM.png
+  artifactKey: Guid(5e0ea90a83cb72d4ea51fbdcfcd46de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleSaw2NM.png using Guid(5e0ea90a83cb72d4ea51fbdcfcd46de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e0499a6b187812ebd92173aa7512b2') in 0.020202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleBubble1NM.png
+  artifactKey: Guid(06c3a06ad80bcb147b2c74ed37ff2333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleBubble1NM.png using Guid(06c3a06ad80bcb147b2c74ed37ff2333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8be903636ea9c72587cf4396dd665fa') in 0.021988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleSaw1NM.png
+  artifactKey: Guid(c42d019b36d0e95449e2114a78af0458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleSaw1NM.png using Guid(c42d019b36d0e95449e2114a78af0458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b9368070775ba49c38dbf453c6ce85') in 0.021247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

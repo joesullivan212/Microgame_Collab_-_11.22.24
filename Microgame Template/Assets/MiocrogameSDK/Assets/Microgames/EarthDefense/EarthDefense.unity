@@ -11009,6 +11009,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 684738628}
   offset: 135
+  AsteroidDeathParticles: {fileID: 4661610694053171522, guid: db73db6a7a72be642a5486c44be1e417,
+    type: 3}
 --- !u!212 &592985162
 SpriteRenderer:
   m_ObjectHideFlags: 0

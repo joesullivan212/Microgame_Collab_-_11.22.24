@@ -16,8 +16,12 @@ MonoBehaviour:
   gameGoal: Fly through the checkpoints
   gameControls: Use Mouse to fly
   gameSceneName: Flying
-  timerDuration: 9
+  timerDuration: 10
   outcomeOnTimeUp: 1
   credits: By Joe Sullivan
   requiresHearing: 0
   requiresSeeingColor: 0
+  mouseMovement: 0
+  click: 0
+  rightClick: 0
+  arrowKeys: 0

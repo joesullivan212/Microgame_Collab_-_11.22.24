@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/joesu/OneDrive/Documents/GitHub/Nightshift at the Universe Factory
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62730
-Successfully changed project path to: C:/Users/joesu/OneDrive/Documents/GitHub/Nightshift at the Universe Factory
-C:/Users/joesu/OneDrive/Documents/GitHub/Nightshift at the Universe Factory
+59804
+Successfully changed project path to: C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/joesu/OneDrive/Documents/GitHub/Nightshift at the Universe Factory
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15156] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3027586952 [EditorId] 3027586952 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15216] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 1990905704 [EditorId] 1990905704 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15156] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 3027586952 [EditorId] 3027586952 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15216] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 1990905704 [EditorId] 1990905704 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 13.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/joesu/OneDrive/Documents/GitHub/Nightshift at the Universe Factory/Assets
+[Subsystems] Discovering subsystems at path C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -71,44 +71,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010496 seconds.
-- Loaded All Assemblies, in  0.321 seconds
+Registered in 0.010405 seconds.
+- Loaded All Assemblies, in  0.311 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.214 seconds
-Domain Reload Profiling: 532ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.226 seconds
+Domain Reload Profiling: 534ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (123ms)
-		LoadAssemblies (96ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (91ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (121ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (108ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (104ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (214ms)
+	FinalizeReload (226ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (163ms)
+		SetupLoadedEditorAssemblies (176ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,56 +116,56 @@ Domain Reload Profiling: 532ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.642 seconds
-Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.656 seconds
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.735 seconds
-Domain Reload Profiling: 1372ms
-	BeginReloadAssembly (130ms)
+- Finished resetting the current domain, in  0.775 seconds
+Domain Reload Profiling: 1426ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (29ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (423ms)
-		LoadAssemblies (292ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (434ms)
+		LoadAssemblies (303ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (208ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (153ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (736ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (162ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (775ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (585ms)
+		SetupLoadedEditorAssemblies (619ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (442ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6135 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (352.8 KB). Loaded Objects now: 6595.
-Memory consumption went from 318.0 MB to 317.7 MB.
-Total: 3.375600 ms (FindLiveObjects: 0.410200 ms CreateObjectMapping: 0.439400 ms MarkObjects: 2.369100 ms  DeleteObjects: 0.156500 ms)
+Unloading 72 unused Assets / (352.4 KB). Loaded Objects now: 6595.
+Memory consumption went from 318.0 MB to 317.6 MB.
+Total: 3.704700 ms (FindLiveObjects: 0.429000 ms CreateObjectMapping: 0.475700 ms MarkObjects: 2.631100 ms  DeleteObjects: 0.168400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,56 +179,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 254347.699248 seconds.
+  path: Assets/MicrogameTemplate/Your Micro Game.unity
+  artifactKey: Guid(7f55361a3599e3b4c847397f26578378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MicrogameTemplate/Your Micro Game.unity using Guid(7f55361a3599e3b4c847397f26578378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8b0033e81b3eef34a76ee823383ebb') in 0.001942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MicrogameTemplate/Your Micro Game Data.asset
+  artifactKey: Guid(f5d4c57fca4c02643a9b09a5a145df4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MicrogameTemplate/Your Micro Game Data.asset using Guid(f5d4c57fca4c02643a9b09a5a145df4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bc379e6224c2d3e584753d3d824ff5') in 0.007273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.456 seconds
-Refreshing native plugins compatible for Editor in 4.94 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.294 seconds
-Domain Reload Profiling: 1745ms
-	BeginReloadAssembly (139ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (244ms)
-		LoadAssemblies (291ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1295ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (599ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (455ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (319.1 KB). Loaded Objects now: 6599.
-Memory consumption went from 287.0 MB to 286.7 MB.
-Total: 3.566200 ms (FindLiveObjects: 0.425900 ms CreateObjectMapping: 0.474600 ms MarkObjects: 2.500900 ms  DeleteObjects: 0.164000 ms)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (290.7 KB). Loaded Objects now: 6596.
+Memory consumption went from 192.4 MB to 192.2 MB.
+Total: 3.703100 ms (FindLiveObjects: 0.414300 ms CreateObjectMapping: 0.392300 ms MarkObjects: 2.836000 ms  DeleteObjects: 0.059900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -246,239 +220,509 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 185892.578447 seconds.
-  path: Assets/MiocrogameSDK/ContextExample/AreaTest.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/ContextExample/AreaTest.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdacc7694b09e37ad582a8a54007688') in 0.001692 seconds
+  Time since last request: 658.448346 seconds.
+  path: Assets/MiocrogameSDK/Assets/Scenes/MicogameTemplate.scenetemplate
+  artifactKey: Guid(25a3e421decf59441a2dec90350b40a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Scenes/MicogameTemplate.scenetemplate using Guid(25a3e421decf59441a2dec90350b40a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725ec16e7e087a959ecb1273341717d6') in 0.099429 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 40
 ========================================================================
 Received Import Request.
-  Time since last request: 37.311732 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures
-  artifactKey: Guid(d0cafc40606be414aa62d004de914e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures using Guid(d0cafc40606be414aa62d004de914e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e189febc549ddcb4e8a448c4debaf24a') in 0.000435 seconds
+  Time since last request: 3.747075 seconds.
+  path: Assets/MiocrogameSDK/Assets/Mesh/Lose.fbx
+  artifactKey: Guid(57aba65a0e96911478daa49d5e26884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Mesh/Lose.fbx using Guid(57aba65a0e96911478daa49d5e26884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe3dc96943ac2961a07ff9766eee105') in 1.148629 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.706942 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Person_Blood
-  artifactKey: Guid(8d06151e1dcfd5f46abc5a919e22e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Person_Blood using Guid(8d06151e1dcfd5f46abc5a919e22e38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5177f796adad3b9b67ed2bca32cb6fd2') in 0.000565 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/MiocrogameSDK/Assets/Materials/Background.mat
+  artifactKey: Guid(11a219e9fb714644d909577b7337e985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Materials/Background.mat using Guid(11a219e9fb714644d909577b7337e985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081ef1565f63d314c03776f286db461c') in 0.028306 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 7.667112 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Person/Astronaut_Person_Ao.tga
-  artifactKey: Guid(40064aada18d4be44ac00c1c3015bdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Person/Astronaut_Person_Ao.tga using Guid(40064aada18d4be44ac00c1c3015bdb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757eaf9caee22c70fd950df3d5d0cee6') in 0.057463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.607429 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Person/Astronaut_Person_MOS.tga
-  artifactKey: Guid(705ce236aa442b54496676bca2075cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Person/Astronaut_Person_MOS.tga using Guid(705ce236aa442b54496676bca2075cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0871d08cc7c6de91e3cf807880d356') in 0.025676 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.050328 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Person/Astronaut_Person_Normals.tga
-  artifactKey: Guid(5d7f39dc4e798e1449d35a9069f32e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Person/Astronaut_Person_Normals.tga using Guid(5d7f39dc4e798e1449d35a9069f32e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1c44adbb281debea1a8f5ae431e04d') in 0.053977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 54.132287 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Emisissive.tga
-  artifactKey: Guid(1048779b1c55dab4faf96a2f90b272b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Emisissive.tga using Guid(1048779b1c55dab4faf96a2f90b272b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be076e6f3486b5545e1beb307994600') in 0.020506 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 50.308710 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/AstroHelmentLightGreen.mat
-  artifactKey: Guid(4e1506a7e3530a440a871419ecb53485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/AstroHelmentLightGreen.mat using Guid(4e1506a7e3530a440a871419ecb53485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebe5f3ea0fbe63219d90d0f13e1fbdf') in 1.190017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Glasses_Blood.mat
-  artifactKey: Guid(7efa942ec17f3884e8f920bc6be8194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Glasses_Blood.mat using Guid(7efa942ec17f3884e8f920bc6be8194b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4456f8aec0e9d97c36a9f148f15848ee') in 0.938539 seconds
+  Time since last request: 0.715253 seconds.
+  path: Assets/MiocrogameSDK/ContextExample/New Microgame Library.asset
+  artifactKey: Guid(6fe2950d2229f19458578b59d49f88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/ContextExample/New Microgame Library.asset using Guid(6fe2950d2229f19458578b59d49f88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6435978ac101b2ba7cbc7e0264704c8b') in 0.001988 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut@Fly_02.FBX
-  artifactKey: Guid(0f566b4e2671cac4d9d50104c2b7aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut@Fly_02.FBX using Guid(0f566b4e2671cac4d9d50104c2b7aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdf71edbe76fb7961a62465d122e7c6') in 1.354563 seconds
+  Time since last request: 1.166841 seconds.
+  path: Assets/MiocrogameSDK/ContextExample/AreaTest.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/ContextExample/AreaTest.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdacc7694b09e37ad582a8a54007688') in 0.000463 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 181
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Strut Walking.fbx
-  artifactKey: Guid(771b83790e7989344b186849e7f5dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Strut Walking.fbx using Guid(771b83790e7989344b186849e7f5dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a394db21d2fd75440acc9b4232816fc9') in 0.872567 seconds
+  Time since last request: 10.552250 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Flying.unity
+  artifactKey: Guid(7944451d566d9734f925105c0ea70740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Flying.unity using Guid(7944451d566d9734f925105c0ea70740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90ccbf57c26a7543352fca260f8a012') in 0.000554 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 150
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Glasses.mat
-  artifactKey: Guid(d90fe6e256161bb4ca8ed0737ac72715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Glasses.mat using Guid(d90fe6e256161bb4ca8ed0737ac72715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d51928576eb2605c8658a37f967ff2') in 0.785052 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 21.894455 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Ao.tga
-  artifactKey: Guid(b72aaa009b3c5d641a6d452acce1a2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Ao.tga using Guid(b72aaa009b3c5d641a6d452acce1a2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ece5a13b1dad93e08ce9eba236ab2e0') in 0.028533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Normals.tga
-  artifactKey: Guid(6cba7c57177beb5408c026d6b4464534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Normals.tga using Guid(6cba7c57177beb5408c026d6b4464534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b2a8464804b4430748497a654bd3c0') in 0.029006 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 16.000132 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Body/Astronaut_Suit_Body_Ao.tga
-  artifactKey: Guid(68e0a5b2d3b7e5141966d62a6c5cbb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Body/Astronaut_Suit_Body_Ao.tga using Guid(68e0a5b2d3b7e5141966d62a6c5cbb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c80ce549db6dad9bf13b59e41778fd7') in 0.052549 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Body/Astronaut_Suit_Body_Normals.tga
-  artifactKey: Guid(87233b3454774324388db0119d83822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Body/Astronaut_Suit_Body_Normals.tga using Guid(87233b3454774324388db0119d83822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9794fdb8f52fb0a777387f3a5b055a81') in 0.046494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.781547 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Details/Astronaut_Suit_Details_Ao.tga
-  artifactKey: Guid(d30741cee2fccd849a53a9822b2892db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Details/Astronaut_Suit_Details_Ao.tga using Guid(d30741cee2fccd849a53a9822b2892db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd284ab83e12d708e4e703f3d3758e50c') in 0.031479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Details/Astronaut_Suit_Details_MOS.tga
-  artifactKey: Guid(c492399ff5a78c3478e7187713f5db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Details/Astronaut_Suit_Details_MOS.tga using Guid(c492399ff5a78c3478e7187713f5db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8fc67e338e7a9e119041871012a266') in 0.041801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.967537 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Heads/Astronaut_Heads_Ao.tga
-  artifactKey: Guid(25e280f1f552cae459282e1dce3be425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Heads/Astronaut_Heads_Ao.tga using Guid(25e280f1f552cae459282e1dce3be425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32db25a49899415ecca08b8251d3559') in 0.037550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Heads/Astronaut_Heads_MOS.tga
-  artifactKey: Guid(d840844a860979941a635099b14178de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Textures/Heads/Astronaut_Heads_MOS.tga using Guid(d840844a860979941a635099b14178de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b008501fef3d021622208ee12b05aec') in 0.040672 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.611418 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Prefabs/Astronaut_Pilot_Full.prefab
-  artifactKey: Guid(49a997af8a14bf34e9f98516b258bd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Prefabs/Astronaut_Pilot_Full.prefab using Guid(49a997af8a14bf34e9f98516b258bd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985561ad9b9104e75729dd03fb258ae1') in 0.278347 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 225
-========================================================================
-Received Import Request.
-  Time since last request: 22.988129 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Materials/Astroanut_Suit_Body_Dirt.mat
-  artifactKey: Guid(3fb23b19f32ae3f4ebf3f2d00bc2361c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Materials/Astroanut_Suit_Body_Dirt.mat using Guid(3fb23b19f32ae3f4ebf3f2d00bc2361c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b5f0b1e636a7c310f379ae3b4f1490') in 0.064396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Materials/Astroanut_Suit_Glass.mat
-  artifactKey: Guid(8283c84af073c6242b592233faf6c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Astronaut_Pilot/Materials/Astroanut_Suit_Glass.mat using Guid(8283c84af073c6242b592233faf6c68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496afd9fa20dc92a940e34a9f8c363d0') in 0.056974 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.469 seconds
-Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.458 seconds
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.637 seconds
-Domain Reload Profiling: 2101ms
-	BeginReloadAssembly (160ms)
+- Finished resetting the current domain, in  1.313 seconds
+Domain Reload Profiling: 1766ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (234ms)
-		LoadAssemblies (289ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (233ms)
+		LoadAssemblies (285ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (23ms)
 			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (17ms)
-	FinalizeReload (1638ms)
+	FinalizeReload (1313ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (656ms)
+		SetupLoadedEditorAssemblies (590ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (83ms)
-			ProcessInitializeOnLoadAttributes (492ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (441ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 5.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5954 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (319.2 KB). Loaded Objects now: 6690.
-Memory consumption went from 295.8 MB to 295.5 MB.
-Total: 3.512000 ms (FindLiveObjects: 0.414400 ms CreateObjectMapping: 0.472900 ms MarkObjects: 2.532800 ms  DeleteObjects: 0.091400 ms)
+Unloading 41 unused Assets / (319.2 KB). Loaded Objects now: 6682.
+Memory consumption went from 292.2 MB to 291.9 MB.
+Total: 3.958400 ms (FindLiveObjects: 0.451300 ms CreateObjectMapping: 0.541800 ms MarkObjects: 2.871500 ms  DeleteObjects: 0.093100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 233.993265 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3a5b67bcfe24af84308ad420890ef9') in 0.232761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_LightGreyFrame.mat
+  artifactKey: Guid(adc4603b7be471c479ef63c42f19aa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_LightGreyFrame.mat using Guid(adc4603b7be471c479ef63c42f19aa72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8231303f69f931b8f3d0852e314cc82') in 0.059921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph
+  artifactKey: Guid(fb6390f650ca44a5ba3246d8dda47927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/FullscreenInvertColors.shadergraph using Guid(fb6390f650ca44a5ba3246d8dda47927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdadbea0e6bdf86bc9b1709ad2ad5b8f') in 0.170605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_BlueCrosses.mat
+  artifactKey: Guid(3aa8708b27bfe524b8280cdc746690d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_BlueCrosses.mat using Guid(3aa8708b27bfe524b8280cdc746690d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7599c2eb853615dda4c6fb5ee79961') in 0.011148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/MiocrogameSDK/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb92451275abed773b50af6e1deea52b') in 0.031753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Glasses.mat
+  artifactKey: Guid(d90fe6e256161bb4ca8ed0737ac72715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Glasses.mat using Guid(d90fe6e256161bb4ca8ed0737ac72715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134a4108a1d1d5688149ea64fb4da004') in 0.820773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_LightGreyDots.mat
+  artifactKey: Guid(06b0ed03b4a01634c8b5eb55bc95df8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_LightGreyDots.mat using Guid(06b0ed03b4a01634c8b5eb55bc95df8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1452d44f814942b4c56da30c18d9dc4') in 0.010781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/Triangulate/Parts/GradientVector SDF.asset
+  artifactKey: Guid(2b75bb3572416ef4fa7f61bf05209df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/Triangulate/Parts/GradientVector SDF.asset using Guid(2b75bb3572416ef4fa7f61bf05209df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593741799248ee270d1ce43b29d44403') in 0.021703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_YellowFrame.mat
+  artifactKey: Guid(9d99964e7e8afe34b8ee7943eabcd19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_YellowFrame.mat using Guid(9d99964e7e8afe34b8ee7943eabcd19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a8af944cd0cdb07776e5ac0bc972e3') in 0.010569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_GreenCrosses.mat
+  artifactKey: Guid(467db2a28dc1c6a45b450dc6d124de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_GreenCrosses.mat using Guid(467db2a28dc1c6a45b450dc6d124de59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac656ae3c9e567f2dc8bedc6c812f63') in 0.013972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMGUI/Materials/MMFaderRoundMaterialMask.mat
+  artifactKey: Guid(d9497e52f2de0254eaec18ccb13d788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMGUI/Materials/MMFaderRoundMaterialMask.mat using Guid(d9497e52f2de0254eaec18ccb13d788f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9498e2c3e0f52d9f4785d6d2cbcaa845') in 0.043661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_DarkGreyCrosses.mat
+  artifactKey: Guid(2a42e638cd366184aad3203b2732b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_DarkGreyCrosses.mat using Guid(2a42e638cd366184aad3203b2732b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b6d5c35dcbf53ac87b0dedf22d6888') in 0.011150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Fonts/Passion_One/PassionOne-Bold.ttf
+  artifactKey: Guid(39c9e6fbc151d7c489d6f28365076afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Fonts/Passion_One/PassionOne-Bold.ttf using Guid(39c9e6fbc151d7c489d6f28365076afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e274f6fa0833a1e53e25a76fb1685e4') in 0.010131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_BlueSquares.mat
+  artifactKey: Guid(594480777cec0fa489126aeb2273ecbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_BlueSquares.mat using Guid(594480777cec0fa489126aeb2273ecbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc38a2590d1ce61bf57c5d5a7b7185c1') in 0.011552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMGUI/Materials/MMFaderRoundMaterialMasked.mat
+  artifactKey: Guid(1297af1e1808f5a48b35411d71934370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMGUI/Materials/MMFaderRoundMaterialMasked.mat using Guid(1297af1e1808f5a48b35411d71934370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6113ac89b7541dccd0759d43490274') in 0.046346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
+  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bb3b33e635f1fbf0b33c82233265f6') in 0.010335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_DarkGreySquares.mat
+  artifactKey: Guid(e2370f782aa1d374a8b4b05c11d259ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_DarkGreySquares.mat using Guid(e2370f782aa1d374a8b4b05c11d259ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371207bd41d4a5f149f2434e028fa52f') in 0.010755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMAchievements/Fonts/orange kid.ttf
+  artifactKey: Guid(0f03458534bea45e4bba9ab3411321b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMAchievements/Fonts/orange kid.ttf using Guid(0f03458534bea45e4bba9ab3411321b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79297446297b3045574da7dfa4fbbf7') in 0.009107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_YellowCrosses.mat
+  artifactKey: Guid(d642a4ab722ef8a46af4d261e5227b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_YellowCrosses.mat using Guid(d642a4ab722ef8a46af4d261e5227b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f256d0f5846db74a0c6a343d1e01a171') in 0.011636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_GreenSquares.mat
+  artifactKey: Guid(eb936a4576d8f9741b8d914d47f3ccce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_GreenSquares.mat using Guid(eb936a4576d8f9741b8d914d47f3ccce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44793d10ceefc9ac2a3c2f8a31c2107b') in 0.010919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_DarkGreyFrame.mat
+  artifactKey: Guid(13516cfdf366d2542bc2fa983b6f803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_DarkGreyFrame.mat using Guid(13516cfdf366d2542bc2fa983b6f803a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5870c664d15fd806c78da81d6a87e0') in 0.011235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_YellowSquares.mat
+  artifactKey: Guid(b6acb67784ba02a46b350cd11c745e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/MMBPR_YellowSquares.mat using Guid(b6acb67784ba02a46b350cd11c745e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e16723166e7f2a73ee3bc02970c3c4') in 0.011575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/Neutral/MMBRP_NeutralBlack.mat
+  artifactKey: Guid(fc636806db6f2654d970ed32802db8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMPrototypeTextures/MMBRP_Materials/Neutral/MMBRP_NeutralBlack.mat using Guid(fc636806db6f2654d970ed32802db8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e047783cb592801f011fb543b13ad90') in 0.014149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/Ground.mat
+  artifactKey: Guid(2bb4bfad40e42f340aea50c8fb9b2e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/FlyingMicrogame/Your Materials/Ground.mat using Guid(2bb4bfad40e42f340aea50c8fb9b2e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2025c2aba934a2d0b7f395c5c3378a4') in 0.944582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 4.871048 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/ExploParticles1 3.mat
+  artifactKey: Guid(89fc9173ddb80e94496ad82b2946ee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/ExploParticles1 3.mat using Guid(89fc9173ddb80e94496ad82b2946ee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b71f415e9dc934ed162673c17d8d22') in 0.833137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/ExploParticles1.mat
+  artifactKey: Guid(cee5d7e0a8a4c78469b9476e475ef0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/ExploParticles1.mat using Guid(cee5d7e0a8a4c78469b9476e475ef0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1cc0ff87c92dd1a8dc1a26b0d4a58e') in 0.017607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Strut Walking.fbx
+  artifactKey: Guid(771b83790e7989344b186849e7f5dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Strut Walking.fbx using Guid(771b83790e7989344b186849e7f5dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a394db21d2fd75440acc9b4232816fc9') in 0.069087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MiocrogameSDK/Assets/TextMesh Pro/Fonts/Bungee/Bungee-Regular SDF.asset
+  artifactKey: Guid(0f0377569c2dd5d45bf48f8458cfa0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/TextMesh Pro/Fonts/Bungee/Bungee-Regular SDF.asset using Guid(0f0377569c2dd5d45bf48f8458cfa0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcd5ff0b84b33e7f8733b1fd51d6ccf') in 0.024520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MiocrogameSDK/Assets/Astronaut Dancing/Sad Idle.fbx
+  artifactKey: Guid(68bded707945c264cab02352a69431a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Astronaut Dancing/Sad Idle.fbx using Guid(68bded707945c264cab02352a69431a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54da88871a78d8f97b536f3211cc1b29') in 1.153678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/ExploParticles1 1.mat
+  artifactKey: Guid(e40749bb594f54e419b9166cc86f8700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/EarthDefense/3D ExplosionTest/ExploParticles1 1.mat using Guid(e40749bb594f54e419b9166cc86f8700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ad45ceb4fe917a24333ad93f0d31e9') in 0.018440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.021731 seconds.
+  path: Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleSpiral1.mat
+  artifactKey: Guid(a617e0f28404308478e66c689628ebf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleSpiral1.mat using Guid(a617e0f28404308478e66c689628ebf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_ST (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_TexelSize (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_HDR (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture (type 4 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+ -> (artifact id: 'b488204a602a1341218bd1f134c47340') in 0.016657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MiocrogameSDK/Assets/Microgames/Triangulate/Parts/RippleMaterial.mat
+  artifactKey: Guid(e3a2e6559adeb1d428c0ccffe54194c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Microgames/Triangulate/Parts/RippleMaterial.mat using Guid(e3a2e6559adeb1d428c0ccffe54194c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f8c3ae6ce106eaa5740c21d69d1d7e') in 0.109240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MiocrogameSDK/Assets/Fonts/Passion_One/PassionOne-Regular SDF.asset
+  artifactKey: Guid(7eecf8ef869e097478f6a0e58d860e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MiocrogameSDK/Assets/Fonts/Passion_One/PassionOne-Regular SDF.asset using Guid(7eecf8ef869e097478f6a0e58d860e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed34e7a33e495104dfc76437cd60a9a3') in 0.084799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 24.262141 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph
+  artifactKey: Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph using Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e75af9457b6e4b88c6507639f3de259') in 1.117775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.354 seconds
+Domain Reload Profiling: 1825ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1354ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (603ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5956 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (319.2 KB). Loaded Objects now: 6732.
+Memory consumption went from 297.3 MB to 297.0 MB.
+Total: 3.927400 ms (FindLiveObjects: 0.484200 ms CreateObjectMapping: 0.503900 ms MarkObjects: 2.837200 ms  DeleteObjects: 0.101100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
