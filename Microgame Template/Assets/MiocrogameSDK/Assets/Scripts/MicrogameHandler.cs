@@ -69,6 +69,21 @@ using UnityEngine;
         LoseOnTimeUp = true;
     }
 
+    public void CancelTimer()
+    {
+        timer.CancelTimer();
+    }
+
+    public void PauseTimer() 
+    {
+        timer.PauseTimer();
+    }
+
+    public void ResumeTimer() 
+    {
+        timer.ResumeTimer();
+    }
+
     private void OnDisable()
     {
         timer.OnTimeUp -= TimeUp;

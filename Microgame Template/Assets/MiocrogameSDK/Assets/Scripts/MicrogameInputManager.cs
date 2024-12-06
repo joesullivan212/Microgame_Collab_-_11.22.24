@@ -14,6 +14,7 @@ public class MicrogameInputManager : MonoBehaviour
     public bool Unclicked;
     public bool RightClicked;
     public bool RightUnclicked;
+    public bool MouseBeingHeld;
 
     [SerializeField] InputActionReference mouseMovementRef;
     [SerializeField] InputActionReference arrowKeysMovementRef;
@@ -41,6 +42,8 @@ public class MicrogameInputManager : MonoBehaviour
         if (callbackContext.performed && callbackContext.canceled == false)
         {
             Clicked = true;
+
+            MouseBeingHeld = true;
         }
     }
 
@@ -49,6 +52,8 @@ public class MicrogameInputManager : MonoBehaviour
         if (callbackContext.performed && callbackContext.canceled == false)
         {
             Unclicked = true;
+
+            MouseBeingHeld = false;
         }
     }
 
