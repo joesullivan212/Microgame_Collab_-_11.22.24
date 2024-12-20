@@ -34,6 +34,8 @@ public class AreaManager : MonoBehaviour
     [SerializeField]
     private GameObject LoseFeedbackObject;
     [SerializeField]
+    private AstronautDanceController astronautDanceController;
+    [SerializeField]
     private LivesDisplay livesDisplay;
     [SerializeField]
     private WinsDisplay WinsDisplay;
@@ -158,6 +160,7 @@ public class AreaManager : MonoBehaviour
             {
                 WinFeedbackObject.SetActive(true);
                 WinsDisplay.AddWinIcon();
+                astronautDanceController.Dance();
                 yield return new WaitForSeconds(DisplayResultsDuration);
                 CameraAnimator.Play("Rise");
             }

@@ -1,0 +1,1608 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19041) 64bit Core' Language: 'en' Physical Memory: 32601 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51369
+Successfully changed project path to: C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24764] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 840472168 [EditorId] 840472168 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24764] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 840472168 [EditorId] 840472168 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 12.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3742
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010283 seconds.
+- Loaded All Assemblies, in  0.357 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.232 seconds
+Domain Reload Profiling: 586ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (232ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (180ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.703 seconds
+Refreshing native plugins compatible for Editor in 5.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.742 seconds
+Domain Reload Profiling: 1440ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (466ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (210ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (742ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (596ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (454ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6181 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (352.1 KB). Loaded Objects now: 6641.
+Memory consumption went from 319.0 MB to 318.6 MB.
+Total: 3.520700 ms (FindLiveObjects: 0.446700 ms CreateObjectMapping: 0.490700 ms MarkObjects: 2.422300 ms  DeleteObjects: 0.160400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1092709.567910 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Prefab/Astronaut.prefab
+  artifactKey: Guid(4033efa086291c24f8cfa95cece74564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Prefab/Astronaut.prefab using Guid(4033efa086291c24f8cfa95cece74564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4727ef6fe3759957291a03bcc0423e03') in 1.523510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 235
+========================================================================
+Received Import Request.
+  Time since last request: 5.530336 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Albedo.tga
+  artifactKey: Guid(11c863a84e74c0e4bb1481c7ecb01075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Albedo.tga using Guid(11c863a84e74c0e4bb1481c7ecb01075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b458a7924cfb7106a594766dc17e5d9c') in 0.030700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Normals.tga
+  artifactKey: Guid(6cba7c57177beb5408c026d6b4464534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Textures/Astronaut/Astronaut_Normals.tga using Guid(6cba7c57177beb5408c026d6b4464534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b2a8464804b4430748497a654bd3c0') in 0.031807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.159628 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Mesh/Lose.fbx
+  artifactKey: Guid(57aba65a0e96911478daa49d5e26884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Mesh/Lose.fbx using Guid(57aba65a0e96911478daa49d5e26884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9282db16e6edbec0738efe4eb720d5a') in 0.029590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 93.465981 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Astronaut.controller
+  artifactKey: Guid(dcb12342290042c4da1e2b22c8fc1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Astronaut.controller using Guid(dcb12342290042c4da1e2b22c8fc1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03a1007cb4e02b9198e2d0f55e7626b') in 0.001719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.976221 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/AstroSad.controller
+  artifactKey: Guid(d0527defa40261745adcf99ac6c509a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/AstroSad.controller using Guid(d0527defa40261745adcf99ac6c509a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abddecb16b114afa39326054f044744') in 0.110136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.743904 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/AstroHappy.controller
+  artifactKey: Guid(0d02ad53060c57341881345dbdc6a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/AstroHappy.controller using Guid(0d02ad53060c57341881345dbdc6a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a10dd5be8e9c186ff943c4fbfa4caaf') in 0.110101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.590588 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Running.anim
+  artifactKey: Guid(53d22b9c411ed73418da95e9379abf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Running.anim using Guid(53d22b9c411ed73418da95e9379abf78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010cc3d1ae2b40c354cfc50e4f04f1b0') in 0.010898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 238.924164 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim
+  artifactKey: Guid(d2554b67e5c00b84fa2a4a3a3d50e259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim using Guid(d2554b67e5c00b84fa2a4a3a3d50e259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bda517f9c8ddcb72ba0090bf07ea31a') in 0.032235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 23.218227 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/YMCA.anim
+  artifactKey: Guid(d2554b67e5c00b84fa2a4a3a3d50e259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/YMCA.anim using Guid(d2554b67e5c00b84fa2a4a3a3d50e259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbd6de23619a316dfb2323cca379ea4') in 0.029979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 150.832678 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations
+  artifactKey: Guid(517440d5595667b46bdf13ccbb0070df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations using Guid(517440d5595667b46bdf13ccbb0070df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3d701c97d8119b86e46a19b1661243') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.930471 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Controllers
+  artifactKey: Guid(301522e49e240b0489628c92b579b30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Controllers using Guid(301522e49e240b0489628c92b579b30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70a1a2221be52beca1dcaa971235f87') in 0.000434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 115.086209 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Controllers/AstroHappy.controller
+  artifactKey: Guid(0d02ad53060c57341881345dbdc6a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Controllers/AstroHappy.controller using Guid(0d02ad53060c57341881345dbdc6a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1793e88262123883827ee0600a2bdcb1') in 0.141083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 93.220623 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Dancing.fbx
+  artifactKey: Guid(6cc3e63b141ae0b4798cf6c86ff20b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Dancing.fbx using Guid(6cc3e63b141ae0b4798cf6c86ff20b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db612e114e977dd23ba40f801906e9b') in 0.338751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 12.865229 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim
+  artifactKey: Guid(bda9773285521e74ea02f479cf3cd2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim using Guid(bda9773285521e74ea02f479cf3cd2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1203f91f9fb5c99048a1b73ebc0e4ff0') in 0.051435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.535409 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/SlamDance.anim
+  artifactKey: Guid(bda9773285521e74ea02f479cf3cd2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/SlamDance.anim using Guid(bda9773285521e74ea02f479cf3cd2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6681a4ee6d14bf906290921091f20d32') in 0.050453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 94.582975 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Dancing (1).fbx
+  artifactKey: Guid(2691b2dc663a4d141a53aa799405a51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Dancing (1).fbx using Guid(2691b2dc663a4d141a53aa799405a51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f890830b21fd52fab2f97c028f9104a6') in 0.334061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 1.335988 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim
+  artifactKey: Guid(b6f1c2dcf0b4da84b9bc4b94974ac28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim using Guid(b6f1c2dcf0b4da84b9bc4b94974ac28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a60375de4843889e93ff5192bd2e2da') in 0.104381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.545300 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/SpinDance.anim
+  artifactKey: Guid(b6f1c2dcf0b4da84b9bc4b94974ac28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/SpinDance.anim using Guid(b6f1c2dcf0b4da84b9bc4b94974ac28f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3202584da1aa8ea99feebecf655412c9') in 0.104178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 106.200129 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Belly Dance.fbx
+  artifactKey: Guid(1144802b38c5750478c35beddb6bb3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Belly Dance.fbx using Guid(1144802b38c5750478c35beddb6bb3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04a9c1fe4adf342be15a4e3d423575e') in 0.187155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 1.123622 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim
+  artifactKey: Guid(a04e2ec988cb43d468758451d9e46461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim using Guid(a04e2ec988cb43d468758451d9e46461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a0fbb283bf000ca2004f8d4d3cd572') in 0.129090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.966956 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/BellyDance.anim
+  artifactKey: Guid(a04e2ec988cb43d468758451d9e46461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/BellyDance.anim using Guid(a04e2ec988cb43d468758451d9e46461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc54f464c4e063698bb1c8013a91583') in 0.128439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 57.251088 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Jazz Dancing.fbx
+  artifactKey: Guid(fd14962bc77219140b4f39540c672807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Jazz Dancing.fbx using Guid(fd14962bc77219140b4f39540c672807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef5bdf3629dc04b0bafe6693a7e9b20') in 0.334241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 4.270580 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim
+  artifactKey: Guid(5ca0d7c723c7e65439b344154d1f7f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim using Guid(5ca0d7c723c7e65439b344154d1f7f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d381a59b21652010b0f8aa3877b7d22') in 0.031156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.090637 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/JazzDance.anim
+  artifactKey: Guid(5ca0d7c723c7e65439b344154d1f7f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/JazzDance.anim using Guid(5ca0d7c723c7e65439b344154d1f7f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608b3d7982380306ab99f69a0f05e30a') in 0.030764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 79.343406 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Salsa Dancing.fbx
+  artifactKey: Guid(2a078f0b507552742ae4b53ad6a39bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Salsa Dancing.fbx using Guid(2a078f0b507552742ae4b53ad6a39bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7eb7ba72edcfefd0862f21c135c16ee') in 0.401792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 0.676435 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim
+  artifactKey: Guid(5a800783ed309184fbe43063a9eb88e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim using Guid(5a800783ed309184fbe43063a9eb88e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bec76a9264486f8bc4d922f6541f888') in 0.022793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.979288 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/SpinDance2.anim
+  artifactKey: Guid(5a800783ed309184fbe43063a9eb88e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/SpinDance2.anim using Guid(5a800783ed309184fbe43063a9eb88e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c816453e68448d07cf2f7f2432f793f') in 0.022832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 96.360145 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Swing Dancing.fbx
+  artifactKey: Guid(69c83ce24d1aa814ebd48a0695c65dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Swing Dancing.fbx using Guid(69c83ce24d1aa814ebd48a0695c65dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2603cccd20bfee02decdf7ce9cfd135') in 0.168202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 6.467301 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim
+  artifactKey: Guid(fa173c8220c0eb047bd6b0b7ffe45d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim using Guid(fa173c8220c0eb047bd6b0b7ffe45d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0b27b35c331f2c0891465f56cbb8e2') in 0.027620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.193280 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/SwingDancing.anim
+  artifactKey: Guid(fa173c8220c0eb047bd6b0b7ffe45d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/SwingDancing.anim using Guid(fa173c8220c0eb047bd6b0b7ffe45d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafc4ed7685d3d9d0c9687c8c652bc6f') in 0.027387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 138.236698 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Swing Dancing (1).fbx
+  artifactKey: Guid(878031261e5df3449b9f1df00a0a7157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Swing Dancing (1).fbx using Guid(878031261e5df3449b9f1df00a0a7157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02da8e450f99a906d648a6d401394a1e') in 0.341672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 3.390380 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim
+  artifactKey: Guid(7f1107d352239a546a361a5653ec054f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim using Guid(7f1107d352239a546a361a5653ec054f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9f2cb4fec813e0ce989e04b84fa317') in 0.052739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.961859 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/HypeDance.anim
+  artifactKey: Guid(7f1107d352239a546a361a5653ec054f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/HypeDance.anim using Guid(7f1107d352239a546a361a5653ec054f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83a14362e3f31da02d70f8362305b5e') in 0.052304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 101.820241 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Swing Dancing (2).fbx
+  artifactKey: Guid(eea83ff7047bce4468634d7efaaa520b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Swing Dancing (2).fbx using Guid(eea83ff7047bce4468634d7efaaa520b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddd51b4f157bd433aabb8bd81cd5a49') in 0.291268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 10.577329 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim
+  artifactKey: Guid(9ae8b0315b5741743b49e5e8701208f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim using Guid(9ae8b0315b5741743b49e5e8701208f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feb1b8a573ea1632e373591a3b017d1') in 0.206415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.247038 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/SlideDance.anim
+  artifactKey: Guid(9ae8b0315b5741743b49e5e8701208f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/SlideDance.anim using Guid(9ae8b0315b5741743b49e5e8701208f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf181bc5a2355120a7af8d7ed02d620e') in 0.196664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 174.681127 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Slide Hip Hop Dance.fbx
+  artifactKey: Guid(c01d05b2de4f47442953816920b84d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Slide Hip Hop Dance.fbx using Guid(c01d05b2de4f47442953816920b84d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd64ab0ebae8ee73b17ff6504ac1973') in 0.170043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 3.854432 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim
+  artifactKey: Guid(631e31c6a329a0044945105f0852cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim using Guid(631e31c6a329a0044945105f0852cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4145f35b099a1752fa6c09bb004d95') in 0.109751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.390918 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Slide Hip Hop Dance.anim
+  artifactKey: Guid(631e31c6a329a0044945105f0852cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Slide Hip Hop Dance.anim using Guid(631e31c6a329a0044945105f0852cf55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9483ecf67aaa40df1c095b2bfb6e5164') in 0.108436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 111.328483 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Hip Hop Dancing.fbx
+  artifactKey: Guid(9edf6ad74aad48143bba4449af447529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Hip Hop Dancing.fbx using Guid(9edf6ad74aad48143bba4449af447529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71db383102cb2d858937c0aa22364b40') in 0.175673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 5.516857 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim
+  artifactKey: Guid(e9d3687cfb5b4c94caf4703905fa4c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/mixamo.com.anim using Guid(e9d3687cfb5b4c94caf4703905fa4c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c37b45e5b713a247205a721a13a36dd') in 0.160820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.334185 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Wiggle Dance.anim
+  artifactKey: Guid(e9d3687cfb5b4c94caf4703905fa4c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Wiggle Dance.anim using Guid(e9d3687cfb5b4c94caf4703905fa4c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c6947f6f8160b2c3345a1b03ecaddb') in 0.153378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.636554 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/WiggleDance.anim
+  artifactKey: Guid(e9d3687cfb5b4c94caf4703905fa4c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/WiggleDance.anim using Guid(e9d3687cfb5b4c94caf4703905fa4c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5639e291176dc24b1e432f252ec9f390') in 0.153787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.613 seconds
+Refreshing native plugins compatible for Editor in 5.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.542 seconds
+Domain Reload Profiling: 2146ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (338ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1543ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (448ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (319.3 KB). Loaded Objects now: 6733.
+Memory consumption went from 295.8 MB to 295.4 MB.
+Total: 3.901800 ms (FindLiveObjects: 0.429200 ms CreateObjectMapping: 0.463700 ms MarkObjects: 2.915000 ms  DeleteObjects: 0.093300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.599 seconds
+Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.547 seconds
+Domain Reload Profiling: 2139ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (382ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1547ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (698ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (531ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (319.3 KB). Loaded Objects now: 6737.
+Memory consumption went from 297.6 MB to 297.3 MB.
+Total: 4.386900 ms (FindLiveObjects: 0.484000 ms CreateObjectMapping: 0.718500 ms MarkObjects: 3.050100 ms  DeleteObjects: 0.133300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.483 seconds
+Refreshing native plugins compatible for Editor in 4.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.233 seconds
+Domain Reload Profiling: 1711ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1234ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (526ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (386ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (319.3 KB). Loaded Objects now: 6741.
+Memory consumption went from 299.6 MB to 299.3 MB.
+Total: 3.256000 ms (FindLiveObjects: 0.402900 ms CreateObjectMapping: 0.404900 ms MarkObjects: 2.362400 ms  DeleteObjects: 0.085100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.593 seconds
+Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.298 seconds
+Domain Reload Profiling: 1885ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (362ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (112ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1298ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (601ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (445ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (319.2 KB). Loaded Objects now: 6745.
+Memory consumption went from 301.6 MB to 301.3 MB.
+Total: 3.665300 ms (FindLiveObjects: 0.421300 ms CreateObjectMapping: 0.416600 ms MarkObjects: 2.732600 ms  DeleteObjects: 0.093900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.491 seconds
+Refreshing native plugins compatible for Editor in 6.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.256 seconds
+Domain Reload Profiling: 1742ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (51ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1256ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (531ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (393ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (319.3 KB). Loaded Objects now: 6749.
+Memory consumption went from 303.5 MB to 303.2 MB.
+Total: 3.237700 ms (FindLiveObjects: 0.403900 ms CreateObjectMapping: 0.403200 ms MarkObjects: 2.347900 ms  DeleteObjects: 0.082200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 597.063439 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/mixamo.com.anim
+  artifactKey: Guid(a62d52e30cf8414459a38804d691bbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/mixamo.com.anim using Guid(a62d52e30cf8414459a38804d691bbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afa1fc6ab10f8c62da38bec9601790a') in 0.031281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.528646 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Sad Idle.anim
+  artifactKey: Guid(a62d52e30cf8414459a38804d691bbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Sad Idle.anim using Guid(a62d52e30cf8414459a38804d691bbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0646abe9b41a7c61e8459a974592b109') in 0.010335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.652884 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy
+  artifactKey: Guid(a6bcc862cf6b0ea4a9fbfde66e16250d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy using Guid(a6bcc862cf6b0ea4a9fbfde66e16250d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddddf0dba1d00d5988f4139babb6cd3') in 0.000490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.162968 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Sad
+  artifactKey: Guid(bf896310ac3304748ad586707365cbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Sad using Guid(bf896310ac3304748ad586707365cbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fcf5bbf411bf2172d6e7bf27ea3358') in 0.000475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.277 seconds
+Refreshing native plugins compatible for Editor in 5.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 12.642 seconds
+Domain Reload Profiling: 14914ms
+	BeginReloadAssembly (172ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (109ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (1950ms)
+		LoadAssemblies (1997ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (12643ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (546ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (319.4 KB). Loaded Objects now: 6753.
+Memory consumption went from 305.4 MB to 305.1 MB.
+Total: 3.829200 ms (FindLiveObjects: 0.422600 ms CreateObjectMapping: 0.463600 ms MarkObjects: 2.838800 ms  DeleteObjects: 0.103600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.479 seconds
+Refreshing native plugins compatible for Editor in 5.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.252 seconds
+Domain Reload Profiling: 1726ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (255ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (49ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (531ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (394ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (319.3 KB). Loaded Objects now: 6757.
+Memory consumption went from 307.3 MB to 307.0 MB.
+Total: 3.940400 ms (FindLiveObjects: 0.434500 ms CreateObjectMapping: 0.568300 ms MarkObjects: 2.845000 ms  DeleteObjects: 0.092000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.462 seconds
+Refreshing native plugins compatible for Editor in 4.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.294 seconds
+Domain Reload Profiling: 1752ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1295ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (579ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (318.8 KB). Loaded Objects now: 6761.
+Memory consumption went from 309.3 MB to 309.0 MB.
+Total: 3.777800 ms (FindLiveObjects: 0.485300 ms CreateObjectMapping: 0.538100 ms MarkObjects: 2.656800 ms  DeleteObjects: 0.096900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 815.759677 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Strut Walking.anim
+  artifactKey: Guid(5ea87acd1f5304d41bb39f3e8748034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Strut Walking.anim using Guid(5ea87acd1f5304d41bb39f3e8748034a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774ee372091db275408673543a898b77') in 0.021885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.154091 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Controllers/AstroHappy.controller
+  artifactKey: Guid(0d02ad53060c57341881345dbdc6a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Controllers/AstroHappy.controller using Guid(0d02ad53060c57341881345dbdc6a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f288815422f830e36eda1e7fafa3450') in 0.888678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 13.524238 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Twerk.anim
+  artifactKey: Guid(ad22210f528839c4f9b1c08864f7ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Twerk.anim using Guid(ad22210f528839c4f9b1c08864f7ff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218b4ff2da4da3e78a46a05e03c54822') in 0.094656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.159142 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Controllers/AstroHappy.controller
+  artifactKey: Guid(0d02ad53060c57341881345dbdc6a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Controllers/AstroHappy.controller using Guid(0d02ad53060c57341881345dbdc6a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719c57e584645f0f5025f450ce0e457b') in 0.875798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.445 seconds
+Refreshing native plugins compatible for Editor in 5.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.278 seconds
+Domain Reload Profiling: 1718ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (281ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1278ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (555ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (414ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (319.5 KB). Loaded Objects now: 6765.
+Memory consumption went from 311.2 MB to 310.9 MB.
+Total: 3.390100 ms (FindLiveObjects: 0.431400 ms CreateObjectMapping: 0.440100 ms MarkObjects: 2.427300 ms  DeleteObjects: 0.090500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 254.958855 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Breakdance Freezes.fbx
+  artifactKey: Guid(43ebf9585e6d4244689ccac0bbc8e16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Breakdance Freezes.fbx using Guid(43ebf9585e6d4244689ccac0bbc8e16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d226f0a3c54a2475236d294d99efb6') in 0.413811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 230
+========================================================================
+Received Import Request.
+  Time since last request: 3.356360 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/mixamo.com.anim
+  artifactKey: Guid(5649f64b183060f4190baaae780637ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/mixamo.com.anim using Guid(5649f64b183060f4190baaae780637ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0239df44b6f5b101a4f0dd5a0ddb72d') in 0.079083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.306531 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/BreakDance.anim
+  artifactKey: Guid(5649f64b183060f4190baaae780637ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/BreakDance.anim using Guid(5649f64b183060f4190baaae780637ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9f0218e02dee396126ecb207b110c5') in 0.078811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 371.080120 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/HypeDance.anim
+  artifactKey: Guid(7f1107d352239a546a361a5653ec054f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/HypeDance.anim using Guid(7f1107d352239a546a361a5653ec054f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8869a352f0dca953c3105dea43ced0') in 0.053153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.981989 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Flair.fbx
+  artifactKey: Guid(084558b7e24362448a0b8d120c48d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Flair.fbx using Guid(084558b7e24362448a0b8d120c48d3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82fb6f8ab5673c8c841e66708bafa7f1') in 0.185687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 1.284228 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/mixamo.com.anim
+  artifactKey: Guid(b59d34b8756df2643ad0de404c5abb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/mixamo.com.anim using Guid(b59d34b8756df2643ad0de404c5abb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd589eba1dba070be1f50af2191c0a063') in 0.021526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.272646 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/GroundSpin.anim
+  artifactKey: Guid(b59d34b8756df2643ad0de404c5abb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/GroundSpin.anim using Guid(b59d34b8756df2643ad0de404c5abb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1f8098cce7ea18265427b6d2cb3742') in 0.021133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 91.788239 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Head Spinning.fbx
+  artifactKey: Guid(39c8d27cd74ceab47ba9a5c43d4da8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Head Spinning.fbx using Guid(39c8d27cd74ceab47ba9a5c43d4da8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c9d11df9a552145cc7bb57fdc5ce5d') in 0.193554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 1.792789 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/mixamo.com.anim
+  artifactKey: Guid(8e39033e4b5f5f542b93b844dc6ee508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/mixamo.com.anim using Guid(8e39033e4b5f5f542b93b844dc6ee508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efa55ee34087076d7312652a58c159c') in 0.004984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.227924 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/HeadSpin.anim
+  artifactKey: Guid(8e39033e4b5f5f542b93b844dc6ee508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/HeadSpin.anim using Guid(8e39033e4b5f5f542b93b844dc6ee508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386a4cdfffc0c6f279f024ce8b82e3c7') in 0.004640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 251.589397 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Victory.fbx
+  artifactKey: Guid(0ccb5c8b386b42841a656993083d6fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Victory.fbx using Guid(0ccb5c8b386b42841a656993083d6fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afb0286364aa67d1aa0451893ff3ec4') in 0.350997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 1.771165 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/mixamo.com.anim
+  artifactKey: Guid(cb6307c8d8100314f9727d48a67edef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/mixamo.com.anim using Guid(cb6307c8d8100314f9727d48a67edef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c705b2c76ad35dbdaf5608f57b657f') in 0.014699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.911658 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Victory.anim
+  artifactKey: Guid(cb6307c8d8100314f9727d48a67edef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Victory.anim using Guid(cb6307c8d8100314f9727d48a67edef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b356c6fbf51e813f19860c8f6cb623c6') in 0.014406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.181157 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/BreakDance.anim
+  artifactKey: Guid(5649f64b183060f4190baaae780637ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/BreakDance.anim using Guid(5649f64b183060f4190baaae780637ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4aef1fcbd655b4574784bb57f23e921') in 0.080382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.834371 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Controllers/AstroHappy.controller
+  artifactKey: Guid(0d02ad53060c57341881345dbdc6a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Controllers/AstroHappy.controller using Guid(0d02ad53060c57341881345dbdc6a180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49360812917528f417b5544f5ff2da9') in 0.960849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 258.630947 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Bboy Hip Hop Move.fbx
+  artifactKey: Guid(5f85e10e6a83d1849a8890360d483c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/Bboy Hip Hop Move.fbx using Guid(5f85e10e6a83d1849a8890360d483c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d049284df787254d5696df8f572e8d2') in 0.170372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 9.646567 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/mixamo.com.anim
+  artifactKey: Guid(21a0f5853881ec64dab743abeb36e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/mixamo.com.anim using Guid(21a0f5853881ec64dab743abeb36e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d22638287bf41443f3efc87a8c93ed') in 0.027424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.570637 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/HipHopDance.anim
+  artifactKey: Guid(21a0f5853881ec64dab743abeb36e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/HipHopDance.anim using Guid(21a0f5853881ec64dab743abeb36e9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8961265ce6dcd510b35390ab8adfa7c3') in 0.026925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.475 seconds
+Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.410 seconds
+Domain Reload Profiling: 1880ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (280ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (413ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (318.8 KB). Loaded Objects now: 6805.
+Memory consumption went from 313.4 MB to 313.1 MB.
+Total: 3.696300 ms (FindLiveObjects: 0.438600 ms CreateObjectMapping: 0.464100 ms MarkObjects: 2.700100 ms  DeleteObjects: 0.092900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.466 seconds
+Refreshing native plugins compatible for Editor in 6.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.316 seconds
+Domain Reload Profiling: 1777ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (318.9 KB). Loaded Objects now: 6809.
+Memory consumption went from 315.2 MB to 314.9 MB.
+Total: 3.676100 ms (FindLiveObjects: 0.462300 ms CreateObjectMapping: 0.527500 ms MarkObjects: 2.580800 ms  DeleteObjects: 0.104700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.461 seconds
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.337 seconds
+Domain Reload Profiling: 1793ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1338ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (588ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (319.3 KB). Loaded Objects now: 6813.
+Memory consumption went from 317.2 MB to 316.9 MB.
+Total: 3.323200 ms (FindLiveObjects: 0.428200 ms CreateObjectMapping: 0.432500 ms MarkObjects: 2.375700 ms  DeleteObjects: 0.086300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.456 seconds
+Refreshing native plugins compatible for Editor in 4.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.319 seconds
+Domain Reload Profiling: 1770ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (286ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1319ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (319.0 KB). Loaded Objects now: 6817.
+Memory consumption went from 319.1 MB to 318.8 MB.
+Total: 3.742200 ms (FindLiveObjects: 0.448000 ms CreateObjectMapping: 0.462000 ms MarkObjects: 2.729100 ms  DeleteObjects: 0.102400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 828.624049 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/HeadSpin.anim
+  artifactKey: Guid(8e39033e4b5f5f542b93b844dc6ee508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Astronaut Dancing/Animations/Happy/HeadSpin.anim using Guid(8e39033e4b5f5f542b93b844dc6ee508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23eeb753419f0e27a673e755dec18015') in 0.020647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
