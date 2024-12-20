@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aab173817ee3ef7499d8331f7f1f8aeb, type: 3}
+  m_Name: Microgame Library (Add your game data here)
+  m_EditorClassIdentifier: 
+  microgames:
+  - {fileID: 11400000, guid: 9ac2128b323f49f49ae06c9bcccb28fb, type: 2}
+  - {fileID: 11400000, guid: cad034a6ac0c5f34282be35b53b1eb23, type: 2}
+  - {fileID: 11400000, guid: fce8ac3466e9fd64aaeb985e7b9c5d23, type: 2}
+  - {fileID: 11400000, guid: 4f108659f35204e48b9bb5cf625d2770, type: 2}
+  - {fileID: 11400000, guid: 3eb97b2c46075764f9622cdfe0a5b4a5, type: 2}
+  - {fileID: 11400000, guid: 4ff9b759ce5d7cf45bb322125006aa7a, type: 2}
+  - {fileID: 11400000, guid: cd90b6da12dff1749b9fd6f70019555d, type: 2}

@@ -1,0 +1,26 @@
+Welcome!  Here are the instructions for making a microgame :
+
+Step 1 :
+Enter the information for your game on the "Your Micro Game Data" scriptiable object located in the MicrogameTempate folder.
+
+Step 2 :
+Open the scene 'Your Micro Game' and make your microgame!
+
+A microgame is a 6-12 game that ends in a Win() or Lose().  The game will be one of many, very similar to WairoWare : Mega Microgames$! 
+
+End the game by calling MicroGameHandler.Win() , MicroGameHandler.Lose() or letting time run out.  
+If time runs out the outcome will be determined by the 'OutcomeOnTimeUp' enum in the D_MicroGame data. 
+
+Sending Win or Lose will close the game immediately.  You can also use MicroGameHandler.WinWhenTimeIsUp() to overwrite your 'OutComeOnTimeUp' in your game data and change what happens when time ends.
+
+Make sure to use CancelTimer() if there is a delay between the losing condition and calling Lose().
+
+Step 3 :
+
+When you are done make sure the scriptable object "Your Micro Game Data" is filled out, put everything essential for your project in the MicrogameTemplate folder, rename the folder to your game name and export it as a UnityPackage.
+
+Optional :
+
+You can test your project in context by adding the "Your Micro Game Data" object to the scriptable object 'TestAreaLibrary' in MicrogamesSDK>ContextExample, and then opening the 'AreaTest' scene.
+
+Thank you so much!
