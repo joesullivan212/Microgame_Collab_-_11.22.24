@@ -55,6 +55,8 @@ public class AreaManager : MonoBehaviour
     [Header("Debug")]
     [SerializeField]
     private Queue<D_Microgame> microgameQueue = new();
+    [SerializeField] bool RandomMicrogameOrder = false;
+    [SerializeField] D_Microgame[] PreorderedMicrogameArray;
 
  //  [SerializeField]
  //  private D_Microgame[] microgamesQueueMirror;
@@ -103,16 +105,27 @@ public class AreaManager : MonoBehaviour
 
     private void GenerateQueue()
     {
-        List<int> QueueIndexes = new();
-
-        for (int i = 0; i < microgameLibrary.microgames.Length; i++)
+        if (RandomMicrogameOrder)
         {
-            QueueIndexes.Add(GetUniqueInt(microgameLibrary.microgames.Length, QueueIndexes));
+            List<int> QueueIndexes = new();
+
+            for (int i = 0; i < microgameLibrary.microgames.Length; i++)
+            {
+                QueueIndexes.Add(GetUniqueInt(microgameLibrary.microgames.Length, QueueIndexes));
+            }
+
+            foreach (int Index in QueueIndexes)
+            {
+                microgameQueue.Enqueue(microgameLibrary.microgames[Index]);
+            }
         }
-
-        foreach (int Index in QueueIndexes)
-        {
-            microgameQueue.Enqueue(microgameLibrary.microgames[Index]);
+        
+        if(RandomMicrogameOrder == false) 
+        { 
+            foreach(D_Microgame microgame in PreorderedMicrogameArray) 
+            {
+                microgameQueue.Enqueue(microgame);
+            }
         }
     }
 

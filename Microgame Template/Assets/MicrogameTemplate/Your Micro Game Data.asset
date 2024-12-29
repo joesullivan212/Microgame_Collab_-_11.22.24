@@ -16,10 +16,14 @@ MonoBehaviour:
   gameGoal: Quick description of your goal that is displayed to the player.
   gameControls: Very simple description of controls.
   gameSceneName: Your Game Name (Must match scene name)
-  timerDuration: 8
+  timerDuration: 12
   outcomeOnTimeUp: 1
   credits: 'By <Your Name>
 
     Audio by<Others>'
   requiresHearing: 0
   requiresSeeingColor: 0
+  mouseMovement: 0
+  click: 0
+  rightClick: 0
+  arrowKeys: 0
