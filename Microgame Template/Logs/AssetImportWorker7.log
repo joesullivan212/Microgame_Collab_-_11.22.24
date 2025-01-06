@@ -1,0 +1,865 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19041) 64bit Core' Language: 'en' Physical Memory: 32601 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+62192
+Successfully changed project path to: C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12788] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 1277208125 [EditorId] 1277208125 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12788] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 1277208125 [EditorId] 1277208125 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 11.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3742
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011230 seconds.
+- Loaded All Assemblies, in  0.304 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.203 seconds
+Domain Reload Profiling: 504ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (98ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (203ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (156ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.631 seconds
+Refreshing native plugins compatible for Editor in 5.28 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.758 seconds
+Domain Reload Profiling: 1384ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (759ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (469ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6379 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (423.9 KB). Loaded Objects now: 6840.
+Memory consumption went from 329.7 MB to 329.3 MB.
+Total: 3.913900 ms (FindLiveObjects: 0.410200 ms CreateObjectMapping: 0.450100 ms MarkObjects: 2.873700 ms  DeleteObjects: 0.179200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 506585.287059 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleCircle1.mat
+  artifactKey: Guid(a1a494236fc81314c8aa9585a019ccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleCircle1.mat using Guid(a1a494236fc81314c8aa9585a019ccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_ST (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_TexelSize (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_HDR (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture (type 4 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+ -> (artifact id: 'fac3eee10c4f1a4fc772e80751e2a115') in 0.248534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleSpiral1.mat
+  artifactKey: Guid(a617e0f28404308478e66c689628ebf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleSpiral1.mat using Guid(a617e0f28404308478e66c689628ebf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_ST (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_TexelSize (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_HDR (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture (type 4 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+ -> (artifact id: '3ec38bae6f177ee7a0d99a4965264645') in 0.021514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Other/Microgames/FlyingMicrogame/Your Materials/ShipTop.mat
+  artifactKey: Guid(d4fec572a7a4ee24a9b8aa06ebbaabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/FlyingMicrogame/Your Materials/ShipTop.mat using Guid(d4fec572a7a4ee24a9b8aa06ebbaabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be38e342ca460b9f8a84f859845b69a7') in 0.801685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
+  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307c69b1c22465b0643be8f6f7455e69') in 0.015188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Other/Microgames/Help Balloon Man Out Of Spike World/Your Materials/String.mat
+  artifactKey: Guid(670f679595683484f8f92e865e623d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Help Balloon Man Out Of Spike World/Your Materials/String.mat using Guid(670f679595683484f8f92e865e623d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dba9f5682910b40ca14cee8369f6ffb') in 0.016054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleCircle2.mat
+  artifactKey: Guid(dfe0b0e9e34f50b459b6c0d5c1341125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Feel/MMTools/Tools/MMVFX/MMRipple/MMRippleCircle2.mat using Guid(dfe0b0e9e34f50b459b6c0d5c1341125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_ST (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_TexelSize (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture_HDR (type 2 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+Shader properties can't be added to this global property sheet. Trying to add _BackgroundTexture (type 4 count 1)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit_Internal ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.CameraData&) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:667)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:537)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs:378)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@14.0.9/Runtime/UniversalRenderPipeline.cs line 667]
+
+ -> (artifact id: '10702163c04a99b31d2078e33a2f0398') in 0.016082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
+  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3dd5070a12c47d30701edaf16fcdfd') in 0.874939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Other/Microgames/Potion/Your Materials/TargetColor.mat
+  artifactKey: Guid(72faf44cbdd6a2e4689b2c716fee2c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Potion/Your Materials/TargetColor.mat using Guid(72faf44cbdd6a2e4689b2c716fee2c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f7e118835c7bfcca9e11421c604eef') in 0.448648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/OldMats/New Material 1.mat
+  artifactKey: Guid(13177cc3c81fcd9439d57f5e9cbaa987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/OldMats/New Material 1.mat using Guid(13177cc3c81fcd9439d57f5e9cbaa987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2401e4b98fa9ddd9bda66fd18ba597') in 0.853247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Other/Microgames/Twilight Forager/Your Materials/Owl Eye.mat
+  artifactKey: Guid(27d5a927631aa7a4eab3c5ed6682df8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Twilight Forager/Your Materials/Owl Eye.mat using Guid(27d5a927631aa7a4eab3c5ed6682df8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96be3dcc2e13f5ab5070e98169f94177') in 0.016492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Other/Microgames/Potion/Your Materials/Red.mat
+  artifactKey: Guid(71d86d8a62cd39344a7d4589b6979769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Potion/Your Materials/Red.mat using Guid(71d86d8a62cd39344a7d4589b6979769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273983ae5d577ccbbe5b724f0eefabf9') in 0.017609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Other/Microgames/Potion/Your Shaders/PotionLiquid.shadergraph
+  artifactKey: Guid(6de5be25f6aa4cd4382b6d7ff16c93d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Potion/Your Shaders/PotionLiquid.shadergraph using Guid(6de5be25f6aa4cd4382b6d7ff16c93d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c5bb8211e9c11102558a0016d2a243') in 0.016627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph
+  artifactKey: Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMax.shadergraph using Guid(44245ab89240f51459a5077d7145c452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe9e1608a8117ec64f53f41dc020993') in 1.145568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/OldMats/New Material.mat
+  artifactKey: Guid(a7c5585bb17ac48438079a4ec9f2f3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/OldMats/New Material.mat using Guid(a7c5585bb17ac48438079a4ec9f2f3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae574369a4ee9cfac90da483edffa311') in 0.025885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Other/MiocrogameSDK/Assets/Fonts/Passion_One/PassionOne-Regular SDF.asset
+  artifactKey: Guid(7eecf8ef869e097478f6a0e58d860e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/MiocrogameSDK/Assets/Fonts/Passion_One/PassionOne-Regular SDF.asset using Guid(7eecf8ef869e097478f6a0e58d860e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4931f25e5a13367d1e3563e553e8ce2c') in 0.038853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.019976 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type1 B.mat
+  artifactKey: Guid(10226194d9f73a247ad692081f20d894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type1 B.mat using Guid(10226194d9f73a247ad692081f20d894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f78d39195205c6f01ef6a86bf3ad81') in 0.020706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.047898 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type1 D.mat
+  artifactKey: Guid(dc0cbe4aa60a6f343ad9da1f5a4afc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type1 D.mat using Guid(dc0cbe4aa60a6f343ad9da1f5a4afc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2705281c3b8740258bc4a7d181403d7f') in 0.019427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type1 F.mat
+  artifactKey: Guid(a747ffc3fd9e76749a4a05630549e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type1 F.mat using Guid(a747ffc3fd9e76749a4a05630549e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66619fd310469c2a8453f05a9af4ef5a') in 0.019874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type2 B.mat
+  artifactKey: Guid(59a870d659cf7e949a5280d33409eaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type2 B.mat using Guid(59a870d659cf7e949a5280d33409eaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2a1483851f401e3e7375c7e10d1587') in 0.023174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type2 C.mat
+  artifactKey: Guid(7ace454db31320b4480a98aebb2519d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type2 C.mat using Guid(7ace454db31320b4480a98aebb2519d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f7ef8041085fba6ac0dc2629ca2c50') in 0.022397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type2 A.mat
+  artifactKey: Guid(08c9a57f6d40f6c4ab46f3d2975b19b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type2 A.mat using Guid(08c9a57f6d40f6c4ab46f3d2975b19b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdffad18d5ba1c80b52032724127e0a5') in 0.022599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type1 E.mat
+  artifactKey: Guid(2d0640041b7b8da418625e8f931025f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type1 E.mat using Guid(2d0640041b7b8da418625e8f931025f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d857e0f8e1fd328462033df2fc9773') in 0.022867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type1 G.mat
+  artifactKey: Guid(d18b5c03a7798a4468b8da3ec054992e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type1 G.mat using Guid(d18b5c03a7798a4468b8da3ec054992e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec80b0660660176d2fb68e3257ce0b6a') in 0.023451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.264321 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type2 E.mat
+  artifactKey: Guid(378b76b4b903b9d4887e359c483b21f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type2 E.mat using Guid(378b76b4b903b9d4887e359c483b21f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b9948ad581d045438554348b36fe86') in 0.022424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type2 G.mat
+  artifactKey: Guid(9f106b3e08a55e343bbfc0729644c219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type2 G.mat using Guid(9f106b3e08a55e343bbfc0729644c219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc56a8ac45fe287175387a69aa826ff5') in 0.022961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type3 B.mat
+  artifactKey: Guid(6a0ce35fc1795b240a2099413ab70f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type3 B.mat using Guid(6a0ce35fc1795b240a2099413ab70f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf141b47fe8ea6308ec457ad9504c12') in 0.024721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type3 C.mat
+  artifactKey: Guid(323d811e0fdb16e40a30b3200659fc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type3 C.mat using Guid(323d811e0fdb16e40a30b3200659fc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c365a9e750302a20cecad1bc6d38dd7b') in 0.022922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type4 A.mat
+  artifactKey: Guid(45eb203c853571644be141a6401d3617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type4 A.mat using Guid(45eb203c853571644be141a6401d3617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f971bb6881ea883ce3f8010051d3bc') in 0.021452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type4 D.mat
+  artifactKey: Guid(f45a363b0451281489cf5e6cf3e3f867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type4 D.mat using Guid(f45a363b0451281489cf5e6cf3e3f867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8f536e2dca75aa7bcb5597731a55a2') in 0.025198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type4 B.mat
+  artifactKey: Guid(8cbc84a7c2e0e004481be97f03b0575f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type4 B.mat using Guid(8cbc84a7c2e0e004481be97f03b0575f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdfc55a03bc8c093ecdcb1b719fb8d8') in 0.017500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type4 F.mat
+  artifactKey: Guid(d139a280d091c514caf5fceac7a69f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type4 F.mat using Guid(d139a280d091c514caf5fceac7a69f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eef9ab389e28be9cfe572ea3092b9df') in 0.025941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type4 G.mat
+  artifactKey: Guid(0073a5c998b94dc4d931ae0132e99d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type4 G.mat using Guid(0073a5c998b94dc4d931ae0132e99d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582ee05093de1693aca59cbac8ee7ab1') in 0.025951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type3 G.mat
+  artifactKey: Guid(be766f03ce8974e4785848f8a20190ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type3 G.mat using Guid(be766f03ce8974e4785848f8a20190ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a00efcae026274c9f26ec337f2bd17') in 0.028114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type3 F.mat
+  artifactKey: Guid(054c3a7870d39674e8c28c66cec5edf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type3 F.mat using Guid(054c3a7870d39674e8c28c66cec5edf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79418968aed178bd06c77f088e23abb2') in 0.023046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type5 C.mat
+  artifactKey: Guid(bd1c8cedfd694904baa5ac98fb5e5038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type5 C.mat using Guid(bd1c8cedfd694904baa5ac98fb5e5038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84e8eb8ba6724cab7727e9824e03eba') in 0.021919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type5 B.mat
+  artifactKey: Guid(98bf380da3541c0438338af3c3ce4989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type5 B.mat using Guid(98bf380da3541c0438338af3c3ce4989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8169f56ec5de40d39096375e0003b6') in 0.020486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type6 A.mat
+  artifactKey: Guid(209f69b668046e64ba52301cb708c3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type6 A.mat using Guid(209f69b668046e64ba52301cb708c3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edc0fc06752de71f9c69c4dd903f688') in 0.022409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type5 F.mat
+  artifactKey: Guid(f2c848a4c189ba546a843dc97b4c0659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type5 F.mat using Guid(f2c848a4c189ba546a843dc97b4c0659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf629c3a874f0f906862d618d714848e') in 0.026300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type5 D.mat
+  artifactKey: Guid(4b36420fec8f43b4da16374213157a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type5 D.mat using Guid(4b36420fec8f43b4da16374213157a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae845637bc0d740cb53249ca2b928a20') in 0.028616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type6 B.mat
+  artifactKey: Guid(19036fe5c253f374b946414cae6817e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type6 B.mat using Guid(19036fe5c253f374b946414cae6817e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173d038ba24ee975d4094d272870c044') in 0.027374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type3 A.mat
+  artifactKey: Guid(876819c48ca637d4faf6ae5d432f55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type3 A.mat using Guid(876819c48ca637d4faf6ae5d432f55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e87eb8a4cec91641db5973cc5ab66c') in 0.030671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type6 C.mat
+  artifactKey: Guid(ce8cc33e1c9339047b0b074a8a8b8066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type6 C.mat using Guid(ce8cc33e1c9339047b0b074a8a8b8066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2703dd74f851c9503766a1121f5f531c') in 0.019154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.652678 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type6 G.mat
+  artifactKey: Guid(ce4da6c42e525ae4ca709de2910b365f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type6 G.mat using Guid(ce4da6c42e525ae4ca709de2910b365f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af863f55556fc49e23835784c711f5f') in 0.020659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type7 D.mat
+  artifactKey: Guid(769a210513d62fd428d25fb60d617745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type7 D.mat using Guid(769a210513d62fd428d25fb60d617745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e51fba5e4b0856151a7b05dfacdef2') in 0.020580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type8 A.mat
+  artifactKey: Guid(5078a437cba7c234ca0f6c0d298829b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type8 A.mat using Guid(5078a437cba7c234ca0f6c0d298829b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc8982d11e5238c24b0a3256d6b87fb') in 0.020181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type8 E.mat
+  artifactKey: Guid(dce804bb55af18446a6d8bfbcedc9c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type8 E.mat using Guid(dce804bb55af18446a6d8bfbcedc9c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d95fd25862c4eb6cb4e5d540350edbf') in 0.028220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.037011 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type9 D.mat
+  artifactKey: Guid(403fd6a68e487814eac250e0d792c55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type9 D.mat using Guid(403fd6a68e487814eac250e0d792c55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac58fbb55c0a87667471329d0ab5f68') in 0.019507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type10 A.mat
+  artifactKey: Guid(bf1885c69fef3414cafa58b5195052fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type10 A.mat using Guid(bf1885c69fef3414cafa58b5195052fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e120efac576d99689dd83c77967d36') in 0.020540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type10 E.mat
+  artifactKey: Guid(3e756d01b3b60ee43b1c81e1a90045a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type10 E.mat using Guid(3e756d01b3b60ee43b1c81e1a90045a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af8bd98b929926a0c4bdcb7ab57f8f3') in 0.020421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Other/Microgames/Potion/Your Materials/White.mat
+  artifactKey: Guid(f6ae96e4b93880e4fa3cc11ca719380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Potion/Your Materials/White.mat using Guid(f6ae96e4b93880e4fa3cc11ca719380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad4facf98b905a9b77861a4d76a1daf') in 0.015754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type10 G.mat
+  artifactKey: Guid(3cdfee3e6be945a4687891e96d8d60c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type10 G.mat using Guid(3cdfee3e6be945a4687891e96d8d60c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9102f2622fb10d606b3941c2f082343b') in 0.030391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.479 seconds
+Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.405 seconds
+Domain Reload Profiling: 1878ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1405ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (642ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (390.3 KB). Loaded Objects now: 6940.
+Memory consumption went from 303.1 MB to 302.7 MB.
+Total: 4.400600 ms (FindLiveObjects: 0.543500 ms CreateObjectMapping: 0.610400 ms MarkObjects: 3.133800 ms  DeleteObjects: 0.112300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
