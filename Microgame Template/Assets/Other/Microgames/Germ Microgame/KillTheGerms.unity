@@ -337,6 +337,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa1f9662b352f1449a5761800b0998d6, type: 3}
+--- !u!114 &457858804 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4943173176395897661, guid: aa1f9662b352f1449a5761800b0998d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 457858803}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a604622d6e0f34ebf1b91b3fc0d821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &660955813
 GameObject:
   m_ObjectHideFlags: 0
@@ -1213,6 +1225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 1295600162}
+  microgameInputManager: {fileID: 457858804}
 --- !u!60 &2002141479
 PolygonCollider2D:
   m_ObjectHideFlags: 0

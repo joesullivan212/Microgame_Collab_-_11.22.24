@@ -8141,6 +8141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   microgameInputManager: {fileID: 2010498926}
   movement: {x: 0, y: 0}
+  SendDebugLogsOfPlayerInput: 0
 --- !u!4 &1790161702
 Transform:
   m_ObjectHideFlags: 0

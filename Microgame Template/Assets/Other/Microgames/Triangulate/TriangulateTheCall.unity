@@ -195,6 +195,7 @@ MonoBehaviour:
   TargetFoundFeedback: {fileID: 5617003244899129571, guid: 468d6c43eb7a0704cb8af723eff4b824,
     type: 3}
   PingHolder: {fileID: 1135933983}
+  microgameInputManager: {fileID: 365971375}
   SelectedTargetLocation:
     LocationName: 
     LocationInGame: {x: 0, y: 0, z: 0}
@@ -266,6 +267,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa1f9662b352f1449a5761800b0998d6, type: 3}
+--- !u!114 &365971375 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4943173176395897661, guid: aa1f9662b352f1449a5761800b0998d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 365971374}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a604622d6e0f34ebf1b91b3fc0d821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &540546168
 GameObject:
   m_ObjectHideFlags: 0

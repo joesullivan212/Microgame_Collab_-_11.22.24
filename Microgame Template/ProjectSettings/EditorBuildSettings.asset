@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Other/Microgames/Potion/PotionColorMatching.unity
     guid: 615f7823684f4f548b4e8076d7aaa29d
+  - enabled: 1
+    path: Assets/Other/Microgames/Twilight Forager/Twilight Forager.unity
+    guid: a8dc2149cbbc82a459d4ea47914c9b97
   m_configObjects: {}

@@ -1,0 +1,259 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19041) 64bit Core' Language: 'en' Physical Memory: 32601 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+51304
+Successfully changed project path to: C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4932] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 2041701215 [EditorId] 2041701215 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4932] Host "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 2041701215 [EditorId] 2041701215 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 11.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3742
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009974 seconds.
+- Loaded All Assemblies, in  0.323 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.243 seconds
+Domain Reload Profiling: 564ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (126ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (183ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.722 seconds
+Refreshing native plugins compatible for Editor in 5.69 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.993 seconds
+Domain Reload Profiling: 1709ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (487ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (993ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (813ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (595ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6362 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (425.4 KB). Loaded Objects now: 6825.
+Memory consumption went from 330.6 MB to 330.2 MB.
+Total: 3.637600 ms (FindLiveObjects: 0.410700 ms CreateObjectMapping: 0.496900 ms MarkObjects: 2.533600 ms  DeleteObjects: 0.195600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 316435.143816 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type5 B.mat
+  artifactKey: Guid(98bf380da3541c0438338af3c3ce4989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type5 B.mat using Guid(98bf380da3541c0438338af3c3ce4989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9117112ddbad914c445eda1fff337b') in 0.262423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.307635 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type6 D.mat
+  artifactKey: Guid(cf916216b1a13dd44b8f6cde3080b4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type6 D.mat using Guid(cf916216b1a13dd44b8f6cde3080b4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf2f26f65573c303bd56e07fe28c9ae') in 0.021724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type7 A.mat
+  artifactKey: Guid(fd9f6c087898a1a4f9a9c73b4c90e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type7 A.mat using Guid(fd9f6c087898a1a4f9a9c73b4c90e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d0bfa3794301f0497c36e850a4fd97') in 0.020084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.097388 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type7 F.mat
+  artifactKey: Guid(a3a4ed244cc91434dae613275f28530a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type7 F.mat using Guid(a3a4ed244cc91434dae613275f28530a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1d02d233745ea2a4705ca6373e9169') in 0.021799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type8 C.mat
+  artifactKey: Guid(2e55606b7550ed54d8b9dafca2b70c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type8 C.mat using Guid(2e55606b7550ed54d8b9dafca2b70c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c6d2a13ab76caf865bd250fed51881') in 0.020098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.086453 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type9 A.mat
+  artifactKey: Guid(0a7dc658565b1cf4db5bd3c4e96b2a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type9 A.mat using Guid(0a7dc658565b1cf4db5bd3c4e96b2a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48af77795796997aad8f782fdb47e2b8') in 0.020085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type9 E.mat
+  artifactKey: Guid(b32991e1f991e0b4081b13777c24dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type9 E.mat using Guid(b32991e1f991e0b4081b13777c24dce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6432cd7e8baced0d2f12604250096525') in 0.020096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.181851 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type10 C.mat
+  artifactKey: Guid(3e07b34f558c8f94c972f170af4f426d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type10 C.mat using Guid(3e07b34f558c8f94c972f170af4f426d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc63a2abf3b6b3be098e7f1f1008041') in 0.018929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type10 G.mat
+  artifactKey: Guid(3cdfee3e6be945a4687891e96d8d60c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Other/Microgames/Catch Fireflies/Your Materials/Mushrooms/Type10 G.mat using Guid(3cdfee3e6be945a4687891e96d8d60c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9102f2622fb10d606b3941c2f082343b') in 0.022126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

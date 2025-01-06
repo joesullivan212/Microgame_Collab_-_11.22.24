@@ -27,6 +27,7 @@ public class TriangulateGameControler : MonoBehaviour
     public GameObject WinObject;
     public GameObject TargetFoundFeedback;
     public Transform PingHolder;
+    public MicrogameInputManager microgameInputManager;
 
     [Header("Debug")]
     [SerializeField]
@@ -40,9 +41,9 @@ public class TriangulateGameControler : MonoBehaviour
     void Update()
     {
         //Spawn Feedback Objs
-        if (Input.GetMouseButtonDown(0))
+        if (microgameInputManager.Clicked)
         {
-            Vector3 Pos = camera.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 Pos = camera.ScreenToWorldPoint(microgameInputManager.MouseScreenPosition);
 
             Vector3 EditedPosition = new Vector3(Pos.x, Pos.y, ZPosition);
 

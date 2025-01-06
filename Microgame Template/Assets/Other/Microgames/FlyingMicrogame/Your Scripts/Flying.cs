@@ -6,8 +6,9 @@ public class Flying : MonoBehaviour
 {
     public float Momentum;
 
+    public MicrogameInputManager MicrogameInputManager;
     public Camera Camera;
-    public Vector3 ScreenCenter;
+    public Vector2 ScreenCenter;
     public Rigidbody rb;
     public float LerpSpeed;
 
@@ -30,7 +31,7 @@ public class Flying : MonoBehaviour
 
     private void Update()
     {
-       RawInputDirection = Input.mousePosition - ScreenCenter;
+       RawInputDirection = MicrogameInputManager.MouseScreenPosition - ScreenCenter;
 
        RawMagnitude = Mathf.Abs(RawInputDirection.magnitude);
        

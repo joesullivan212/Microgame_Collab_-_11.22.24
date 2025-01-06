@@ -4997,6 +4997,7 @@ MonoBehaviour:
   AreaSceneObjs: {fileID: 22313027}
   RandomMicrogameOrder: 1
   PreorderedMicrogameArray:
+  - {fileID: 11400000, guid: 761d29d4794365541b4a094648fa1c9d, type: 2}
   - {fileID: 11400000, guid: 57fc6f13b7ff3f9448ebd6045239abfd, type: 2}
   - {fileID: 11400000, guid: 4f108659f35204e48b9bb5cf625d2770, type: 2}
   - {fileID: 11400000, guid: fce8ac3466e9fd64aaeb985e7b9c5d23, type: 2}

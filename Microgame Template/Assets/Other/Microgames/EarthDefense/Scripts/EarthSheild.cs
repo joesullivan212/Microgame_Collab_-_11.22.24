@@ -10,9 +10,12 @@ public class EarthSheild : MonoBehaviour
 
     public GameObject AsteroidDeathParticles;
 
+
     private void Update()
     {
-        gameObject.transform.rotation = Quaternion.Euler(0.0f, 0.0f, FindAngle(camera.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position) - offset);    
+        
+        gameObject.transform.rotation = Quaternion.Euler(0.0f, 0.0f, FindAngle(camera.ScreenToWorldPoint(Input.mousePosition) - gameObject.transform.position) - offset);
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

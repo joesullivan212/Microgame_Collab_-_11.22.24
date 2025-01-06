@@ -82,7 +82,7 @@ public class ColorPotionPlayerController : MonoBehaviour
         {
 
             RaycastHit hit;
-            Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+            Ray ray = camera.ScreenPointToRay(MicrogameInputManager.MouseScreenPosition);
 
             if (Physics.Raycast(ray, out hit))
             {

@@ -43,7 +43,7 @@ public class FairyFinderPlayerController : MonoBehaviour
         if (microgameInputManager.Clicked)
         {
             RaycastHit hit;
-            Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+            Ray ray = camera.ScreenPointToRay(microgameInputManager.MouseScreenPosition);
 
             if (Physics.Raycast(ray, out hit))
             {

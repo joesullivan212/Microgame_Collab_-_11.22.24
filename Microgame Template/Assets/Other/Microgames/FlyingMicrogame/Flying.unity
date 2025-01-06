@@ -1064,8 +1064,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Momentum: 60.2
+  MicrogameInputManager: {fileID: 1834114505}
   Camera: {fileID: 1432144277}
-  ScreenCenter: {x: 960, y: 540, z: 0}
+  ScreenCenter: {x: 960, y: 540}
   rb: {fileID: 516583786}
   LerpSpeed: 0.09
   RatioOfTurnSpeedToMomentum: 0.71
@@ -18795,6 +18796,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa1f9662b352f1449a5761800b0998d6, type: 3}
+--- !u!114 &1834114505 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4943173176395897661, guid: aa1f9662b352f1449a5761800b0998d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1834114504}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a604622d6e0f34ebf1b91b3fc0d821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1839910654
 PrefabInstance:
   m_ObjectHideFlags: 0
