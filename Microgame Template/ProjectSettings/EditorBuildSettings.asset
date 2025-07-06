@@ -12,33 +12,60 @@ EditorBuildSettings:
     path: Assets/Other/ContextExample/AreaExample.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Other/Microgames/EarthDefense/EarthDefense.unity
+    path: Assets/Microgames/EarthDefense/EarthDefense.unity
     guid: 4983b5f979e270b41b43b228a60ea061
   - enabled: 1
-    path: Assets/Other/Microgames/Germ Microgame/KillTheGerms.unity
+    path: Assets/Microgames/Germ Microgame/KillTheGerms.unity
     guid: 87be3a222a907624e9b3f0da0d44e4ef
   - enabled: 1
-    path: Assets/Other/Microgames/Triangulate/TriangulateTheCall.unity
+    path: Assets/Microgames/Triangulate/TriangulateTheCall.unity
     guid: 10f9e8e4f5b81024d85198bc503caf90
   - enabled: 1
-    path: Assets/Other/Microgames/FlyingMicrogame/Flying.unity
+    path: Assets/Microgames/FlyingMicrogame/Flying.unity
     guid: 7944451d566d9734f925105c0ea70740
   - enabled: 1
-    path: Assets/Other/Microgames/Help Balloon Man Out Of Spike World/BalloonMan.unity
+    path: Assets/Microgames/Help Balloon Man Out Of Spike World/BalloonMan.unity
     guid: 89563c3ad4a1c40489aef2fce5ae10c5
   - enabled: 1
-    path: Assets/Other/Microgames/HelpSpikeManOutOfBallonWorld/SpikeMan.unity
+    path: Assets/Microgames/HelpSpikeManOutOfBallonWorld/SpikeMan.unity
     guid: 29d66ab08a07f5d4f80966d4a7dc42cf
   - enabled: 1
-    path: Assets/Other/Microgames/Catch Fireflies/Catch Fireflies.unity
+    path: Assets/Microgames/Catch Fireflies/Catch Fireflies.unity
     guid: 5bce41538521c024dbb947de1467c1a3
   - enabled: 1
-    path: Assets/Other/Microgames/Potion/PotionColorMatching.unity
-    guid: 615f7823684f4f548b4e8076d7aaa29d
-  - enabled: 1
-    path: Assets/Other/Microgames/Twilight Forager/Twilight Forager.unity
+    path: Assets/Microgames/Twilight Forager/Twilight Forager.unity
     guid: a8dc2149cbbc82a459d4ea47914c9b97
   - enabled: 1
-    path: Assets/Other/Microgames/DashAndSmash/DashAndSmash.unity
+    path: Assets/Microgames/DashAndSmash/DashAndSmash.unity
     guid: 768f0362ed502154b8e3da625e0f0417
+  - enabled: 1
+    path: Assets/Microgames/See The Future/See The Future.unity
+    guid: 216e425b0e2c1924b81bc4fbf9668631
+  - enabled: 1
+    path: Assets/Microgames/Micro Hacker/Micro Hacker.unity
+    guid: bed1cfc262783e64cade2d4cf854f6b7
+  - enabled: 1
+    path: Assets/Microgames/RocketGame/Rocket Game.unity
+    guid: cfe194b2dd3e4dd46940691e65736c6f
+  - enabled: 1
+    path: Assets/Microgames/PaperFishGame/Paper Fish Game.unity
+    guid: 62f5c5a30963eaa4a86cce4dd016729f
+  - enabled: 1
+    path: Assets/Microgames/Mining Game/Mining Game.unity
+    guid: a2bf3c4d9c56dd54795988c97dc772e2
+  - enabled: 1
+    path: Assets/Microgames/Fingertug/Fingertug.unity
+    guid: 2e7693d86c30eac44aaa0bfbf5c7e0c2
+  - enabled: 1
+    path: Assets/Microgames/HeNeedsSomeMilk/He Needs Some Milk.unity
+    guid: f6a2cbc849e68ca40af1ed41b418021f
+  - enabled: 1
+    path: Assets/Microgames/MakeASandwich/MakeASandwich.unity
+    guid: 23a0fdb143f199f4b852f92e59c365cd
+  - enabled: 1
+    path: Assets/Microgames/Monkey Business/Monkey Business.unity
+    guid: 473fb4ac02bda8f46b56fe941d886848
+  - enabled: 1
+    path: Assets/Microgames/Potion Color Matching/PotionColorMatching.unity
+    guid: 615f7823684f4f548b4e8076d7aaa29d
   m_configObjects: {}
