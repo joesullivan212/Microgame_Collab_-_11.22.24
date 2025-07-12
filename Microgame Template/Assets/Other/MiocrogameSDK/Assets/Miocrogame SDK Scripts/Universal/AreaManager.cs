@@ -59,6 +59,8 @@ public class AreaManager : MonoBehaviour
     private TextMeshProUGUI gameGoalText;
     [SerializeField]
     private TextMeshProUGUI gameControlsText;
+    [SerializeField]
+    private TextMeshProUGUI gameCredits;
 
     [SerializeField]
     private GameObject AreaSceneObjs;
@@ -213,6 +215,7 @@ public class AreaManager : MonoBehaviour
     {
         yield return new WaitForSeconds(SecondsBetweenCameraRisingAndDisplayingNextGameInformation);
         gameNameText.text = NextGame.GameName;
+        gameCredits.text = NextGame.Credits;
         yield return new WaitForSeconds(gameNameDisplayDuration);
         gameGoalText.text = NextGame.GameGoal;
         yield return new WaitForSeconds(gameGoalDisplayDuration);
@@ -243,6 +246,7 @@ public class AreaManager : MonoBehaviour
         gameNameText.text = string.Empty;
         gameGoalText.text = string.Empty;
         gameControlsText.text = string.Empty;
+        gameCredits.text = string.Empty;
     }
 
 

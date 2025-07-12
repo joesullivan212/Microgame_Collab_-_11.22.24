@@ -15,7 +15,7 @@ C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame T
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57767
+56407
 Successfully changed project path to: C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
 C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame T
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29860] Host "[IP] 192.168.1.242 [Port] 0 [Flags] 2 [Guid] 280475406 [EditorId] 280475406 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23640] Host "[IP] 192.168.1.242 [Port] 0 [Flags] 2 [Guid] 2094361764 [EditorId] 2094361764 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [29860] Host "[IP] 192.168.1.242 [Port] 0 [Flags] 2 [Guid] 280475406 [EditorId] 280475406 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23640] Host "[IP] 192.168.1.242 [Port] 0 [Flags] 2 [Guid] 2094361764 [EditorId] 2094361764 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 81.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 10.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -71,44 +71,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007814 seconds.
-- Loaded All Assemblies, in  0.311 seconds
+Registered in 0.006823 seconds.
+- Loaded All Assemblies, in  0.302 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.211 seconds
-Domain Reload Profiling: 520ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.214 seconds
+Domain Reload Profiling: 514ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (95ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (89ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (117ms)
-			TypeCache.Refresh (116ms)
-				TypeCache.ScanAssembly (104ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (103ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (211ms)
+	FinalizeReload (214ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (163ms)
+		SetupLoadedEditorAssemblies (164ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (107ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,310 +116,454 @@ Domain Reload Profiling: 520ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.630 seconds
-Refreshing native plugins compatible for Editor in 4.55 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.641 seconds
+Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.801 seconds
-Domain Reload Profiling: 1427ms
+- Finished resetting the current domain, in  0.822 seconds
+Domain Reload Profiling: 1459ms
 	BeginReloadAssembly (130ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (417ms)
-		LoadAssemblies (292ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (289ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (204ms)
-			TypeCache.Refresh (160ms)
-				TypeCache.ScanAssembly (145ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (152ms)
 			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (801ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (822ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (641ms)
+		SetupLoadedEditorAssemblies (656ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (507ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (518ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.49 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6490 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 87 unused Assets / (392.1 KB). Loaded Objects now: 6974.
-Memory consumption went from 423.0 MB to 422.6 MB.
-Total: 3.589600 ms (FindLiveObjects: 0.430000 ms CreateObjectMapping: 0.532700 ms MarkObjects: 2.495800 ms  DeleteObjects: 0.130500 ms)
+Unloading 6501 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 87 unused Assets / (392.1 KB). Loaded Objects now: 6987.
+Memory consumption went from 423.2 MB to 422.9 MB.
+Total: 3.821800 ms (FindLiveObjects: 0.500700 ms CreateObjectMapping: 0.502700 ms MarkObjects: 2.684700 ms  DeleteObjects: 0.133200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/NotesManager.cs: 3b5c8bca32f219fb6b27d6d4d5f417cd -> 9d2d3141325bfb7c9a1797a6ba1095fe
-  custom:scripting/monoscript/fileName/BalloonDeathHandler.cs: 9691d0c52dda8b2fbfce2bbd6b65113c -> a3cccea1d3cf257abbd9ff4f78cc82db
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/DashAndSmash_Enemy.cs: fee6b01b6dd6c4a2c4aae57161d080f2 -> 8cee2695232b24c9dbcd58959dd0a263
-  custom:scripting/monoscript/fileName/FireflySpawner.cs: 6e2b9791322ae39884c639b09be5bc65 -> a2ed53dc07278965fd324fde6e69e809
-  custom:scripting/monoscript/fileName/SpawnMeteor.cs: 0a14f4e9c5d3b2dcc52897955139e156 -> 0427548f2b6298f259965217bac88254
-  custom:scripting/monoscript/fileName/SpriteToGameObject.cs: 5149917b70f29802cffb587e2eedb078 -> 17ecd207d4d36afa3ecdcdd2d43c981e
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 4c61d1516a1e1d773b6d297ba7067508 -> 708c717c830c9a1f38559538654dd560
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 35df46fa16694b604965600897089746 -> a9f6a5344743f763f80a6c3e4a5b64ef
-  custom:scripting/monoscript/fileName/GoldFishGame_FishArt.cs: 0217171369274ffdd1b3b33798ffe082 -> f544293c4927dc8c4cf3d5376ba39840
-  custom:scripting/monoscript/fileName/GoldFishGame_PlayerController.cs: ad0581cf84ae2ef1157322f2071e6647 -> 19c5938cb6e5d538e7f02d9dc83c13c1
-  custom:scripting/monoscript/fileName/WinCondition.cs: 3cfeb8d5141ce47a5f0a8c7705fd68f2 -> ca647ea1a3e860f66d2be8de263eb4a5
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/FairyFinderPlayerController.cs: 4a55be311dad0664ebeea12047033c8e -> 3454a091c81c4c17977a7f07ce61d8ad
-  custom:scripting/monoscript/fileName/Flashlight Controller.cs: 7a10443196af4cb73a6349e950752d02 -> ba315ef31e2046ff3b8c5c7f44fdfc80
-  custom:scripting/monoscript/fileName/FlyingMicroGameScoreCounter.cs: fd54491b79c9d725763a4206b7aec0ce -> e9fc590ea32344cc880cbccffc990f42
-  custom:scripting/monoscript/fileName/PingFeedback.cs: f5bec192cd6a744804712277cc29147a -> 0e03355364582d1fd61f09668b41e368
-  custom:scripting/monoscript/fileName/DashAndSmash_Dash.cs: e9eba94691ca33e621aff1f689bae7ed -> 8601ff6a046dec6b0cb2d64c54f4e20a
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: a2caf2968684faea4b555b3dab76527e -> 43772bb871aae4483352655fc5bf0efc
-  custom:scripting/monoscript/fileName/SubtleCameraFollow.cs: 7e5027022fff14f8dd3f7c11a7708922 -> 2a67fb6ad124182d0ce112dc28924294
-  custom:scripting/monoscript/fileName/Earth.cs: b40015268048ec13fc5c3c39d34aa8fe -> 9d56c7443812d21153e1da0e8bef957b
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: 375b6663503d16e5093db1b045237c23 -> 79a0a7b75d865dc0345852cfb19079df
-  custom:scripting/monoscript/fileName/CustomCursor.cs: 84c521497af4d5afade816baa62e865b -> dec529a2561f58e997c3c5cadf27ccc6
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/MiningRockGameController.cs: 6d394a5dde0a0ed9fb36a3ad88c508c4 -> 5f715b6a4f44444fa5c40e01e7b5b106
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/GermSystemManager.cs: d5df993be60305967875ca9ebd66cc97 -> 3a5deb3d15978076dd0bf30025303fee
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 91f5413174319d65decea7cd3c9aeeea -> 473364f3710ab57f028d1be5a9afca7a
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/GoldFishGame_GameController.cs: d3f8f6bd738ede3ed72cd85ead7b8e68 -> 2afffdbf2f7972afe09c08c853b4ed46
-  custom:scripting/monoscript/fileName/GameInitializer.cs: bcacd45dcdeacd5283d01682e6852c49 -> 972238bedbc68016af9cbf0a987d5790
-  custom:scripting/monoscript/fileName/ColorPotionPlayerController.cs: b049e02c8653527fb8b0d7995e0d8d1a -> 01c4c0bebbd264889c7c4f14d41da9f6
-  custom:scripting/monoscript/fileName/DashAndSmash_Spawner.cs: 241605645c4b14d4385bb69f6a37d2fd -> d55f196de67c49395605c6127304fead
-  custom:scripting/monoscript/fileName/CameraPositionChanger.cs: d0c7bd86815a90469408fddeec94a9bb -> dc7b945a40dddf69ebe5bcb3a170553e
-  custom:scripting/monoscript/fileName/GoldFishGame_Hoop.cs: 8dd1082fd9aa1dd13ddf6fec34240f1d -> 51bcf8827cc076d76dc2765ade65c235
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: ba56c68c386dcb310c008e3a30ebc40b -> 69716470f702bcdeca1f1b5c8bbd84b6
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/SeperateCells.cs: 2078f49fc7fc6b094806183323b1c6e1 -> 8ac4eb3e73851c7d547f5264bc6521d1
-  custom:scripting/monoscript/fileName/DestroyAfterSeconds.cs: 341de68250d10a480fa15140a590c8ad -> dd034aa665e866f436e5f27493b722b4
-  custom:scripting/monoscript/fileName/PivotShip.cs: 207981e67b671725bde5f4ceeb7b8b86 -> e12fe4ee24fdd59871342c4437bcfcbb
-  custom:scripting/monoscript/fileName/Sponge.cs: 9c0cabd692970a521173abb0083e36fd -> f49bc3e3631b5b9d9bd85d2214bda8c7
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 65f631cb972d5ad65f49cb62bd8b67c7 -> 1c20dac3eb8036be303619279668464a
-  custom:scripting/monoscript/fileName/HandFollowMouse.cs: bc7d9ee8e62e319c0702efcd4e02545f -> 6376b1e9278e4aca96fad3db70ccac81
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: 583e606783e84476e6dd5838e889c6be -> efbbf78b7e169db4f0e9166db8c162e5
-  custom:scripting/monoscript/fileName/HelicopterGameStyleMovement.cs: 3f7e6239f8706137f2456c480a837c83 -> 50552d24039c50fafe01c09bb09b860a
-  custom:scripting/monoscript/fileName/ColorPotion.cs: d2cd3bee7950dcca9260fa00acd5c4ed -> f478327bb95dc3b435ea3f67a0c0763a
-  custom:scripting/monoscript/fileName/WaterSplashing.cs: 066fdac9f5a2bb3b091e5894c2070a14 -> a0e3ff3b406b9187e91acbdef3e2d7b9
-  custom:scripting/monoscript/fileName/UsedLocationFlag.cs: 169becc173e66696b6b5d461b5dea626 -> e9303bc41eeb956f39ed362330234098
   custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:scripting/monoscript/fileName/SeeTheFutureWinBox.cs: dee9ea5f68586b86866e3f9e0ce1c474 -> f6258e74d98d9ab3ccfa6d92cec09f2a
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EarthSheild.cs: 1031ddaf09909ac8b4b3e7f028a99de1 -> 2abf4500caa74759a42ea8acbfc49b30
-  custom:scripting/monoscript/fileName/MHScreenShake.cs: ca4f3f13d885007a3358918e78a3a5e5 -> 5462af3bff694dba51cb530a03d832f0
-  custom:scripting/monoscript/fileName/PaperRockshipGame_Player.cs: 225d0e796fe620c9231465a648eefdc9 -> a92789e251e8d6608beafdb192f286f1
-  custom:scripting/monoscript/fileName/SeeTheFutureGameController.cs: 484e23b76399f25e12936a7edccc5516 -> 36c44f951229f622aecd6661ade451c8
-  custom:scripting/monoscript/fileName/DashAndSmash_Player.cs: 998d286b82e24bf47618dcb2a0f3168f -> f1f808482c50a75fbd43789ddc7e2310
-  custom:scripting/monoscript/fileName/PaperRocketGame_Astroid.cs: 2a73d93638179fc31483914e0d7dff17 -> 69d8b2e09b1d35178bae92afba1564b7
-  custom:scripting/monoscript/fileName/GoldFishGame_HoopTrigger.cs: c9a26b7ded458ca905ce4b620ef109e7 -> 0eb5160e82dd33f89ef0d44bca2a8d31
-  custom:scripting/monoscript/fileName/TriangulateGameControler.cs: 1f100c7682769147ccb9d340949d0c7c -> 368bc6041cb1e48b5368479a19e0965b
-  custom:scripting/monoscript/fileName/Meteor.cs: 6dd5367e861b28c5a3950bdb71d11715 -> e1dd932601138321a35fabbabb4b916e
-  custom:scripting/monoscript/fileName/SpikeBallControls.cs: 50f6cc160014382fd1cc2d5d2200dc2a -> 0281542751b9b150d1561bb242c89f34
-  custom:scripting/monoscript/fileName/ScoreDisplay.cs: 1fe0cf43b698aa2ea103a632b15ee57e -> 7863cc51e0fb8cfa3f34add9f772adb3
-  custom:scripting/monoscript/fileName/BashAndSmash_BladeMovement.cs: 8c4770eddb79ba69f60a76d9db52a6a6 -> 27d1ecbae8507e8fa283fccf7ed5212f
-  custom:scripting/monoscript/fileName/Firefly.cs: 9c3a15f136ecd2d2904a67476bb3a977 -> 0b5f18a01d261aca3db0289bac49b9c0
-  custom:scripting/monoscript/fileName/Flying.cs: dbd3b3b656aebfd4292d48ebab86a3a1 -> e02f7de78249bec5a30d4c8bb2d28a7e
-  custom:scripting/monoscript/fileName/LightFlash.cs: 07a03186f666374ed4b0a4333cd6a681 -> 55d5799effce3824d7947e503eb0348a
-  custom:scripting/monoscript/fileName/DashAndSmash_Blade.cs: e2b77809194cd42c3fc9ba1d052395fe -> 161938caa01d9084089e93263bdf86ef
-  custom:scripting/monoscript/fileName/CameraController.cs: 1abb30ff69ab1b4e3448d373d69efe33 -> b71d1bb1c8c0dbb9a981f5c477ef2ab9
-  custom:scripting/monoscript/fileName/FireflyConfigSO.cs: f8edcd4c417c94c75e95b9525d22b56e -> c7244b24a9d72b2dcd0f28eb23b2a111
-  custom:scripting/monoscript/fileName/GermFace.cs: 59ea1170966316dc69ab26806aae1c48 -> 415d42839d002bd7c08ac0a719165454
-  custom:scripting/monoscript/fileName/SelectionManager.cs: d51f83e6672f5f23ccdf03bdb33c49f6 -> 556a0ea8836ebdf9596fe6454b4756ec
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/HelicopterGameCameraFollow.cs: 280cdea1d653026d8efedcb178016ada -> 436d3c6d39dcc91a14e4dca19b4d53fc
-  custom:scripting/monoscript/fileName/SeeTheFutureRisingSmoke.cs: da267c6eee72bc9fdd583389021017d3 -> 170f02379459d6ebee59202a98126a69
-  custom:scripting/monoscript/fileName/DashAndSmash_CameraFollow.cs: cd94c06d43a7d3cda680f5e07b4e6745 -> 1561f1faab7310364dec4a7ae8612851
-========================================================================
-Received Import Request.
-  Time since last request: 499872.418881 seconds.
-  path: Assets/Microgames
-  artifactKey: Guid(3cec30d6b6802944d8998025678bbbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Microgames using Guid(3cec30d6b6802944d8998025678bbbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08460405898a98b8cb67df49f096240c') in 0.001852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 72.122154 seconds.
-  path: Assets/Microgames/Catch Fireflies/Your Prefabs/Fairy.prefab
-  artifactKey: Guid(cd2e4650461c7b84a8bebb0649e62466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Microgames/Catch Fireflies/Your Prefabs/Fairy.prefab using Guid(cd2e4650461c7b84a8bebb0649e62466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1e0aa96e4abef3bbcdf54fafa24865') in 0.265584 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Microgames/Catch Fireflies/Your Prefabs/Main Camera Profile.asset
-  artifactKey: Guid(0eb8846f10660c94fa440033f35cd76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Microgames/Catch Fireflies/Your Prefabs/Main Camera Profile.asset using Guid(0eb8846f10660c94fa440033f35cd76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4775d9aa022ba415542bfd56c3d5ad3') in 0.002015 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Microgames/Catch Fireflies/Your Prefabs/GiantFairyBurst.prefab
-  artifactKey: Guid(41c73b0ac1a84a145a2f16438536f37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Microgames/Catch Fireflies/Your Prefabs/GiantFairyBurst.prefab using Guid(41c73b0ac1a84a145a2f16438536f37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593ea56a2c6744be83205513e62a11c8') in 0.043567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Microgames/Catch Fireflies/Your Prefabs/MushroomBase.prefab
-  artifactKey: Guid(cca842a11d439ab429cef4b8a533ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Microgames/Catch Fireflies/Your Prefabs/MushroomBase.prefab using Guid(cca842a11d439ab429cef4b8a533ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e40ea82dd4cf50551ecbb09f635420') in 0.055222 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.522 seconds
-Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.443 seconds
+Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.548 seconds
-Domain Reload Profiling: 2065ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  1.278 seconds
+Domain Reload Profiling: 1716ms
+	BeginReloadAssembly (142ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (31ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (269ms)
-		LoadAssemblies (303ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (252ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (60ms)
-			TypeCache.Refresh (14ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (11ms)
 				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1548ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1278ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (577ms)
+		SetupLoadedEditorAssemblies (562ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (440ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
-Refreshing native plugins compatible for Editor in 6.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6299 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (390.4 KB). Loaded Objects now: 7038.
-Memory consumption went from 393.3 MB to 392.9 MB.
-Total: 5.835900 ms (FindLiveObjects: 0.724700 ms CreateObjectMapping: 0.917800 ms MarkObjects: 4.023400 ms  DeleteObjects: 0.169000 ms)
+Unloading 6314 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (447.8 KB). Loaded Objects now: 7006.
+Memory consumption went from 389.4 MB to 389.0 MB.
+Total: 3.724200 ms (FindLiveObjects: 0.427700 ms CreateObjectMapping: 0.464000 ms MarkObjects: 2.608200 ms  DeleteObjects: 0.223700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/NotesManager.cs: 3b5c8bca32f219fb6b27d6d4d5f417cd -> 9d2d3141325bfb7c9a1797a6ba1095fe
-  custom:scripting/monoscript/fileName/BalloonDeathHandler.cs: 9691d0c52dda8b2fbfce2bbd6b65113c -> a3cccea1d3cf257abbd9ff4f78cc82db
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/DashAndSmash_Enemy.cs: fee6b01b6dd6c4a2c4aae57161d080f2 -> 8cee2695232b24c9dbcd58959dd0a263
-  custom:scripting/monoscript/fileName/FireflySpawner.cs: 6e2b9791322ae39884c639b09be5bc65 -> a2ed53dc07278965fd324fde6e69e809
-  custom:scripting/monoscript/fileName/SpawnMeteor.cs: 0a14f4e9c5d3b2dcc52897955139e156 -> 0427548f2b6298f259965217bac88254
-  custom:scripting/monoscript/fileName/SpriteToGameObject.cs: b0b0aa8c0dd2954373eead0f9612bff7 -> 5149917b70f29802cffb587e2eedb078
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleTextFontAsset.cs: 4c61d1516a1e1d773b6d297ba7067508 -> 708c717c830c9a1f38559538654dd560
-  custom:scripting/monoscript/fileName/CFXR_MaterialInspector.cs: 35df46fa16694b604965600897089746 -> a9f6a5344743f763f80a6c3e4a5b64ef
-  custom:scripting/monoscript/fileName/GoldFishGame_FishArt.cs: 0217171369274ffdd1b3b33798ffe082 -> f544293c4927dc8c4cf3d5376ba39840
-  custom:scripting/monoscript/fileName/GoldFishGame_PlayerController.cs: ad0581cf84ae2ef1157322f2071e6647 -> 19c5938cb6e5d538e7f02d9dc83c13c1
-  custom:scripting/monoscript/fileName/WinCondition.cs: 3cfeb8d5141ce47a5f0a8c7705fd68f2 -> ca647ea1a3e860f66d2be8de263eb4a5
-  custom:scripting/monoscript/fileName/CFXR_Effect.CameraShake.cs: a53f96815da50de15010b1c479bc70cf -> 0cdf409b5aa8d4c25876d72b5c6a3b60
-  custom:scripting/monoscript/fileName/FairyFinderPlayerController.cs: d1765aa815536662f9fcf025844a429b -> 4a55be311dad0664ebeea12047033c8e
-  custom:scripting/monoscript/fileName/Flashlight Controller.cs: 7a10443196af4cb73a6349e950752d02 -> ba315ef31e2046ff3b8c5c7f44fdfc80
-  custom:scripting/monoscript/fileName/FlyingMicroGameScoreCounter.cs: fd54491b79c9d725763a4206b7aec0ce -> e9fc590ea32344cc880cbccffc990f42
-  custom:scripting/monoscript/fileName/PingFeedback.cs: f5bec192cd6a744804712277cc29147a -> 0e03355364582d1fd61f09668b41e368
-  custom:scripting/monoscript/fileName/DashAndSmash_Dash.cs: e9eba94691ca33e621aff1f689bae7ed -> 8601ff6a046dec6b0cb2d64c54f4e20a
-  custom:scripting/monoscript/fileName/CFXR_EmissionBySurface.cs: a2caf2968684faea4b555b3dab76527e -> 43772bb871aae4483352655fc5bf0efc
-  custom:scripting/monoscript/fileName/SubtleCameraFollow.cs: 7e5027022fff14f8dd3f7c11a7708922 -> 2a67fb6ad124182d0ce112dc28924294
-  custom:scripting/monoscript/fileName/Earth.cs: b40015268048ec13fc5c3c39d34aa8fe -> 9d56c7443812d21153e1da0e8bef957b
-  custom:scripting/monoscript/fileName/CFXR_ExpressionParser.cs: 375b6663503d16e5093db1b045237c23 -> 79a0a7b75d865dc0345852cfb19079df
-  custom:scripting/monoscript/fileName/CustomCursor.cs: 84c521497af4d5afade816baa62e865b -> dec529a2561f58e997c3c5cadf27ccc6
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/monoscript/fileName/MiningRockGameController.cs: 6d394a5dde0a0ed9fb36a3ad88c508c4 -> 5f715b6a4f44444fa5c40e01e7b5b106
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/GermSystemManager.cs: d5df993be60305967875ca9ebd66cc97 -> 3a5deb3d15978076dd0bf30025303fee
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/CFXR_ParticleText.cs: 91f5413174319d65decea7cd3c9aeeea -> 473364f3710ab57f028d1be5a9afca7a
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/GoldFishGame_GameController.cs: d3f8f6bd738ede3ed72cd85ead7b8e68 -> 2afffdbf2f7972afe09c08c853b4ed46
-  custom:scripting/monoscript/fileName/GameInitializer.cs: bcacd45dcdeacd5283d01682e6852c49 -> 972238bedbc68016af9cbf0a987d5790
-  custom:scripting/monoscript/fileName/ColorPotionPlayerController.cs: b049e02c8653527fb8b0d7995e0d8d1a -> 01c4c0bebbd264889c7c4f14d41da9f6
-  custom:scripting/monoscript/fileName/DashAndSmash_Spawner.cs: 241605645c4b14d4385bb69f6a37d2fd -> d55f196de67c49395605c6127304fead
-  custom:scripting/monoscript/fileName/CameraPositionChanger.cs: d0c7bd86815a90469408fddeec94a9bb -> dc7b945a40dddf69ebe5bcb3a170553e
-  custom:scripting/monoscript/fileName/GoldFishGame_Hoop.cs: 8dd1082fd9aa1dd13ddf6fec34240f1d -> 51bcf8827cc076d76dc2765ade65c235
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CFXR_ShaderPostProcessor.cs: ba56c68c386dcb310c008e3a30ebc40b -> 69716470f702bcdeca1f1b5c8bbd84b6
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/SeperateCells.cs: 2078f49fc7fc6b094806183323b1c6e1 -> 8ac4eb3e73851c7d547f5264bc6521d1
-  custom:scripting/monoscript/fileName/DestroyAfterSeconds.cs: 341de68250d10a480fa15140a590c8ad -> dd034aa665e866f436e5f27493b722b4
-  custom:scripting/monoscript/fileName/PivotShip.cs: 207981e67b671725bde5f4ceeb7b8b86 -> e12fe4ee24fdd59871342c4437bcfcbb
-  custom:scripting/monoscript/fileName/Sponge.cs: 9c0cabd692970a521173abb0083e36fd -> f49bc3e3631b5b9d9bd85d2214bda8c7
-  custom:scripting/monoscript/fileName/CFXR_Styles.cs: 65f631cb972d5ad65f49cb62bd8b67c7 -> 1c20dac3eb8036be303619279668464a
-  custom:scripting/monoscript/fileName/HandFollowMouse.cs: bc7d9ee8e62e319c0702efcd4e02545f -> 6376b1e9278e4aca96fad3db70ccac81
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/CFXR_ShaderImporter.cs: 583e606783e84476e6dd5838e889c6be -> efbbf78b7e169db4f0e9166db8c162e5
-  custom:scripting/monoscript/fileName/HelicopterGameStyleMovement.cs: 3f7e6239f8706137f2456c480a837c83 -> 50552d24039c50fafe01c09bb09b860a
-  custom:scripting/monoscript/fileName/ColorPotion.cs: d2cd3bee7950dcca9260fa00acd5c4ed -> f478327bb95dc3b435ea3f67a0c0763a
-  custom:scripting/monoscript/fileName/WaterSplashing.cs: 066fdac9f5a2bb3b091e5894c2070a14 -> a0e3ff3b406b9187e91acbdef3e2d7b9
-  custom:scripting/monoscript/fileName/UsedLocationFlag.cs: 169becc173e66696b6b5d461b5dea626 -> e9303bc41eeb956f39ed362330234098
   custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
-  custom:scripting/monoscript/fileName/SeeTheFutureWinBox.cs: dee9ea5f68586b86866e3f9e0ce1c474 -> f6258e74d98d9ab3ccfa6d92cec09f2a
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/EarthSheild.cs: 1031ddaf09909ac8b4b3e7f028a99de1 -> 2abf4500caa74759a42ea8acbfc49b30
-  custom:scripting/monoscript/fileName/MHScreenShake.cs: ca4f3f13d885007a3358918e78a3a5e5 -> 5462af3bff694dba51cb530a03d832f0
-  custom:scripting/monoscript/fileName/PaperRockshipGame_Player.cs: 225d0e796fe620c9231465a648eefdc9 -> a92789e251e8d6608beafdb192f286f1
-  custom:scripting/monoscript/fileName/SeeTheFutureGameController.cs: 484e23b76399f25e12936a7edccc5516 -> 36c44f951229f622aecd6661ade451c8
-  custom:scripting/monoscript/fileName/DashAndSmash_Player.cs: 998d286b82e24bf47618dcb2a0f3168f -> f1f808482c50a75fbd43789ddc7e2310
-  custom:scripting/monoscript/fileName/PaperRocketGame_Astroid.cs: 2a73d93638179fc31483914e0d7dff17 -> 69d8b2e09b1d35178bae92afba1564b7
-  custom:scripting/monoscript/fileName/GoldFishGame_HoopTrigger.cs: c9a26b7ded458ca905ce4b620ef109e7 -> 0eb5160e82dd33f89ef0d44bca2a8d31
-  custom:scripting/monoscript/fileName/TriangulateGameControler.cs: 1f100c7682769147ccb9d340949d0c7c -> 368bc6041cb1e48b5368479a19e0965b
-  custom:scripting/monoscript/fileName/Meteor.cs: 6dd5367e861b28c5a3950bdb71d11715 -> e1dd932601138321a35fabbabb4b916e
-  custom:scripting/monoscript/fileName/SpikeBallControls.cs: 50f6cc160014382fd1cc2d5d2200dc2a -> 0281542751b9b150d1561bb242c89f34
-  custom:scripting/monoscript/fileName/ScoreDisplay.cs: 1fe0cf43b698aa2ea103a632b15ee57e -> 7863cc51e0fb8cfa3f34add9f772adb3
-  custom:scripting/monoscript/fileName/BashAndSmash_BladeMovement.cs: 8c4770eddb79ba69f60a76d9db52a6a6 -> 27d1ecbae8507e8fa283fccf7ed5212f
-  custom:scripting/monoscript/fileName/Firefly.cs: 9c3a15f136ecd2d2904a67476bb3a977 -> 0b5f18a01d261aca3db0289bac49b9c0
-  custom:scripting/monoscript/fileName/Flying.cs: dbd3b3b656aebfd4292d48ebab86a3a1 -> e02f7de78249bec5a30d4c8bb2d28a7e
-  custom:scripting/monoscript/fileName/LightFlash.cs: adbb00b405a755a9fb32bf7956a1d756 -> 07a03186f666374ed4b0a4333cd6a681
-  custom:scripting/monoscript/fileName/DashAndSmash_Blade.cs: e2b77809194cd42c3fc9ba1d052395fe -> 161938caa01d9084089e93263bdf86ef
-  custom:scripting/monoscript/fileName/CameraController.cs: 1abb30ff69ab1b4e3448d373d69efe33 -> b71d1bb1c8c0dbb9a981f5c477ef2ab9
-  custom:scripting/monoscript/fileName/FireflyConfigSO.cs: f8edcd4c417c94c75e95b9525d22b56e -> c7244b24a9d72b2dcd0f28eb23b2a111
-  custom:scripting/monoscript/fileName/GermFace.cs: 59ea1170966316dc69ab26806aae1c48 -> 415d42839d002bd7c08ac0a719165454
-  custom:scripting/monoscript/fileName/SelectionManager.cs: d51f83e6672f5f23ccdf03bdb33c49f6 -> 556a0ea8836ebdf9596fe6454b4756ec
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/HelicopterGameCameraFollow.cs: 280cdea1d653026d8efedcb178016ada -> 436d3c6d39dcc91a14e4dca19b4d53fc
-  custom:scripting/monoscript/fileName/SeeTheFutureRisingSmoke.cs: da267c6eee72bc9fdd583389021017d3 -> 170f02379459d6ebee59202a98126a69
-  custom:scripting/monoscript/fileName/DashAndSmash_CameraFollow.cs: cd94c06d43a7d3cda680f5e07b4e6745 -> 1561f1faab7310364dec4a7ae8612851
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.449 seconds
+Refreshing native plugins compatible for Editor in 4.46 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.392 seconds
+Domain Reload Profiling: 1837ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6314 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (452.7 KB). Loaded Objects now: 7022.
+Memory consumption went from 391.3 MB to 390.9 MB.
+Total: 3.821800 ms (FindLiveObjects: 0.426700 ms CreateObjectMapping: 0.475500 ms MarkObjects: 2.704500 ms  DeleteObjects: 0.214500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 963716.189511 seconds.
+  path: Assets/Aspirit/Your Audio/SFX-Crunch1.mp3
+  artifactKey: Guid(af74827f5d17f0b46b16e14cc0714c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Audio/SFX-Crunch1.mp3 using Guid(af74827f5d17f0b46b16e14cc0714c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4361885e7dab0ae4dce5692b4e3b7d9') in 0.091253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.187766 seconds.
+  path: Assets/Aspirit/Your Materials/Green.mat
+  artifactKey: Guid(bbd3248cf116a8f40b26cfb14df84943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Materials/Green.mat using Guid(bbd3248cf116a8f40b26cfb14df84943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a155f2b7a751413fb4d10ee667e6b8') in 0.198434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 5.852889 seconds.
+  path: Assets/Aspirit/Your Meshes/Leafy.fbx
+  artifactKey: Guid(8c9fce6542eb9b949a1590c96438b9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Meshes/Leafy.fbx using Guid(8c9fce6542eb9b949a1590c96438b9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cbb886b9336a539ce59b2f5ccf000a') in 0.224318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Aspirit/Your Meshes/Woody.fbx
+  artifactKey: Guid(69abc530237d5e244892f74a4f8988d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Meshes/Woody.fbx using Guid(69abc530237d5e244892f74a4f8988d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b061b9a3c5c994080e9eb647e587186') in 0.122582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time since last request: 7.575977 seconds.
+  path: Assets/Aspirit/Your Prefabs/Bush.prefab
+  artifactKey: Guid(d576eaf453f71f34ea10735d3e46e821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Prefabs/Bush.prefab using Guid(d576eaf453f71f34ea10735d3e46e821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5230292dc0c9337597b0e14bbc0ae7dd') in 0.017032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Aspirit/Your Prefabs/SmallGrass.prefab
+  artifactKey: Guid(cbafbd03fd71e15448e4301ae081a108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Prefabs/SmallGrass.prefab using Guid(cbafbd03fd71e15448e4301ae081a108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0206395e6600b149553ca72c9b3688') in 0.018965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Aspirit/Your Prefabs/Grass2.prefab
+  artifactKey: Guid(4809dbac56acd2e44a64b12324cbf1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Prefabs/Grass2.prefab using Guid(4809dbac56acd2e44a64b12324cbf1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9046d57315a217c753a245b85b03763c') in 0.014647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Aspirit/Your Prefabs/FireFX.prefab
+  artifactKey: Guid(558d0ff6c6c07744aa64862469b65d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Prefabs/FireFX.prefab using Guid(558d0ff6c6c07744aa64862469b65d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385b39f7878567df41b6cd684107e3fd') in 0.024490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Aspirit/Your Prefabs/Mushy.prefab
+  artifactKey: Guid(1c79e1825bbc9e645b96a74a1c3aca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Prefabs/Mushy.prefab using Guid(1c79e1825bbc9e645b96a74a1c3aca16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5880f0b1b5e25527ab5e1cdf19e5564') in 0.021751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 260
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Aspirit/Your Prefabs/Grass.prefab
+  artifactKey: Guid(c91209e5f3c38b5448bddb40dc473cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Prefabs/Grass.prefab using Guid(c91209e5f3c38b5448bddb40dc473cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6cdcb478b5852a833208b21698378f') in 0.018636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Aspirit/Your Prefabs/Mushy2.prefab
+  artifactKey: Guid(0c72ea786755ee24daaf30c11c190367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Prefabs/Mushy2.prefab using Guid(0c72ea786755ee24daaf30c11c190367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd818365b0cb35d1dba9e3a16c87e1c32') in 0.022658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 373
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Aspirit/Your Prefabs/Tail.prefab
+  artifactKey: Guid(c0a24cda5a1e18b4e945631cff7c19c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Prefabs/Tail.prefab using Guid(c0a24cda5a1e18b4e945631cff7c19c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a4ed892b5649a4790042e011ee38ab') in 0.014622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Aspirit/Your Prefabs/Woody.prefab
+  artifactKey: Guid(3e6bdf8dbac93034481ae5f1689e7595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Prefabs/Woody.prefab using Guid(3e6bdf8dbac93034481ae5f1689e7595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052f2da5fe9adb907111bf57bdf6763b') in 0.021909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Aspirit/Your Prefabs/Woody2.prefab
+  artifactKey: Guid(d4380049abf23524491fbfd7a0f40d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Prefabs/Woody2.prefab using Guid(d4380049abf23524491fbfd7a0f40d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20d77dab2a9cd89aa75e8b981991801') in 0.016505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 474
+========================================================================
+Received Import Request.
+  Time since last request: 15.064910 seconds.
+  path: Assets/Aspirit/Your Textures/PinkShader.mat
+  artifactKey: Guid(998ca459049ca7542b709c04b5c6962b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Aspirit/Your Textures/PinkShader.mat using Guid(998ca459049ca7542b709c04b5c6962b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4790f212d56bdaad72e33510d7769180') in 0.084047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.476 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.536 seconds
+Domain Reload Profiling: 2007ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1536ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (424ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6314 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (391.4 KB). Loaded Objects now: 7124.
+Memory consumption went from 398.4 MB to 398.0 MB.
+Total: 3.919700 ms (FindLiveObjects: 0.479900 ms CreateObjectMapping: 0.567600 ms MarkObjects: 2.763800 ms  DeleteObjects: 0.107700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.479 seconds
+Refreshing native plugins compatible for Editor in 4.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.584 seconds
+Domain Reload Profiling: 2058ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (279ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (559ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 4.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6313 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (390.6 KB). Loaded Objects now: 7140.
+Memory consumption went from 399.9 MB to 399.5 MB.
+Total: 4.241700 ms (FindLiveObjects: 0.578700 ms CreateObjectMapping: 0.611100 ms MarkObjects: 2.918900 ms  DeleteObjects: 0.132300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

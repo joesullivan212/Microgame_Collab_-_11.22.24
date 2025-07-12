@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abed37cfdaf501a428742687ccfe8f7f, type: 3}
   m_Name: Dash And Smash
   m_EditorClassIdentifier: 
-  gameName: Dash and Smash
+  gameName: Cell Sword
   gameGoal: 'Survive, the enemies kills you on the touch, but you have a sword, kill
     them first
 
