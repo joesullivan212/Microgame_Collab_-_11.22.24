@@ -52,3 +52,24 @@ Update Mode: updateDependencies
 The following packages were updated:
   com.unity.ide.rider from version 3.0.26 to 3.0.27
   com.unity.render-pipelines.universal from version 14.0.9 to 14.0.10
+
+=== Sat Jul 12 12:16:05 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.burst from version 1.7.2 to 1.8.10
+  com.unity.shadergraph from version 12.1.7 to 14.0.9
+
+=== Sat Jul 12 12:16:06 2025
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.burst@1.8.10
+  com.unity.collections@1.4.0
+  com.unity.jobs@0.70.0-preview.7
+  com.unity.mathematics@1.2.6
+  com.unity.shadergraph@14.0.9

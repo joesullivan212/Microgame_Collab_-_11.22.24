@@ -165,6 +165,7 @@ public class AreaManager : MonoBehaviour
 
         CameraAnimator.Play("Idle");
 
+        //Problem with unloading the scene 
         MicrogameLoader.instance.UnloadCurrentMicrogame();
 
         var NextGame = microgameQueue.Dequeue();

@@ -68,4 +68,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Microgames/Potion Color Matching/PotionColorMatching.unity
     guid: 615f7823684f4f548b4e8076d7aaa29d
+  - enabled: 1
+    path: Assets/Microgames/Ab Roller/Ab Roller.unity
+    guid: eb5faef3d3621b04bafefe4a45ba6020
+  - enabled: 1
+    path: Assets/Microgames/Aspirit/Aspirit.unity
+    guid: 5cae6f42ebf0e1a46bba8bbc368f5755
+  - enabled: 1
+    path: Assets/Microgames/HeartAttack/UndertaleBattle.unity
+    guid: d9e936c8a86e10b43b6c8a79a059ea79
+  - enabled: 1
+    path: Assets/Doomscrolling/Doomscrolling.unity
+    guid: d88a6a2806c248742b18ec28926bf277
   m_configObjects: {}

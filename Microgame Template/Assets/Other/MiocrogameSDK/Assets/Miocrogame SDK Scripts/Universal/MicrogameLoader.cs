@@ -1,8 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System;
 
 public class MicrogameLoader : MonoBehaviour
 {
@@ -44,7 +45,18 @@ public class MicrogameLoader : MonoBehaviour
     {
         if (ActiveSceneName != "")
         {
+            Debug.Log("Unloading scene: " + ActiveSceneName);
+
             var asyncOperation = SceneManager.UnloadSceneAsync(ActiveSceneName);
+
+            if(asyncOperation == null)
+            {
+                Debug.LogError("Async operation is null, scene might not be loaded.");
+            }
+
+            Debug.Log("Waiting for scene to unload: " + ActiveSceneName);
+
+            Debug.Log("Async operation progress: " + asyncOperation.progress.ToString());
 
             while (!asyncOperation.isDone)
             {
@@ -61,7 +73,13 @@ public class MicrogameLoader : MonoBehaviour
 
         ActiveSceneName = sceneName;
 
+        Debug.Log("Loading scene: " + ActiveSceneName);
+
         var sceneLoadOperation = SceneManager.LoadSceneAsync(ActiveSceneName, LoadSceneMode.Additive);
+
+        Debug.Log("Waiting for scene to load: " + ActiveSceneName);
+
+        Debug.Log("Async loading operation progress: " + sceneLoadOperation.progress.ToString());
 
         while (!sceneLoadOperation.isDone)
         {

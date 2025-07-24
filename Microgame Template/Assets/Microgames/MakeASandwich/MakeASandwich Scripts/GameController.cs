@@ -45,7 +45,6 @@ namespace TandooriJeans63_MakeASandwich {
         public void Win() {
             if (gameEnded) return;
             Stop();
-            MicrogameHandler.Win();
         }
 
         public void Lose() {

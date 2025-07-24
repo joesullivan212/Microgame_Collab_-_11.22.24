@@ -6,11 +6,17 @@ public class DashAndSmash_Player : MonoBehaviour
 {
     [SerializeField] private MicrogameHandler microgameHandler;
 
+    private bool GameRunning = true;
+
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            microgameHandler.Lose();
+            if (GameRunning == true)
+            {
+                microgameHandler.Lose();
+                GameRunning = false;
+            }
         }
     }
 }
