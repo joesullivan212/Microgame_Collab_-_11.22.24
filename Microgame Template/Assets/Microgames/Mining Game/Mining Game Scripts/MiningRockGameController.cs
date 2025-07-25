@@ -26,28 +26,28 @@ public class MiningRockGameController : MonoBehaviour
         CheckIfCameraShouldRotate();
     }
 
-    void CheckIfCameraShouldRotate() 
+    void CheckIfCameraShouldRotate()
     {
         PixelRangeToRotation = Screen.width / RatiotoRotation;
 
         //Rotate left
-        if (microgameInputManager.MouseScreenPosition.x < PixelRangeToRotation) 
+        if (microgameInputManager.MouseScreenPosition.x < PixelRangeToRotation)
         {
             RotateLeft();
         }
-        if(microgameInputManager.MouseScreenPosition.x > Screen.width - PixelRangeToRotation) 
+        if (microgameInputManager.MouseScreenPosition.x > Screen.width - PixelRangeToRotation)
         {
             RotateRight();
         }
-        
+
     }
 
-    void RotateLeft() 
+    void RotateLeft()
     {
         CameraOrbit.transform.Rotate(new Vector3(0.0f, -RotationSpeed * Time.deltaTime, 0.0f));
     }
 
-    void RotateRight() 
+    void RotateRight()
     {
         CameraOrbit.transform.Rotate(new Vector3(0.0f, RotationSpeed * Time.deltaTime, 0.0f));
     }
@@ -69,38 +69,44 @@ public class MiningRockGameController : MonoBehaviour
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerMask, QueryTriggerInteraction.Collide))
         {
             //Debug.Log("Hit: " + hit.collider.gameObject.name);
-            if (hit.collider.gameObject.CompareTag("Environment")) 
+            if (hit.collider.gameObject.CompareTag("Environment"))
             {
                 DestroyRock(hit.collider.gameObject);
             }
 
-            if (hit.collider.gameObject.CompareTag("Win")) 
+            if (hit.collider.gameObject.CompareTag("Win"))
             {
                 HitWinCrytal(hit.collider.gameObject);
 
 
             }
 
-            
+
         }
 
         // Draw debug ray (visible in Scene View)
         Debug.DrawRay(ray.origin, ray.direction * 1000f, Color.red, 1.0f);
     }
 
-    public void DestroyRock(GameObject RockObj) 
+    public void DestroyRock(GameObject RockObj)
     {
         Destroy(RockObj);
     }
 
-    public void HitWinCrytal(GameObject WinObject) 
+    public void HitWinCrytal(GameObject WinObject)
     {
         Debug.Log("Win");
-        microgameHandler.WinWhenTimeIsUp();
+        microgameHandler.PauseTimer();
+
+        Invoke("WinGame", 2.0f);
 
         Instantiate(Explosion, WinObject.transform.position, Quaternion.Euler(0.0f, 0.0f, 0.0f));
 
         Destroy(WinObject);
     }
-}
 
+    public void WinGame()
+    {
+        microgameHandler.Win();
+    }
+}

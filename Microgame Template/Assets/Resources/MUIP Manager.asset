@@ -16,7 +16,7 @@ MonoBehaviour:
   enableExtendedColorPicker: 0
   editorHints: 0
   changeRootFolder: 1
-  rootFolder: Modern UI Pack/Prefabs/
+  rootFolder: Other/Modern UI Pack/Prefabs/
   animatedIconColor: {r: 1, g: 1, b: 1, a: 1}
   contextBackgroundColor: {r: 0.21568628, g: 0.29411766, b: 0.37254903, a: 1}
   buttonThemeType: 0
@@ -49,7 +49,7 @@ MonoBehaviour:
   hSelectorInvertAnimation: 0
   hSelectorLoopSelection: 1
   inputFieldFont: {fileID: 11400000, guid: 4bd810f1cbcb0f446a8f5a31453e243f, type: 2}
-  inputFieldFontSize: 28
+  inputFieldFontSize: 15
   inputFieldColor: {r: 1, g: 1, b: 1, a: 1}
   modalWindowTitleFont: {fileID: 11400000, guid: fa328c1ae3ffb6b4583cf371153b0be6,
     type: 2}

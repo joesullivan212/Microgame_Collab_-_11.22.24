@@ -78,6 +78,6 @@ EditorBuildSettings:
     path: Assets/Microgames/HeartAttack/UndertaleBattle.unity
     guid: d9e936c8a86e10b43b6c8a79a059ea79
   - enabled: 1
-    path: Assets/Doomscrolling/Doomscrolling.unity
+    path: Assets/Microgames/Doomscrolling/Doomscrolling.unity
     guid: d88a6a2806c248742b18ec28926bf277
   m_configObjects: {}

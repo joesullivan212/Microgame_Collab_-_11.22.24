@@ -28,6 +28,7 @@ public class AreaManager : MonoBehaviour
     public int currentWins = 0;
 
     [Header("Variables")]
+    public bool AskForFeedback = true;
     public float DisplayResultsDuration = 3.0f;
     public float gameNameDisplayDuration = 1.0f;
     public float gameGoalDisplayDuration = 1.0f;
@@ -61,6 +62,10 @@ public class AreaManager : MonoBehaviour
     private TextMeshProUGUI gameControlsText;
     [SerializeField]
     private TextMeshProUGUI gameCredits;
+    [SerializeField]
+    private GameObject FeedbackUIPanel;
+    [SerializeField]
+    private PauseManager pauseManager;
 
     [SerializeField]
     private GameObject AreaSceneObjs;
@@ -128,7 +133,7 @@ public class AreaManager : MonoBehaviour
         {
             List<int> QueueIndexes = new();
 
-            for (int i = 0; i < microgameLibrary.microgames.Length; i++)
+            for (int i = 0; i < AmountOfMicroGames; i++)
             {
                 QueueIndexes.Add(GetUniqueInt(microgameLibrary.microgames.Length, QueueIndexes));
             }
@@ -165,7 +170,7 @@ public class AreaManager : MonoBehaviour
 
         CameraAnimator.Play("Idle");
 
-        //Problem with unloading the scene 
+
         MicrogameLoader.instance.UnloadCurrentMicrogame();
 
         var NextGame = microgameQueue.Dequeue();
@@ -209,6 +214,12 @@ public class AreaManager : MonoBehaviour
                 yield return new WaitForSeconds(DisplayResultsDuration);
                 CameraAnimator.Play("Rise");
             }
+            if(AskForFeedback)
+            {
+                FeedbackUIPanel.SetActive(true);
+                pauseManager.Pause();
+            }
+
         }
     }
 
@@ -229,7 +240,7 @@ public class AreaManager : MonoBehaviour
 
     public bool DidPlayerWinOrLoseArea() 
     {
-        if(AmountOfMicroGamesPlayed == microgameLibrary.microgames.Length) 
+        if(AmountOfMicroGamesPlayed >= AmountOfMicroGames) 
         {
             return true;
         }
@@ -289,7 +300,7 @@ public class AreaManager : MonoBehaviour
             AreaLose();
         }
 
-        if(AmountOfMicroGamesPlayed >= microgameLibrary.microgames.Length) 
+        if(AmountOfMicroGamesPlayed >= AmountOfMicroGames) 
         {
             AreaWin();
         }

@@ -15,7 +15,7 @@ MonoBehaviour:
   gameName: Ab Roller
   gameGoal: You have a certain amount of seconds to get 10 reps of ab rollers
   gameControls: Move the Mouse up or down base on the Trainer's instructions.
-  gameSceneName: Your Game Name (Must match scene name)
+  gameSceneName: Ab Roller
   timerDuration: 12
   outcomeOnTimeUp: 1
   credits: 'By Daitmodachi
