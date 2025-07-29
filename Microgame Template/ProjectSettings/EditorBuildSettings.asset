@@ -80,4 +80,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Microgames/Doomscrolling/Doomscrolling.unity
     guid: d88a6a2806c248742b18ec28926bf277
+  - enabled: 1
+    path: Assets/Microgames/NightshiftHyjinks/NightshiftHyjinks.unity
+    guid: 8966abd866e1c1c4496d29a8cc672871
   m_configObjects: {}

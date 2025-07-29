@@ -377,7 +377,7 @@ MonoBehaviour:
   input: {fileID: 2010498926}
   bounds: {x: 0, y: 77.5}
   offset: 2.5
-  scrollSpeed: 13
+  scrollSpeed: 10
   scrollDecay: 4.5
   handler: {fileID: 185675282}
   confetti: {fileID: 7788744183841620179, guid: bbc3d93364fd62747ba2fe13d396f8a1,

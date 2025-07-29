@@ -15,7 +15,7 @@ C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame T
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51772
+55612
 Successfully changed project path to: C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
 C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame Template
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/joesu/OneDrive/Documents/GitHub/Microgame_Collab_-_11.22.24/Microgame T
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13440] Host "[IP] 192.168.1.242 [Port] 0 [Flags] 2 [Guid] 2837018866 [EditorId] 2837018866 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [39820] Host "[IP] 192.168.1.242 [Port] 0 [Flags] 2 [Guid] 1534879667 [EditorId] 1534879667 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13440] Host "[IP] 192.168.1.242 [Port] 0 [Flags] 2 [Guid] 2837018866 [EditorId] 2837018866 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [39820] Host "[IP] 192.168.1.242 [Port] 0 [Flags] 2 [Guid] 1534879667 [EditorId] 1534879667 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BJ1HARC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 14.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.14f1 (eff2de9070d8)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -71,44 +71,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007038 seconds.
-- Loaded All Assemblies, in  0.306 seconds
+Registered in 0.007593 seconds.
+- Loaded All Assemblies, in  0.760 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.218 seconds
-Domain Reload Profiling: 522ms
-	BeginReloadAssembly (90ms)
+- Finished resetting the current domain, in  0.219 seconds
+Domain Reload Profiling: 977ms
+	BeginReloadAssembly (93ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
+	RebuildCommonClasses (166ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (122ms)
-		LoadAssemblies (88ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (438ms)
+		LoadAssemblies (90ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (121ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (109ms)
+		AnalyzeDomain (436ms)
+			TypeCache.Refresh (435ms)
+				TypeCache.ScanAssembly (340ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (218ms)
+	FinalizeReload (219ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (167ms)
+		SetupLoadedEditorAssemblies (171ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (110ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,56 +116,56 @@ Domain Reload Profiling: 522ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.674 seconds
-Refreshing native plugins compatible for Editor in 5.88 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.924 seconds
+Refreshing native plugins compatible for Editor in 5.48 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.864 seconds
-Domain Reload Profiling: 1533ms
-	BeginReloadAssembly (126ms)
+- Finished resetting the current domain, in  0.858 seconds
+Domain Reload Profiling: 2778ms
+	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (462ms)
-		LoadAssemblies (304ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (1720ms)
+		LoadAssemblies (1524ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (183ms)
-				TypeCache.ScanAssembly (166ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (864ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (223ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (858ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (688ms)
+		SetupLoadedEditorAssemblies (690ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (76ms)
-			ProcessInitializeOnLoadAttributes (536ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (533ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 5.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6670 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 96 unused Assets / (394.7 KB). Loaded Objects now: 7152.
-Memory consumption went from 434.6 MB to 434.2 MB.
-Total: 4.260200 ms (FindLiveObjects: 0.487600 ms CreateObjectMapping: 0.538300 ms MarkObjects: 3.092500 ms  DeleteObjects: 0.140500 ms)
+Unloading 6693 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (394.7 KB). Loaded Objects now: 7175.
+Memory consumption went from 435.9 MB to 435.5 MB.
+Total: 5.406400 ms (FindLiveObjects: 0.472400 ms CreateObjectMapping: 0.505800 ms MarkObjects: 4.279100 ms  DeleteObjects: 0.148200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,20 +182,232 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 101834.625290 seconds.
-  path: Assets/Ultimate Game Tools/RopeEditor/Sample Scenes/Materials/Gray.mat
-  artifactKey: Guid(1c5ccd06b1d7e1c4690dd72a715e2106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Game Tools/RopeEditor/Sample Scenes/Materials/Gray.mat using Guid(1c5ccd06b1d7e1c4690dd72a715e2106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1d75fd78838dfa987482afdc61e427') in 0.247419 seconds
+  Time since last request: 459814.734558 seconds.
+  path: Assets/NightshiftHyjinks/NightshiftHyjinks Audio/Reported.wav
+  artifactKey: Guid(4814e5647385a1d4288cf6705e353905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/NightshiftHyjinks Audio/Reported.wav using Guid(4814e5647385a1d4288cf6705e353905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd460665b1f0281f3d17905d8f64d137a') in 0.081565 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Ultimate Game Tools/RopeEditor/Sample Scenes/Materials/Rope.mat
-  artifactKey: Guid(9f884cd5b7afe874fa04f41242a8c7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ultimate Game Tools/RopeEditor/Sample Scenes/Materials/Rope.mat using Guid(9f884cd5b7afe874fa04f41242a8c7d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849322eb4421091684b7dd0e1477ec24') in 0.018091 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/NightshiftHyjinks/NightshiftHyjinks Audio/CameraChange.wav
+  artifactKey: Guid(86f7895bca9e0f743b46a1ae9446c412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/NightshiftHyjinks Audio/CameraChange.wav using Guid(86f7895bca9e0f743b46a1ae9446c412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82a6a06e03669c63f529ac8f2670a68') in 0.010002 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NightshiftHyjinks/NightshiftHyjinks Audio/Rainstorm.wav
+  artifactKey: Guid(f963a21efc16f7644adcdefafc4bbbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/NightshiftHyjinks Audio/Rainstorm.wav using Guid(f963a21efc16f7644adcdefafc4bbbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44f3a16f16473d3207d0f059c5bbd9e') in 0.012471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NightshiftHyjinks/NightshiftHyjinks Audio/DeskFan.wav
+  artifactKey: Guid(130b24d15cb9f6a46ae753b3cb47f22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/NightshiftHyjinks Audio/DeskFan.wav using Guid(130b24d15cb9f6a46ae753b3cb47f22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f66719af3391476082d255d2e867d94') in 0.011551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NightshiftHyjinks/Your Prefabs/ReportedParticles2-2.prefab
+  artifactKey: Guid(203ca3f5ad1789445a1aa16b758dcdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/Your Prefabs/ReportedParticles2-2.prefab using Guid(203ca3f5ad1789445a1aa16b758dcdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d441507777b3a5733bafc058fcb7919') in 0.165973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 14.243753 seconds.
+  path: Assets/NightshiftHyjinks/Your Sprites/FreddyCameraStare.png
+  artifactKey: Guid(8b261dae51311ae4ba328dcb40047e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/Your Sprites/FreddyCameraStare.png using Guid(8b261dae51311ae4ba328dcb40047e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ea2f80cb845261dc1ae40d18fd1ef1') in 0.033918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.493 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.496 seconds
+Domain Reload Profiling: 1984ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (54ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1496ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (569ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 5.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6499 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (394.0 KB). Loaded Objects now: 7242.
+Memory consumption went from 405.2 MB to 404.8 MB.
+Total: 3.742100 ms (FindLiveObjects: 0.488100 ms CreateObjectMapping: 0.524500 ms MarkObjects: 2.623100 ms  DeleteObjects: 0.105700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 13.337722 seconds.
+  path: Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/CameraViews/MainStage.png
+  artifactKey: Guid(b8bb5c40e8cd0564199164a99f55cad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/CameraViews/MainStage.png using Guid(b8bb5c40e8cd0564199164a99f55cad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05afef6fa44366f38610f5621976449') in 0.074488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/CameraViews/RightHall.png
+  artifactKey: Guid(d2525d7935883e6499ebd7f8943253fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/CameraViews/RightHall.png using Guid(d2525d7935883e6499ebd7f8943253fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469a8e630c3160b30fa5138c6d49fd31') in 0.021521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.595885 seconds.
+  path: Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/UI/Error.png
+  artifactKey: Guid(26046391deefeb6478d9524e70063a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/UI/Error.png using Guid(26046391deefeb6478d9524e70063a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964c2fd920e659be295e8387295913d5') in 0.025324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/UI/Vignette.png
+  artifactKey: Guid(bb05525ce494e6644859db5aaa4ec744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/UI/Vignette.png using Guid(bb05525ce494e6644859db5aaa4ec744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c1d2fd7ecf89217a3128622deb60a8') in 0.023731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.269063 seconds.
+  path: Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/NightshiftHyjinks UI/CameraLabels/CamLabel3.png
+  artifactKey: Guid(1aba4460833a1d742bb4ee17696f4f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/NightshiftHyjinks UI/CameraLabels/CamLabel3.png using Guid(1aba4460833a1d742bb4ee17696f4f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df5586e894f092a02aa06a181f8371f') in 0.025649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/NightshiftHyjinks UI/CameraLabels/CamLabel6.png
+  artifactKey: Guid(dad424c0d603b8b48819df682ae019dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NightshiftHyjinks/NightshiftHyjinks Sprites/NightshiftHyjinks UI/CameraLabels/CamLabel6.png using Guid(dad424c0d603b8b48819df682ae019dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c557c34c27598164ebfd7c75d329a82') in 0.022478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.472 seconds
+Refreshing native plugins compatible for Editor in 6.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.748 seconds
+Domain Reload Profiling: 2215ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (284ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1748ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (706ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (527ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Shader 'MoreMountains/MMRipple': fallback shader 'Particle/AlphaBlended' not found
+Refreshing native plugins compatible for Editor in 7.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6499 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (393.1 KB). Loaded Objects now: 7260.
+Memory consumption went from 407.1 MB to 406.7 MB.
+Total: 4.791400 ms (FindLiveObjects: 0.507500 ms CreateObjectMapping: 0.618600 ms MarkObjects: 3.547400 ms  DeleteObjects: 0.117200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
